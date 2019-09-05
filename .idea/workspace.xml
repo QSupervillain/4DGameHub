@@ -2,10 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af05a6f2-e4ed-4c85-8c36-9ea77aec53a9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-download/src/main/java/com/cxk/service/DownLoadService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-download/src/main/java/com/cxk/service/impl/DownLoadServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-download/src/main/resources/mybatis/mapper/DownLoadMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Administrator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/Administrator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/clouddo/clouddo-comm/src/main/java/com/cxk/pojo/Details.java" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-comm/src/main/java/com/cxk/pojo/Details.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/clouddo/clouddo-comm/src/main/java/com/cxk/pojo/DownLoad.java" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-comm/src/main/java/com/cxk/pojo/DownLoad.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-comm/src/main/java/com/cxk/pojo/GameType.java" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-comm/src/main/java/com/cxk/pojo/GameType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-download/src/main/java/com/cxk/controller/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-download/src/main/java/com/cxk/controller/IndexController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-download/src/main/java/com/cxk/dao/DownLoadDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-download/src/main/java/com/cxk/dao/DownLoadDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/clouddo/clouddo-download/src/main/resources/mybatis/mapper/GameTypeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-download/src/main/resources/mybatis/mapper/GameTypeMapper.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/clouddo/target/" />
@@ -45,32 +51,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/clouddo/clouddo-comm/src/main/java/com/cxk/pojo/GameType.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/clouddo/clouddo-download/src/main/java/com/cxk/controller/IndexController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="415">
+              <caret line="36" column="9" lean-forward="true" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/clouddo/clouddo-download/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="3" column="11" lean-forward="true" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/clouddo/clouddo-download/src/main/resources/mybatis/mapper/GameTypeMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -102,17 +90,21 @@
         <option value="$PROJECT_DIR$/clouddo/clouddo-download/src/main/java/com/cxk/controller/DetailsController.java" />
         <option value="$PROJECT_DIR$/clouddo/clouddo-download/src/main/java/com/cxk/controller/DownLoadController.java" />
         <option value="$PROJECT_DIR$/clouddo/clouddo-download/src/main/resources/mybatis/mybatis-cfg.xml" />
-        <option value="$PROJECT_DIR$/clouddo/clouddo-download/src/main/java/com/cxk/controller/IndexController.java" />
         <option value="$PROJECT_DIR$/clouddo/clouddo-download/src/main/java/com/cxk/dao/GameTypeDao.java" />
         <option value="$PROJECT_DIR$/clouddo/clouddo-download/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/clouddo/clouddo-download/src/main/java/com/cxk/service/GameTypeService.java" />
         <option value="$PROJECT_DIR$/clouddo/clouddo-download/src/main/java/com/cxk/service/impl/GameTypeServiceImpl.java" />
         <option value="$PROJECT_DIR$/clouddo/clouddo-comm/src/main/java/com/cxk/pojo/Video.java" />
         <option value="$PROJECT_DIR$/clouddo/clouddo-download/pom.xml" />
-        <option value="$PROJECT_DIR$/clouddo/clouddo-comm/src/main/java/com/cxk/pojo/DownLoad.java" />
-        <option value="$PROJECT_DIR$/clouddo/clouddo-comm/src/main/java/com/cxk/pojo/Details.java" />
         <option value="$PROJECT_DIR$/clouddo/clouddo-comm/src/main/java/com/cxk/pojo/GameType.java" />
         <option value="$PROJECT_DIR$/clouddo/clouddo-download/src/main/resources/mybatis/mapper/GameTypeMapper.xml" />
+        <option value="$PROJECT_DIR$/clouddo/clouddo-comm/src/main/java/com/cxk/pojo/DownLoad.java" />
+        <option value="$PROJECT_DIR$/clouddo/clouddo-comm/src/main/java/com/cxk/pojo/Details.java" />
+        <option value="$PROJECT_DIR$/clouddo/clouddo-download/src/main/java/com/cxk/dao/DownLoadDao.java" />
+        <option value="$PROJECT_DIR$/clouddo/clouddo-download/src/main/resources/mybatis/mapper/DownLoadMapper.xml" />
+        <option value="$PROJECT_DIR$/clouddo/clouddo-download/src/main/java/com/cxk/service/impl/DownLoadService.java" />
+        <option value="$PROJECT_DIR$/clouddo/clouddo-download/src/main/java/com/cxk/service/impl/DownLoadServiceImpl.java" />
+        <option value="$PROJECT_DIR$/clouddo/clouddo-download/src/main/java/com/cxk/controller/IndexController.java" />
       </list>
     </option>
   </component>
@@ -167,25 +159,25 @@
             <path>
               <item name="GameHub-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="clouddo" type="462c0819:PsiDirectoryNode" />
-              <item name="clouddo-comm" type="462c0819:PsiDirectoryNode" />
+              <item name="clouddo-download" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GameHub-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="clouddo" type="462c0819:PsiDirectoryNode" />
-              <item name="clouddo-comm" type="462c0819:PsiDirectoryNode" />
+              <item name="clouddo-download" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GameHub-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="clouddo" type="462c0819:PsiDirectoryNode" />
-              <item name="clouddo-comm" type="462c0819:PsiDirectoryNode" />
+              <item name="clouddo-download" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GameHub-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="clouddo" type="462c0819:PsiDirectoryNode" />
-              <item name="clouddo-comm" type="462c0819:PsiDirectoryNode" />
+              <item name="clouddo-download" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -193,22 +185,11 @@
             <path>
               <item name="GameHub-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="clouddo" type="462c0819:PsiDirectoryNode" />
-              <item name="clouddo-comm" type="462c0819:PsiDirectoryNode" />
+              <item name="clouddo-download" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pojo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GameHub-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="clouddo" type="462c0819:PsiDirectoryNode" />
-              <item name="clouddo-download" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GameHub-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="clouddo" type="462c0819:PsiDirectoryNode" />
-              <item name="clouddo-download" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="cxk" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GameHub-parent" type="b2602c69:ProjectViewProjectNode" />
@@ -216,6 +197,40 @@
               <item name="clouddo-download" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cxk" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GameHub-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="clouddo" type="462c0819:PsiDirectoryNode" />
+              <item name="clouddo-download" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cxk" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GameHub-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="clouddo" type="462c0819:PsiDirectoryNode" />
+              <item name="clouddo-download" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cxk" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GameHub-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="clouddo" type="462c0819:PsiDirectoryNode" />
+              <item name="clouddo-download" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cxk" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GameHub-parent" type="b2602c69:ProjectViewProjectNode" />
@@ -259,7 +274,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567666391067" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567668476556" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Demo/redis" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -267,7 +282,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.154047" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -300,6 +315,9 @@
     <configuration name="DownLoadApp_8090" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="clouddo-download" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.cxk.DownLoadApp_8090" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -362,11 +380,18 @@
       <option name="project" value="LOCAL" />
       <updated>1567655395254</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="tou">
+      <created>1567666411682</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1567666411682</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14678000" />
+    <option name="totallyTimeSpent" value="16747000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -417,7 +442,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="添加视屏模块" />
     <MESSAGE value="添加了dao  和 service  层" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加了dao  和 service  层" />
+    <MESSAGE value="tou" />
+    <option name="LAST_COMMIT_MESSAGE" value="tou" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -503,38 +529,6 @@
         <state relative-caret-position="-81" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-download/src/main/java/com/cxk/service/GameTypeService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-download/src/main/java/com/cxk/service/impl/GameTypeServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#589#590#0" expanded="true" />
-            <element signature="e#632#633#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-download/src/main/java/com/cxk/dao/GameTypeDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/clouddo/clouddo-download/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -542,16 +536,6 @@
         </state>
       </provider>
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-download/src/main/java/com/cxk/controller/IndexController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="22" column="29" lean-forward="true" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/clouddo/clouddo-download/src/main/java/com/cxk/DownLoadApp_8090.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -572,37 +556,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-comm/src/main/java/com/cxk/pojo/DownLoad.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-comm/src/main/java/com/cxk/pojo/Details.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/clouddo/clouddo-comm/src/main/java/com/cxk/pojo/Video.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="349">
           <caret line="17" column="35" lean-forward="true" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-comm/src/main/java/com/cxk/pojo/GameType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -619,14 +576,123 @@
     <entry file="file://$PROJECT_DIR$/clouddo/clouddo-download/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
-          <caret line="3" column="11" lean-forward="true" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-download/src/main/resources/mybatis/mapper/GameTypeMapper.xml">
+    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-comm/src/main/java/com/cxk/pojo/GameType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-comm/src/main/java/com/cxk/pojo/DownLoad.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-comm/src/main/java/com/cxk/pojo/Details.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-download/src/main/java/com/cxk/dao/GameTypeDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-download/src/main/java/com/cxk/dao/DownLoadDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-download/src/main/resources/mybatis/mapper/DownLoadMapper">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-download/src/main/resources/mybatis/mapper/GameTypeMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="16" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-download/src/main/resources/mybatis/mapper/DownLoadMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-download/src/main/java/com/cxk/service/GameTypeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-download/src/main/java/com/cxk/service/DownLoadService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-download/src/main/java/com/cxk/service/impl/GameTypeServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#589#590#0" expanded="true" />
+            <element signature="e#632#633#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-download/src/main/java/com/cxk/service/impl/DownLoadServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-download/src/main/java/com/cxk/controller/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="36" column="9" lean-forward="true" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
