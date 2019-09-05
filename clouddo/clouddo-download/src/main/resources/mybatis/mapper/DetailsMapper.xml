@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.cxk.dao.DetailsDao">
+
+    <resultMap id="gm_details" type="com.cxk.pojo.Details">
+        <id property="details_id" column="details_id"/>
+        <result property="details_name" column="details_name"/>
+        <result property="details_feature" column="details_feature"/>
+        <result property="details_config" column="details_config"/>
+        <result property="details_image" column="details_image"/>
+    </resultMap>
+
+    <select id="selById" parameterType="Integer" resultMap="gm_details">
+        select details_id,details_name,details_feature,details_config,details_image from gm_details where details_id=#{id}
+    </select>
+
+</mapper>
