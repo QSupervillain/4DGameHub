@@ -12,7 +12,7 @@
     <!--* cln              desc-->
 
     <select id="getAll" resultMap="gm_download" parameterType="map">
-        select * from gm_download
+        select <include refid="download"/> from gm_download
         <trim prefix="where" prefixOverrides="and || or">
             <if test="gameType_id != null and gameType_id !=''">
                 gametype_id=#{gameType_id}
@@ -20,6 +20,10 @@
         </trim>
         order by ${download_type} ${download_by}
     </select>
+
+    <sql id="download">
+        download_id,gametype_id,details_id,download_name,download_image,download_heat,download_language,download_grade,download_time,download_platform,download_release,download_size,download_network,download_label,download_download
+    </sql>
 
     <resultMap id="gm_download" type="com.cxk.pojo.DownLoad">
         <id property="download_id" column="download_id"/>
@@ -36,6 +40,7 @@
         <result property="download_size" column="download_size"/>
         <result property="download_network" column="download_network"/>
         <result property="download_label" column="download_label"/>
+        <result property="download_download" column="download_download"/>
     </resultMap>
 
 </mapper>
