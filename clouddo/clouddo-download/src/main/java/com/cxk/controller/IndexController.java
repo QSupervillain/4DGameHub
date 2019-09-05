@@ -22,7 +22,7 @@ public class IndexController {
     @Autowired
     private GameTypeService gameTypeService;
 
-    @Autowired(required=false)
+    @Autowired
     private DownLoadService downLoadService;
 
     @RequestMapping("/index")
@@ -32,8 +32,10 @@ public class IndexController {
             System.out.println("gameType = " + gameType);
         }
         List<DownLoad> downLoad = downLoadService.getAll();
-        for (DownLoad load : downLoad) {
-            System.out.println("load = " + load);
+        if (downLoad != null) {
+            for (DownLoad load : downLoad) {
+                System.out.println("load = " + load);
+            }
         }
         return "首页的展示结果";
     }

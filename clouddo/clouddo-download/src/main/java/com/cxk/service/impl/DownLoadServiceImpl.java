@@ -2,6 +2,7 @@ package com.cxk.service.impl;
 
 import com.cxk.dao.DownLoadDao;
 import com.cxk.pojo.DownLoad;
+import com.cxk.service.DownLoadService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -15,7 +16,7 @@ import java.util.List;
  */
 @Service
 @Transactional
-public class DownLoadServiceImpl implements DownLoadDao {
+public class DownLoadServiceImpl implements DownLoadService {
 
     @Autowired
     private DownLoadDao downLoadDao;

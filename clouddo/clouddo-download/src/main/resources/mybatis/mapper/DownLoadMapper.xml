@@ -4,8 +4,8 @@
 
 <mapper namespace="com.cxk.dao.DownLoadDao">
 
-    <select id="getAll" resultType="com.cxk.dao.DownLoadDao">
-        SELECT * from gm_download
+    <select id="getAll" resultMap="gm_download">
+        select * from gm_download
     </select>
 
 </mapper>
