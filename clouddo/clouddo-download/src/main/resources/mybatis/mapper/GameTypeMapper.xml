@@ -5,7 +5,8 @@
 <mapper namespace="com.cxk.dao.GameTypeDao">
 
     <select id="getAll" resultType="com.cxk.pojo.GameType">
-        SELECT gametype_id id, gametype_name name FROM gm_gametype
+        /*SELECT gametype_id id, gametype_name name FROM gm_gametype*/
+        SELECT gametype_id, gametype_name FROM gm_gametype
     </select>
 
 </mapper>

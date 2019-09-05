@@ -19,7 +19,7 @@ import java.io.Serializable;
 public class GameType implements Serializable {
 
     private static final long serialVersionUID = 2932723630990138417L;
-    private Integer id;
-    private String name;
+    private Integer gameType_id;
+    private String gameType_name;
 
 }
