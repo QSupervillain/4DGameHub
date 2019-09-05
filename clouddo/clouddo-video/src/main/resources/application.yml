@@ -9,7 +9,7 @@ spring:
   mvc:
     static-path-pattern: /**
   resources:
-    static-locations: classpath:/templates/,classpath:/static/,classpath:/META-NF/resources/,classpath:/resources/,classpath:/public/,classpath:/upload
+    static-locations: classpath:/templates/,classpath:/static/
   thymeleaf:
     encoding: UTF-8
     cache: false
