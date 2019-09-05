@@ -14,6 +14,10 @@ public class VideoController {
     private VideoService videoService;
     @RequestMapping("/findAll")
     public List<Video> findAll() {
+       /* List<Video> list = videoService.findAll();
+        for (int i = 0; i < list.size(); i++) {
+            System.out.println(list.get(i));
+        }*/
         return videoService.findAll();
     }
 }

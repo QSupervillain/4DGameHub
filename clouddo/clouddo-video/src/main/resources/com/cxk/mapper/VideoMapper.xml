@@ -3,7 +3,7 @@
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.cxk.dao.VideoDao">
-    <select id="findAll" resultType="com.cxk.pojo.Video">
+    <select id="com.cxk.dao.VideoDao.findAll" resultType="com.cxk.pojo.Video">
         select * from gm_video
     </select>
 </mapper>
