@@ -10,10 +10,10 @@ spring:
   application:
     name: download-client                         #微服务名
   datasource:
-    url: jdbc:mysql://localhost:3306/gamehub?serverTimezone=GMT
+    url: jdbc:mysql://47.102.198.5:3306/gamehub?serverTimezone=GMT
     driver-class-name: com.mysql.jdbc.Driver
-    username: root
-    password: 123456
+    username: gamehub
+    password: eeKfWH8NRz
 #eureka 配置
 eureka:
   client:                                         #客户端注册进eureka服务列表内
