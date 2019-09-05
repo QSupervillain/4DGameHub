@@ -1,7 +1,10 @@
 # 服务器启动的端口号
 server:
   port: 8091
-
+#mybatis 配置
+mybatis:
+  #config-location: classpath:com/cxk/mapper/VideoMapper.xml
+  mapper-locations: classpath:com/cxk/mapper/*.xml
 spring:
   mvc:
     static-path-pattern: /**
