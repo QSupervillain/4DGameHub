@@ -1,12 +1,10 @@
-package com.cxk.dao;
+package com.cxk.service;
 
 import com.cxk.pojo.DownLoad;
-import org.apache.ibatis.annotations.Mapper;
 
 import java.util.List;
 
-@Mapper
-public interface DownLoadDao {
+public interface DownLoadService {
 
     /**
      * 获取全部游戏
