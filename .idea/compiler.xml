@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="clouddo-admin" />
+        <module name="clouddo-base" />
+        <module name="clouddo-cms" />
+        <module name="clouddo-comm" />
+        <module name="clouddo-download" />
+        <module name="clouddo-server" />
+        <module name="clouddo-zuul" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="clouddo" target="1.8" />
+      <module name="clouddo-admin" target="1.8" />
+      <module name="clouddo-base" target="1.8" />
+      <module name="clouddo-cms" target="1.8" />
+      <module name="clouddo-comm" target="1.8" />
+      <module name="clouddo-download" target="1.8" />
+      <module name="clouddo-server" target="1.8" />
+      <module name="clouddo-zuul" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="clouddo-admin" options="-parameters" />
+      <module name="clouddo-base" options="-parameters" />
+      <module name="clouddo-cms" options="-parameters" />
+      <module name="clouddo-comm" options="-parameters" />
+      <module name="clouddo-download" options="-parameters" />
+      <module name="clouddo-server" options="-parameters" />
+      <module name="clouddo-zuul" options="-parameters" />
+    </option>
+  </component>
+</project>
