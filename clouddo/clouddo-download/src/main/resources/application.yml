@@ -5,6 +5,10 @@ server:
 mybatis:
   config-location: classpath:mybatis/mybatis-cfg.xml
   mapper-locations: classpath:mybatis/mapper/*.xml
+pagehelper:
+  reasonable: true
+  page-size-zero: true
+  pageSizeZero: true
 # 服务器名称
 spring:
   application:

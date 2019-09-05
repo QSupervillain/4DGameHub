@@ -8,6 +8,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
+import java.util.Map;
 
 /**
  * @Author ：大大怪将军
@@ -22,7 +23,7 @@ public class DownLoadServiceImpl implements DownLoadService {
     private DownLoadDao downLoadDao;
 
     @Override
-    public List<DownLoad> getAll() {
-        return downLoadDao.getAll();
+    public List<DownLoad> getAll(Map<String, Object> map) {
+        return downLoadDao.getAll(map);
     }
 }

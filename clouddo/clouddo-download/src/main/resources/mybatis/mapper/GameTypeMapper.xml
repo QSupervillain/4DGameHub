@@ -4,6 +4,12 @@
 
 <mapper namespace="com.cxk.dao.GameTypeDao">
 
+    <!--<cache type="org.mybatis.caches.ehcache.EhcacheCache"/>-->
+
+
+
+
+
     <select id="getAll" resultMap="gm_gameType">
         /*SELECT gametype_id id, gametype_name name FROM gm_gametype*/
         SELECT * from gm_gametype
