@@ -5,7 +5,6 @@
 <mapper namespace="com.cxk.dao.DownLoadDao">
 
     <select id="getAll" resultType="com.cxk.dao.DownLoadDao">
-        /*SELECT gametype_id id, gametype_name name FROM gm_gametype*/
         SELECT * from gm_download
     </select>
 

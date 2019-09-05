@@ -18,7 +18,7 @@ import java.util.List;
 @Transactional
 public class GameTypeServiceImpl implements GameTypeService {
 
-    @Autowired
+    @Autowired(required=false)
     private GameTypeDao gameTypeDao;
 
     @Override

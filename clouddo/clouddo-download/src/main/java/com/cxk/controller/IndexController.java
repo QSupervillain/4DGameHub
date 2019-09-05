@@ -22,7 +22,7 @@ public class IndexController {
     @Autowired
     private GameTypeService gameTypeService;
 
-    @Autowired
+    @Autowired(required=false)
     private DownLoadService downLoadService;
 
     @RequestMapping("/index")
