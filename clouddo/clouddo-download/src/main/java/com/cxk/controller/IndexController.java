@@ -4,12 +4,15 @@ import com.cxk.pojo.DownLoad;
 import com.cxk.pojo.GameType;
 import com.cxk.service.DownLoadService;
 import com.cxk.service.GameTypeService;
-import com.cxk.util.DownLoadPageHelper;
+import com.github.pagehelper.Page;
+import com.github.pagehelper.PageHelper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 /**
  * @Author ：大大怪将军
@@ -39,7 +42,13 @@ public class IndexController {
         for (GameType gameType : type) {
             System.out.println("gameType = " + gameType);
         }
-        List<DownLoad> downLoads = DownLoadPageHelper.downLoads(null, "download_time", "desc", 1, 1);
+        Map<String, Object> map = new HashMap<>();
+        map.put("gameType_id", null);
+        map.put("download_type", "download_time");
+        map.put("download_by", "asc");
+        Page<DownLoad> page = PageHelper.startPage(1, 1);
+        List<DownLoad> downLoad = downLoadService.getAll(map);
+        List<DownLoad> all = downLoadService.getAll(map);
 
         return "首页的展示结果";
     }
