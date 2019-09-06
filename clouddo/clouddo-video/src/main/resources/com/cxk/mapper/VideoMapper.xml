@@ -9,4 +9,10 @@
     <select id="com.cxk.dao.VideoDao.fenYeNewVideo" resultType="com.cxk.pojo.Video">
         SELECT * FROM gm_video GROUP BY video_date DESC
     </select>
+    <select id="com.cxk.dao.VideoDao.pageOriginalVideo" resultType="com.cxk.pojo.Video" parameterType="int">
+        SELECT * FROM gm_video WHERE video_type=#{video_type} GROUP BY video_date DESC
+    </select>
+    <select id="com.cxk.dao.VideoDao.videoDescribe" resultType="com.cxk.pojo.Video" parameterType="int">
+        SELECT * FROM gm_video WHERE video_id=#{video_id}
+    </select>
 </mapper>

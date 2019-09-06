@@ -13,4 +13,8 @@ public interface VideoService {
      * 分页显示最新视屏页面
      */
     public List<Video> fenYeNewVideo();
+    /**
+     * 分页显示原创视频
+     */
+    public List<Video> pageOriginalVideo(int video_type);
 }

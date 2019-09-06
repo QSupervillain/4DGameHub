@@ -17,4 +17,12 @@ public interface VideoDao {
      * 分页显示最新视屏页面
      */
     public List<Video> fenYeNewVideo();
+    /**
+     * 分页显示原创视频
+     */
+    public List<Video> pageOriginalVideo(int video_type);
+    /**
+     * 根据点击相应视屏进入对应视屏详情播放页
+     */
+    public List<Video> videoDescribe(int video_id);
 }

@@ -20,9 +20,23 @@ public class VideoController {
         }*/
         return videoService.findAll();
     }
+
+    /**
+     * 分页显示
+     * @return
+     */
     @RequestMapping("/fenYeNewVideo")
     public List<Video> fenYeNewVideo(){
 
         return videoService.fenYeNewVideo();
+    }
+    /**
+     *根据视屏类型分页显示相应数据
+     * @return
+     */
+    @RequestMapping("/pageVideo")
+    public List<Video> pageOriginalVideo(int video_type){
+
+        return videoService.pageOriginalVideo(video_type);
     }
 }
