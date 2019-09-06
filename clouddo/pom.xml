@@ -103,7 +103,7 @@
         </dependencies>
     </dependencyManagement>
 
-    <!--Maven 插件-->
+    <!--Maven 插件 zui-->
     <!--<build>-->
         <!--<plugins>-->
             <!--<plugin>-->

@@ -26,7 +26,6 @@ eureka:
     register-with-eureka: true
     fetch-registry: true
 
-
 #  instance:
 #    instance-id: microservice-dept8001
 #    prefer-ip-address: true                       #访问路径可以显示IP地址
