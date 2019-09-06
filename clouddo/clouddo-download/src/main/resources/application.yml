@@ -11,6 +11,10 @@ pagehelper:
   pageSizeZero: true
 # 服务器名称
 spring:
+  mvc:
+    static-path-pattern: /**
+  resources:
+    static-locations: classpath:/static/
   application:
     name: download-client                         #微服务名
   datasource:
@@ -18,6 +22,11 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver
     username: gamehub
     password: eeKfWH8NRz
+  thymeleaf:
+    encoding: UTF-8
+    cache: false
+    prefix: classpath:/templates/
+    suffix: .html
 #eureka 配置
 eureka:
   client:                                         #客户端注册进eureka服务列表内
