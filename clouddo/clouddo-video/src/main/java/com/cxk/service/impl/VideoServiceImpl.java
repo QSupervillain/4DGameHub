@@ -17,6 +17,14 @@ public class VideoServiceImpl implements VideoService {
     }
 
     /**
+     * 分页显示原创视频
+     */
+    @Override
+    public List<Video> pageOriginalVideo(int video_type) {
+        return videoDao.pageOriginalVideo(video_type);
+    }
+
+    /**
      * 分页显示最新视屏页面
      */
     @Override
