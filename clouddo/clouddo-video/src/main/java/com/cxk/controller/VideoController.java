@@ -20,4 +20,9 @@ public class VideoController {
         }*/
         return videoService.findAll();
     }
+    @RequestMapping("/fenYeNewVideo")
+    public List<Video> fenYeNewVideo(){
+
+        return videoService.fenYeNewVideo();
+    }
 }
