@@ -22,6 +22,7 @@ public class VideoController {
     }
     @RequestMapping("/fenYeNewVideo")
     public List<Video> fenYeNewVideo(){
+
         return videoService.fenYeNewVideo();
     }
 }
