@@ -15,4 +15,12 @@ public class VideoServiceImpl implements VideoService {
     public List<Video> findAll() {
         return videoDao.findAll();
     }
+
+    /**
+     * 分页显示最新视屏页面
+     */
+    @Override
+    public List<Video> fenYeNewVideo() {
+        return videoDao.fenYeNewVideo();
+    }
 }

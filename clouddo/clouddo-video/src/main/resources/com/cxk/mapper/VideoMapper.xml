@@ -6,4 +6,7 @@
     <select id="com.cxk.dao.VideoDao.findAll" resultType="com.cxk.pojo.Video">
         select * from gm_video
     </select>
+    <select id="com.cxk.dao.VideoDao.fenYeNewVideo" resultType="com.cxk.pojo.Video">
+        SELECT * FROM gm_video GROUP BY video_date DESC
+    </select>
 </mapper>
