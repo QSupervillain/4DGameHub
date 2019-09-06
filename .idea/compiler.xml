@@ -7,14 +7,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="clouddo-admin" />
-        <module name="clouddo-base" />
         <module name="clouddo-cms" />
-        <module name="clouddo-comm" />
         <module name="clouddo-download" />
+        <module name="clouddo-comm" />
+        <module name="clouddo-zuul" />
+        <module name="clouddo-base" />
         <module name="clouddo-server" />
         <module name="clouddo-video" />
-        <module name="clouddo-zuul" />
+        <module name="clouddo-admin" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
