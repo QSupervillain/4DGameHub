@@ -18,6 +18,7 @@
         <module>clouddo-download</module>
         <module>clouddo-comm</module>
         <module>clouddo-video</module>
+        <module>clouddo-psp</module>
     </modules>
     <!--版本管理-->
     <properties>
