@@ -10,6 +10,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
 import sun.rmi.runtime.Log;
 
 import java.util.List;
@@ -39,7 +40,7 @@ public class IndexController {
      * @return
      */
 
-    @RequestMapping("/index")
+    @RequestMapping("/load")
     public String index() {
         long l1 = System.currentTimeMillis();
 
@@ -58,7 +59,8 @@ public class IndexController {
     }
 
     @RequestMapping("/pageHelper")
-    public String pageHelper(String id, String type, String by, int pageNum){
+    @ResponseBody
+    public String pageHelper(String id, String type, String by, int pageNum) {
         List<DownLoad> downLoads = DownLoadPageHelper.downLoads(downLoadService, id, type, by, pageNum, 3);
         for (DownLoad downLoad : downLoads) {
             System.out.println("downLoad = " + downLoad);
