@@ -6,7 +6,7 @@
 
 .gameinfo .name { float: left; width: 947px; height: 43px; line-height: 43px; border-bottom: 4px solid #e5e5e5; }
 
-.gameinfo .name i { display: block; float: left; background: url(../images/img-a.png) no-repeat; height: 14px; width: 12px; background-position: 0 0; margin: 14px 10px 0 8px; }
+.gameinfo .name i { display: block; float: left; background: url(../image/img-a.png) no-repeat; height: 14px; width: 12px; background-position: 0 0; margin: 14px 10px 0 8px; }
 
 .gameinfo .name h1{float:left;height: 42px;overflow: hidden;max-width: 800px;}
 
@@ -70,7 +70,7 @@
 
  .quickdown2,.Gmaeinfobtn .Gmaeinfobtn_tab .tab.tab2{background-position: 0 -140px;width: 282px;background: -webkit-linear-gradient(left, #00a281 0%, #00a281 100%);filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00a281', endColorstr='#00a281',GradientType=1 );background: linear-gradient(to right, #00a281 0%, #00a281 100%);overflow:  visible;margin-bottom: 15px; margin-right:0px;}
 
- .Gmaeinfobtn .Gmaeinfobtn_tab .tab i,.quickdown2 i{display: inline-block;color:#fff;background:url(../images/ico_gamedownl.png) no-repeat center;height:43px;width:43px;background-position: 0 0;vertical-align:  middle;margin-top:  -2px;}
+ .Gmaeinfobtn .Gmaeinfobtn_tab .tab i,.quickdown2 i{display: inline-block;color:#fff;background:url(../image/ico_gamedownl.png) no-repeat center;height:43px;width:43px;background-position: 0 0;vertical-align:  middle;margin-top:  -2px;}
 
  .Gmaeinfobtn .Gmaeinfobtn_tab .tab .tex,.quickdown2 .tex{display:inline-block;line-height: 23px;height:  100%;vertical-align:  middle;margin-top: -2px;text-align: left;max-width: 213px;overflow:  hidden;}
 
@@ -116,7 +116,7 @@
 
 .Content_L .tipsbox span { display: block; width: 50%; font-size: 20px; color: #303030; height: 26px; line-height: 28px; margin: 22px 0 0 22px; font-weight: bold; }
 
-.Content_L .tipsbox span i { display: block; float: left; background: url(../images/img-a.png) no-repeat; height: 26px; width: 26px; background-position: -152px -138px; margin: 0 14px 0 0; }
+.Content_L .tipsbox span i { display: block; float: left; background: url(../image/img-a.png) no-repeat; height: 26px; width: 26px; background-position: -152px -138px; margin: 0 14px 0 0; }
 
 .Content_L .tipsbox p { font-size: 14px; color: #f0412a; width: 95%; line-height: 22px; margin: 14px 0 0  22px;}
 
@@ -180,7 +180,7 @@
 
 .Content_L .GmL_4 .small_list ul li.on .bun_bg { display: block; }
 
-.Content_L .GmL_4 .btn { display: block; position: absolute; top: 160px; cursor: pointer; background: url(../images/img-a.png) no-repeat; height: 107px; width: 71px; opacity: 0.1; }
+.Content_L .GmL_4 .btn { display: block; position: absolute; top: 160px; cursor: pointer; background: url(../image/img-a.png) no-repeat; height: 107px; width: 71px; opacity: 0.1; }
 
 .Content_L .GmL_4 .left_btn { left: 0; background-position: -133px 0; }
 
@@ -204,7 +204,7 @@
 
 .Content_L .GmL_5 .downlwrap .downl_L .dllist a { display: block; width: 209px; height: 29px; line-height: 29px; text-align: center; float: left; font-size: 14px; color: #3c3c3c; }
 
-.Content_L .GmL_5 .downlwrap .downl_L .dllist a i { margin: 0 6px -6px; display: inline-block; background: url(../images/img-a.png) no-repeat; }
+.Content_L .GmL_5 .downlwrap .downl_L .dllist a i { margin: 0 6px -6px; display: inline-block; background: url(../image/img-a.png) no-repeat; }
 
 .Content_L .GmL_5 .downlwrap .downl_L .dllist a.bd i { height: 21px; width: 28px; background-position: 0 -101px; }
 
@@ -246,7 +246,7 @@
 
 .Content_L .GmL_5 .downlwrap .downl_L .downl_list .link_btn .icon_search { width: 36px; height: 36px; display: inline-block; float: left; background: #00b7ee; }
 
-.Content_L .GmL_5 .downlwrap .downl_L .downl_list .link_btn .icon_search:before { display: block; content: ''; width: 22px; height: 21px; margin: 8px 7px 0; background: url(../images/jlimg.png) no-repeat center; background-position: 0 -24px; }
+.Content_L .GmL_5 .downlwrap .downl_L .downl_list .link_btn .icon_search:before { display: block; content: ''; width: 22px; height: 21px; margin: 8px 7px 0; background: url(../image/jlimg.png) no-repeat center; background-position: 0 -24px; }
 
 .Content_L .GmL_5 .downlwrap .downl_L .downl_list .link_btn .search_btn { float: left; font-size: 13px; color: #f0412a; margin: 0 15px 0 35px; }
 
@@ -389,7 +389,7 @@
 
 .listwrap .downllis > li { border-bottom: 1px solid #ededed; border-right: 1px solid #ededed; }
 
-.listwrap .downllis > li:hover { background: url(../images/lisbg.jpg) repeat; }
+.listwrap .downllis > li:hover { background: url(../image/lisbg.jpg) repeat; }
 
 .listwrap .downllis > li .item { margin: 30px 0 0 27px; padding: 0; background: none  !important; }
 
@@ -411,7 +411,7 @@
 
 .patchtop .name { float: left; width: 572px; line-height: 43px; border-bottom: 4px solid #e5e5e5; }
 
-.patchtop .name i { display: block; float: left; background: url(../images/img-a.png) no-repeat; height: 14px; width: 12px; background-position: 0 0; margin: 14px 10px 0 8px; }
+.patchtop .name i { display: block; float: left; background: url(../image/img-a.png) no-repeat; height: 14px; width: 12px; background-position: 0 0; margin: 14px 10px 0 8px; }
 
 .patchtop .name p,
 
@@ -427,7 +427,7 @@
 
 .patchtop .downlbtn { width: 570px; float: left; height: 59px; }
 
-.patchtop .downlbtn .downl { display: block; float: left; background: url(../images/downlbg.jpg) no-repeat; width: 280px; margin: 18px 10px 0 0; height: 59px; }
+.patchtop .downlbtn .downl { display: block; float: left; background: url(../image/downlbg.jpg) no-repeat; width: 280px; margin: 18px 10px 0 0; height: 59px; }
 
 .patchtop .downlbtn .downl:hover { opacity: 0.96; }
 
@@ -442,7 +442,7 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endCol
 position:fixed; left:0; top:0; z-index:9999999999; display:none;cursor: pointer;}
 #window{ width:514px; height: 275px; position:absolute; left:50%; top:50%;
 background: #f4f4f4; -webkit-box-shadow:0px 1px 2px rgba(30,70,70,0.23);-moz-box-shadow:0px 1px 2px rgba(30,70,70,0.23);box-shadow:0px 1px 2px rgba(30,70,70,0.23); overflow:hidden;margin-left:-260px; margin-top:-160px; border-radius: 5px;z-index:999;cursor: pointer;}
-#window_bg .nxzclose {position: absolute;margin-left: 220px;z-index: 10000;margin-top: -155px;top:50%;left:50%;padding-bottom: 10px;width: 26px;height:26px;background: url(../images/close11.png) no-repeat center;cursor: pointer;transition: all 0.3s;}
+#window_bg .nxzclose {position: absolute;margin-left: 220px;z-index: 10000;margin-top: -155px;top:50%;left:50%;padding-bottom: 10px;width: 26px;height:26px;background: url(../image/close11.png) no-repeat center;cursor: pointer;transition: all 0.3s;}
 #window_bg .nxzclose:hover {transform: rotate(180deg);}
 
 
@@ -457,7 +457,7 @@ background: #f4f4f4; -webkit-box-shadow:0px 1px 2px rgba(30,70,70,0.23);-moz-box
 .Content_L .GmL_5 .downlwrap .downl_L .dowm_box  .down_li{height: 40px;line-height: 40px;font-size: 15px;color: #fff;width: 100%;overflow: hidden;padding-bottom: 2px;}
 .Content_L .GmL_5 .downlwrap .downl_L .dowm_box  .down_li .a_list{width: 110%;}
 .Content_L .GmL_5 .downlwrap .downl_L .dowm_box  .down_li a{width: 159px;  text-align: center;  color: #fff;  background: #ff9900;  display: block;  float: left;  margin-right: 9px;  border-radius: 3px;}
-.Content_L .GmL_5 .downlwrap .downl_L .dowm_box  .down_li a i{background: url(../images/dowm_ico.png) no-repeat center;width: 15px;height: 15px;vertical-align: middle;margin-right: 12px;margin-top: -2px;display:  inline-block;}
+.Content_L .GmL_5 .downlwrap .downl_L .dowm_box  .down_li a i{background: url(../image/dowm_ico.png) no-repeat center;width: 15px;height: 15px;vertical-align: middle;margin-right: 12px;margin-top: -2px;display:  inline-block;}
 
 .baidu_img_Grasp{ display:none;}
 .baidu_img_Grasp img{width:196px; height:118px;}
