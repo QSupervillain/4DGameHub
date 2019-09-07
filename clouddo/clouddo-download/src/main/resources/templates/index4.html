@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- saved from url=(0023)https://dl.3dmgame.com/ -->
-<html>
+<html xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
@@ -113,6 +113,10 @@
             </div>
             <ul class="list" style="display: block;">
                 <li class="on"><a>全部游戏</a></li>
+                <tr th:each="gameType : ${gameTypeList}">
+                    <td th:text="${gameType.gameType_id}">小明</td>
+                    <td th:text="${gameType.gameType_name}">20</td>
+                </tr>
                 <li><a href="https://dl.3dmgame.com/all_2_1_time/">角色扮演</a></li>
                 <li><a href="https://dl.3dmgame.com/all_3_1_time/">射击游戏</a></li>
                 <li><a href="https://dl.3dmgame.com/all_4_1_time/">动作游戏</a></li>
