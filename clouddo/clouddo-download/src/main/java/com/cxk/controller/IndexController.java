@@ -8,8 +8,8 @@ import com.cxk.util.DownLoadPageHelper;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
 import sun.rmi.runtime.Log;
 
 import java.util.List;
@@ -19,7 +19,7 @@ import java.util.List;
  * @Date ：2019/9/4 23:55
  * @Description：
  */
-@RestController
+@Controller
 @RequestMapping("/index")
 public class IndexController {
 
@@ -54,7 +54,7 @@ public class IndexController {
         }
         long l2 = System.currentTimeMillis();
         System.out.println("时间 = " + (l2 - l1));
-        return "success";
+        return "index4";
     }
 
     @RequestMapping("/pageHelper")
