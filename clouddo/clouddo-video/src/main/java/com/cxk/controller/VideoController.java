@@ -5,6 +5,7 @@ import com.cxk.service.VideoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 import java.util.List;
 
@@ -13,6 +14,7 @@ public class VideoController {
     @Autowired
     private VideoService videoService;
     @RequestMapping("/findAll")
+    @ResponseBody
     public List<Video> findAll() {
        /* List<Video> list = videoService.findAll();
         for (int i = 0; i < list.size(); i++) {
@@ -26,6 +28,7 @@ public class VideoController {
      * @return
      */
     @RequestMapping("/fenYeNewVideo")
+    @ResponseBody
     public List<Video> fenYeNewVideo(){
 
         return videoService.fenYeNewVideo();
@@ -35,9 +38,12 @@ public class VideoController {
      * @return
      */
     @RequestMapping("/pageVideo")
-    public List<Video> pageOriginalVideo(int video_type){
-
-        return videoService.pageOriginalVideo(video_type);
+    @ResponseBody
+    public List<Video> pageOriginalVideo(String video_type){
+        //获取页面返回的信息
+        int video_types =Integer.valueOf(video_type);
+        System.out.println("video_types");
+        return videoService.pageOriginalVideo(video_types);
     }
 
     @RequestMapping("/index")

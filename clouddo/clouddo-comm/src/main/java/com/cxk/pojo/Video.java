@@ -17,4 +17,5 @@ public class Video {
     private String video_content;//类容
     private String video_src;//视屏路径
     private Date video_date;//发布时间
+    private int video_type;//视屏类型
 }
