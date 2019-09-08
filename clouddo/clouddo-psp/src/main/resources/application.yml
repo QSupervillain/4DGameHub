@@ -1,0 +1,32 @@
+# 服务器启动的端口号
+server:
+  port: 8092
+#mybatis 配置
+mybatis:
+  config-location: classpath:mybatis/mybatis-cfg.xml
+  mapper-locations: classpath:mybatis/mapper/*.xml
+ #服务器名称
+spring:
+  mvc:
+    static-path-pattern: /**
+  resources:
+    static-locations: classpath:/static/
+  thymeleaf:
+    encoding: UTF-8
+    cache: false
+    prefix: classpath:/templates/
+    suffix: .html
+  application:
+    name: Psp-client                         #微服务名
+  datasource:
+    url: jdbc:mysql://47.102.198.5:3306/gamehub?serverTimezone=GMT
+    driver-class-name: com.mysql.jdbc.Driver
+    username: gamehub
+    password: eeKfWH8NRz
+#eureka 配置
+eureka:
+  client:                                         #客户端注册进eureka服务列表内
+    service-url:
+      defaultZone: http://127.0.0.1:8010/eureka   #单机
+    register-with-eureka: true
+    fetch-registry: true
