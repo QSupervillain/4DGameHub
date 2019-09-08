@@ -51,11 +51,20 @@ public class VideoController {
      */
     @RequestMapping("/pageVideo")
     @ResponseBody
-    public List<Video> pageOriginalVideo(String video_type){
+    public Pagination<Video> pageOriginalVideo(String video_type, String index){
         //获取页面返回的信息
-        int video_types =Integer.valueOf(video_type);
-        System.out.println("video_types");
-        return videoService.pageOriginalVideo(video_types);
+        int video_type1 = Integer.valueOf(video_type);
+        int pageindex = Integer.valueOf(index);
+        System.out.println(video_type1+index);
+        Page<Object> page = PageHelper.startPage(pageindex,3);//每页显示3条数据
+        List<Video> videos = videoService.pageOriginalVideo(video_type1);
+        Pagination<Video> pa = new Pagination<Video>();
+        pa.setList(videos);
+        pa.setPageIndex(page.getPageNum());
+        pa.setPages(page.getPages());
+        pa.setPageSize(page.getPageSize());
+        pa.setTotal((int) page.getTotal());
+        return pa;
     }
 
     @RequestMapping("/index")

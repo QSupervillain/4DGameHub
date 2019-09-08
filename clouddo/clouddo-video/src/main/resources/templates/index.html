@@ -66,19 +66,34 @@
                 // alert("3");
                 //alert($("#testt").attr("value"));
                 var video_type = $(this).attr("value");
-
-                // alert(video_type);
+                var pageIndex=0;
                 $.ajax({
-                    type: 'POST',//提交方式 post 或者get
+                    type: 'get',//提交方式 post 或者get
                     url: "/pageVideo",//提交到那里 后他的服务
-                    data: video_type,//提交的参数
-                    success: success,
-                    success: function (msg) {
-                        alert("成功了");//弹出窗口，这里的msg 参数 就是访问aaaa.action 后 后台给的参数
-                    },
-                    error: function () {
-                        ajax("提交失败的处理函数！");
+                    data: {'video_type': video_type ,'index': 1},//提交的参数
+                    success: function (re) {
+                        var li = "";
+                        pageIndex = re.pageIndex;
+                        $(".video_list li").remove();
+                        for (var i = 0; i < re.list.length; i++) {
+                            li+="<li class='selectpost'>"
+                            li+="<a href='#' target='_blank' class='selectarcpost'>"
+                            li+="<div class='imgst'>"
+                            li+="<div class='bf'></div>"
+                            li+="<img src='"+re.list[i].video_image+"'>"
+                            li+="</div>"
+                            li+="<div class='h3'>"+re.list[i].video_title+"</div>"
+                            li+="<p>"+re.list[i].video_content+"</p>"
+                            li+="<div class='item'>"
+                            li+="<span class='time'><i></i>"+re.list[i].video_date+"</span>"
+                            li+="<span class='it'><i class='in'></i><span class='selectarcnum'>0</span></span>"
+                            li+="</div>"
+                            li+=" </a>"
+                            li+="</li>"
+                        }
+                        $("#hestia").append(li);
                     }
+
                 });
             }
         )

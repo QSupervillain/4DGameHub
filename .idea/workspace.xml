@@ -2,192 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="617d9cd7-a125-4258-8f79-8f1659986511" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-video/src/main/resources/static/images/1566177308_386211.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-video/src/main/resources/static/images/1566179395_757469.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-video/src/main/resources/static/images/1566179967_646916.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-video/src/main/resources/static/images/1566180445_354485.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-video/src/main/resources/static/images/1566180582_447665.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-video/src/main/resources/static/images/1566181586_250288.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-video/src/main/resources/static/images/1566182124_903721.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-video/src/main/resources/static/images/1566182248_695687.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-video/src/main/resources/static/images/1566182354_414948.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-video/src/main/resources/static/images/1566182442_179553.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_0_31.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_0_31.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_4_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_8.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_8.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_8.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_8.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_8.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_andrewoma_dexx_dexx_collections_0_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_andrewoma_dexx_dexx_collections_0_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_1_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_5_1_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_5_1_4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_spring_boot_autoconfigure_1_2_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_spring_boot_autoconfigure_1_2_5.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_spring_boot_starter_1_2_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_spring_boot_starter_1_2_5.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_vlsi_compactmap_compactmap_1_2_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_vlsi_compactmap_compactmap_1_2_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_5.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_16_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_16_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_inject_guice_4_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_inject_guice_4_1_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_archaius_archaius_core_0_7_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_archaius_archaius_core_0_7_6.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_eureka_eureka_client_1_9_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_eureka_eureka_client_1_9_8.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_eureka_eureka_core_1_9_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_eureka_eureka_core_1_9_8.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_core_1_5_18.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_core_1_5_18.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_commons_util_0_3_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_commons_util_0_3_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_eventbus_0_3_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_eventbus_0_3_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_infix_0_3_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_infix_0_3_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_statistics_0_1_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_statistics_0_1_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_2_3_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_2_3_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_core_2_3_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_core_2_3_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_eureka_2_3_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_eureka_2_3_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_httpclient_2_3_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_httpclient_2_3_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_loadbalancer_2_3_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_loadbalancer_2_3_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_transport_2_3_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_transport_2_3_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_servo_servo_core_0_12_21.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_servo_servo_core_0_12_21.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_contribs_jersey_apache_client4_1_19_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_contribs_jersey_apache_client4_1_19_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_client_1_19_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_client_1_19_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_core_1_19_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_core_1_19_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_thoughtworks_xstream_xstream_1_4_10.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_thoughtworks_xstream_xstream_1_4_10.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_2_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_2_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_configuration_commons_configuration_1_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_configuration_commons_configuration_1_8.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_jxpath_commons_jxpath_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_jxpath_commons_jxpath_1_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxjava_1_3_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxjava_1_3_8.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxnetty_0_4_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxnetty_0_4_9.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxnetty_contexts_0_4_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxnetty_contexts_0_4_9.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxnetty_servo_0_4_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxnetty_servo_0_4_9.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_websocket_javax_websocket_api_1_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_websocket_javax_websocket_api_1_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_ws_rs_jsr311_api_1_1_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_ws_rs_jsr311_api_1_1_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_stream_stax_api_1_0_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_stream_stax_api_1_0_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_10_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_10_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_45.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_45.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_12.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_12.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_antlr_runtime_3_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_antlr_runtime_3_4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_stringtemplate_3_2_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_stringtemplate_3_2_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_math_2_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_math_2_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_8.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_11.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_11.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_17.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_17.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_17.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_17.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_17.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_17.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_11_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_11_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_attoparser_attoparser_2_0_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_attoparser_attoparser_2_0_5_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_60.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_60.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_60.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_60.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jettison_jettison_1_3_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jettison_jettison_1_3_7.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_stax2_api_3_1_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_stax2_api_3_1_4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_woodstox_core_asl_4_4_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_woodstox_core_asl_4_4_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_annotations_9_4_15_v20190215.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_annotations_9_4_15_v20190215.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_client_9_4_15_v20190215.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_client_9_4_15_v20190215.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_continuation_9_4_15_v20190215.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_continuation_9_4_15_v20190215.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_http_9_4_15_v20190215.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_http_9_4_15_v20190215.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_io_9_4_15_v20190215.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_io_9_4_15_v20190215.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_plus_9_4_15_v20190215.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_plus_9_4_15_v20190215.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_security_9_4_15_v20190215.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_security_9_4_15_v20190215.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_server_9_4_15_v20190215.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_server_9_4_15_v20190215.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_servlet_9_4_15_v20190215.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_servlet_9_4_15_v20190215.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_servlets_9_4_15_v20190215.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_servlets_9_4_15_v20190215.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_util_9_4_15_v20190215.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_util_9_4_15_v20190215.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_webapp_9_4_15_v20190215.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_webapp_9_4_15_v20190215.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_xml_9_4_15_v20190215.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_xml_9_4_15_v20190215.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_javax_websocket_client_impl_9_4_15_v20190215.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_javax_websocket_client_impl_9_4_15_v20190215.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_javax_websocket_server_impl_9_4_15_v20190215.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_javax_websocket_server_impl_9_4_15_v20190215.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_api_9_4_15_v20190215.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_api_9_4_15_v20190215.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_client_9_4_15_v20190215.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_client_9_4_15_v20190215.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_common_9_4_15_v20190215.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_common_9_4_15_v20190215.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_server_9_4_15_v20190215.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_server_9_4_15_v20190215.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_servlet_9_4_15_v20190215.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_servlet_9_4_15_v20190215.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_9.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_16_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_16_Final.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_23_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_23_4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mortbay_jasper_apache_el_8_5_35_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mortbay_jasper_apache_el_8_5_35_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_6.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_1_3_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_1_3_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_1_3_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_1_3_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_7_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_7_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_analysis_7_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_analysis_7_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_commons_7_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_commons_7_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_tree_7_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_tree_7_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_6.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_26.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_26.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_26.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_26.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_4_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_4_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_4_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_4_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_1_4_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_1_4_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_4_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_4_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_1_4_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_1_4_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_1_4_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_1_4_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jetty_2_1_4_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jetty_2_1_4_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_4_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_4_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_4_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_4_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_4_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_4_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_2_1_4_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_2_1_4_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_1_4_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_1_4_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_4_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_4_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_4_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_4_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_4_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_4_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_commons_2_1_1_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_commons_2_1_1_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_context_2_1_1_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_context_2_1_1_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_archaius_2_1_1_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_archaius_2_1_1_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_eureka_client_2_1_1_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_eureka_client_2_1_1_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_hystrix_2_1_1_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_hystrix_2_1_1_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_ribbon_2_1_1_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_ribbon_2_1_1_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_2_1_1_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_2_1_1_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_archaius_2_1_1_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_archaius_2_1_1_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_eureka_client_2_1_1_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_eureka_client_2_1_1_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_ribbon_2_1_1_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_ribbon_2_1_1_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_5_1_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_5_1_5_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_rsa_1_0_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_rsa_1_0_7_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_6_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_6_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_1_6_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_1_6_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_1_6_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_1_6_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_1_6_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_1_6_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_1_6_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_1_6_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_6_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_6_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_1_6_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_1_6_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_1_6_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_1_6_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_1_6_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_1_6_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_1_6_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_1_6_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_6_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_6_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_java8time_3_0_4_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_java8time_3_0_4_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_0_11_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_0_11_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring5_3_0_11_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring5_3_0_11_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_unbescape_unbescape_1_1_6_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_unbescape_unbescape_1_1_6_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xmlpull_xmlpull_1_1_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xmlpull_xmlpull_1_1_3_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xpp3_xpp3_min_1_1_4c.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xpp3_xpp3_min_1_1_4c.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/clouddo/clouddo-video/src/main/java/com/cxk/controller/VideoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-video/src/main/java/com/cxk/controller/VideoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-video/src/main/resources/static/Test.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-video/src/main/resources/templates/Test.html" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-video/src/main/resources/templates/Test.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/clouddo/clouddo-video/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-video/src/main/resources/templates/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/clouddo/target/" />
@@ -232,20 +48,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/clouddo/clouddo-video/src/main/resources/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-216">
-              <caret line="169" column="76" selection-start-line="169" selection-start-column="76" selection-end-line="169" selection-end-column="76" />
+            <state>
+              <caret line="75" column="49" lean-forward="true" selection-start-line="75" selection-start-column="49" selection-end-line="75" selection-end-column="49" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/clouddo/clouddo-video/src/main/java/com/cxk/controller/VideoController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="37" column="61" selection-start-line="37" selection-start-column="61" selection-end-line="37" selection-end-column="61" />
+            <state relative-caret-position="268">
+              <caret line="57" column="44" selection-start-line="57" selection-start-column="44" selection-end-line="57" selection-end-column="44" />
+              <folding>
+                <element signature="e#1956#1963#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -389,131 +208,6 @@
               <item name="4DGameHub" type="b2602c69:ProjectViewProjectNode" />
               <item name="clouddo" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="4DGameHub" type="b2602c69:ProjectViewProjectNode" />
-              <item name="clouddo" type="462c0819:PsiDirectoryNode" />
-              <item name="clouddo-comm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="4DGameHub" type="b2602c69:ProjectViewProjectNode" />
-              <item name="clouddo" type="462c0819:PsiDirectoryNode" />
-              <item name="clouddo-comm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="4DGameHub" type="b2602c69:ProjectViewProjectNode" />
-              <item name="clouddo" type="462c0819:PsiDirectoryNode" />
-              <item name="clouddo-comm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="4DGameHub" type="b2602c69:ProjectViewProjectNode" />
-              <item name="clouddo" type="462c0819:PsiDirectoryNode" />
-              <item name="clouddo-comm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="4DGameHub" type="b2602c69:ProjectViewProjectNode" />
-              <item name="clouddo" type="462c0819:PsiDirectoryNode" />
-              <item name="clouddo-comm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pojo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="4DGameHub" type="b2602c69:ProjectViewProjectNode" />
-              <item name="clouddo" type="462c0819:PsiDirectoryNode" />
-              <item name="clouddo-video" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="4DGameHub" type="b2602c69:ProjectViewProjectNode" />
-              <item name="clouddo" type="462c0819:PsiDirectoryNode" />
-              <item name="clouddo-video" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="4DGameHub" type="b2602c69:ProjectViewProjectNode" />
-              <item name="clouddo" type="462c0819:PsiDirectoryNode" />
-              <item name="clouddo-video" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="4DGameHub" type="b2602c69:ProjectViewProjectNode" />
-              <item name="clouddo" type="462c0819:PsiDirectoryNode" />
-              <item name="clouddo-video" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="4DGameHub" type="b2602c69:ProjectViewProjectNode" />
-              <item name="clouddo" type="462c0819:PsiDirectoryNode" />
-              <item name="clouddo-video" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cxk" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="4DGameHub" type="b2602c69:ProjectViewProjectNode" />
-              <item name="clouddo" type="462c0819:PsiDirectoryNode" />
-              <item name="clouddo-video" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cxk" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="4DGameHub" type="b2602c69:ProjectViewProjectNode" />
-              <item name="clouddo" type="462c0819:PsiDirectoryNode" />
-              <item name="clouddo-video" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="4DGameHub" type="b2602c69:ProjectViewProjectNode" />
-              <item name="clouddo" type="462c0819:PsiDirectoryNode" />
-              <item name="clouddo-video" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="4DGameHub" type="b2602c69:ProjectViewProjectNode" />
-              <item name="clouddo" type="462c0819:PsiDirectoryNode" />
-              <item name="clouddo-video" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="4DGameHub" type="b2602c69:ProjectViewProjectNode" />
-              <item name="clouddo" type="462c0819:PsiDirectoryNode" />
-              <item name="clouddo-video" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="videos" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="4DGameHub" type="b2602c69:ProjectViewProjectNode" />
-              <item name="clouddo" type="462c0819:PsiDirectoryNode" />
-              <item name="clouddo-video" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -534,7 +228,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567934055058" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567945211515" />
     <property name="jdk.selected.JAVA_MODULE" value="lib" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Demo/redis" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -655,7 +349,7 @@
       <workItem from="1567763555279" duration="21000" />
       <workItem from="1567764024517" duration="1701000" />
       <workItem from="1567816315218" duration="32383000" />
-      <workItem from="1567921848161" duration="9133000" />
+      <workItem from="1567921848161" duration="13181000" />
     </task>
     <task id="LOCAL-00001" summary="添加视屏模块">
       <created>1567651800758</created>
@@ -776,11 +470,18 @@
       <option name="project" value="LOCAL" />
       <updated>1567862043476</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="视屏index页面显示分页数据">
+      <created>1567934140456</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1567934140456</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89802000" />
+    <option name="totallyTimeSpent" value="93850000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -793,8 +494,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3207262" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15960665" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -814,12 +516,12 @@
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.55369127" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5005325" side_tool="true" weight="0.4362851" />
       <window_info anchor="bottom" id="Spring" order="12" weight="0.32885906" />
-      <window_info anchor="bottom" id="Problems" order="13" weight="0.32885906" />
-      <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.32885906" />
-      <window_info anchor="bottom" id="Messages" order="15" weight="0.32885906" />
-      <window_info anchor="bottom" id="Tail" order="16" />
-      <window_info anchor="bottom" id="Web" order="17" weight="0.32885906" />
-      <window_info anchor="bottom" id="Run Dashboard" order="18" sideWeight="0.49946752" weight="0.10738255" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.32885906" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.70302016" />
+      <window_info anchor="bottom" id="Tail" order="15" />
+      <window_info anchor="bottom" id="Web" order="16" weight="0.5637584" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="17" sideWeight="0.49946752" visible="true" weight="0.0" />
+      <window_info anchor="bottom" id="Problems" order="18" weight="0.32885906" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24886535" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -887,7 +589,8 @@
     <MESSAGE value="添加根据视屏类型分页显示数据   添加根据点击视屏查询对应详细信息" />
     <MESSAGE value="视频页面更改" />
     <MESSAGE value="保存index頁面數據" />
-    <option name="LAST_COMMIT_MESSAGE" value="保存index頁面數據" />
+    <MESSAGE value="视屏index页面显示分页数据" />
+    <option name="LAST_COMMIT_MESSAGE" value="视屏index页面显示分页数据" />
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
@@ -904,13 +607,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-download/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/clouddo/clouddo-download/src/main/java/com/cxk/dao/IndexDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -1177,17 +873,27 @@
     <entry file="file://$PROJECT_DIR$/clouddo/clouddo-video/src/main/resources/static/images/1566177308_386211.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-video/src/main/resources/templates/index.html">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/pagehelper/pagehelper/5.1.2/pagehelper-5.1.2.jar!/com/github/pagehelper/PageHelper.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-216">
-          <caret line="169" column="76" selection-start-line="169" selection-start-column="76" selection-end-line="169" selection-end-column="76" />
+        <state relative-caret-position="162">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/clouddo/clouddo-video/src/main/java/com/cxk/controller/VideoController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="37" column="61" selection-start-line="37" selection-start-column="61" selection-end-line="37" selection-end-column="61" />
+        <state relative-caret-position="268">
+          <caret line="57" column="44" selection-start-line="57" selection-start-column="44" selection-end-line="57" selection-end-column="44" />
+          <folding>
+            <element signature="e#1956#1963#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-video/src/main/resources/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="75" column="49" lean-forward="true" selection-start-line="75" selection-start-column="49" selection-end-line="75" selection-end-column="49" />
         </state>
       </provider>
     </entry>
