@@ -34,6 +34,6 @@ public class DownLoad implements Serializable {
     private String download_size;                      //游戏大小 MB、GB
     private String download_network;                   //官方网站  www.
     private String download_label;                     //游戏标签：奇幻  中世纪  独立
-    private int download_download;                     //默认0,没用资源，不可以下载 ，1 可以下载 ../../static/download/ + download_name名称
+    private int download_download;                     //默认0,没用资源，不可以下载 ，1 可以下载 static/download/ + download_name名称
 
 }

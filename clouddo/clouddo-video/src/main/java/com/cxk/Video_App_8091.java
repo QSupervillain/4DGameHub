@@ -8,7 +8,7 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 //开启eureka客户端
 @EnableEurekaClient
 public class Video_App_8091 {
-    public ../../static void main(String [] args){
+    public static void main(String [] args){
         SpringApplication.run(Video_App_8091.class, args);
     }
 }

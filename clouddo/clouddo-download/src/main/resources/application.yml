@@ -12,9 +12,9 @@ pagehelper:
 # 服务器名称
 spring:
   mvc:
-    ../../static-path-pattern: /**
+    static-path-pattern: /**
   resources:
-    ../../static-locations: classpath:/../../static/
+    static-locations: classpath:/static/
   thymeleaf:
     encoding: UTF-8
     cache: false

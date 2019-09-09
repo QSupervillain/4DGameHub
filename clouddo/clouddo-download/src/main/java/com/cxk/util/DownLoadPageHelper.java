@@ -16,7 +16,7 @@ import java.util.Map;
  */
 public class DownLoadPageHelper {
 
-    public ../../static List<DownLoad> downLoads(DownLoadService downLoadService, String gameType_id, String download_type, String download_by, int pageNum, int pageSize) {
+    public static List<DownLoad> downLoads(DownLoadService downLoadService, String gameType_id, String download_type, String download_by, int pageNum, int pageSize) {
         Map<String, Object> map = new HashMap<>();
         map.put("gameType_id", gameType_id);
         map.put("download_type", download_type);
