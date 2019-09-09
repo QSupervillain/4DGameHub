@@ -45,7 +45,8 @@
                                style="background: rgb(242, 242, 242); border-color: rgb(219, 219, 219);">
                         <input type="hidden" name="type" value="1"
                                style="background: rgb(242, 242, 242); border-color: rgb(219, 219, 219);">
-                        <button type="submit" class="but" style="background: rgb(241, 145, 73);"><img src="../../../image/ioc-sou.png"/></button>
+                        <button type="submit" class="but" style="background: rgb(241, 145, 73);"><img
+                                src="../../../image/ioc-sou.png"/></button>
                     </form>
                 </div>
             </div>
@@ -113,19 +114,9 @@
             </div>
             <ul class="list" style="display: block;">
                 <li class="on"><a>全部游戏</a></li>
-                <tr th:each="gameType : ${gameTypeList}">
-                    <td th:text="${gameType.gameType_id}">小明</td>
-                    <td th:text="${gameType.gameType_name}">20</td>
-                </tr>
-                <li><a href="https://dl.3dmgame.com/all_2_1_time/">角色扮演</a></li>
-                <li><a href="https://dl.3dmgame.com/all_3_1_time/">射击游戏</a></li>
-                <li><a href="https://dl.3dmgame.com/all_4_1_time/">动作游戏</a></li>
-                <li><a href="https://dl.3dmgame.com/all_5_1_time/">冒险游戏</a></li>
-                <li><a href="https://dl.3dmgame.com/all_6_1_time/">赛车游戏</a></li>
-                <li><a href="https://dl.3dmgame.com/all_7_1_time/">策略游戏</a></li>
-                <li><a href="https://dl.3dmgame.com/all_8_1_time/">即时战略</a></li>
-                <li><a href="https://dl.3dmgame.com/all_9_1_time/">养成游戏</a></li>
-                <li><a href="https://dl.3dmgame.com/all_10_1_time/">桌面棋牌</a></li>
+                <li th:each="gameType : ${gameTypeList}">
+                    <a th:attr="flag=${gameType.gameType_id}" th:text="${gameType.gameType_name}">游戏+1</a>
+                </li>
             </ul>
         </div>
         <div class="Litstop">
@@ -139,15 +130,14 @@
         </div>
         <div class="listwrap">
             <ul class="downllis">
-                <li>
+                <li th:each="downLoad : ${downLoadList}">
                     <div class="item">
-                        <div class="img"><a href="https://dl.3dmgame.com/pc/126110.html" target="_blank"><img
-                                src="../../image/1531276406_126051.jpg"></a></div>
+                        <div class="img"><a href="https://dl.3dmgame.com/pc/126110.html" target="_blank"><img th:src="'../../image/'+${downLoad.download_image}"/></a></div>
                         <div class="text">
-                            <div class="bt"><a href="https://dl.3dmgame.com/pc/126110.html" target="_blank">《绿色地狱》官方简体中文免安装版</a>
+                            <div class="bt"><a th:text="${downLoad.download_name}" href="https://dl.3dmgame.com/pc/126110.html" target="_blank">游戏名称</a>
                             </div>
                             <ol>
-                                <li>类型：<i>动作游戏</i></li>
+                                <li>类型：<i th:text="${downLoad.}">动作游戏</i></li>
                                 <li class="li1"><span></span><i>1</i></li>
                                 <li>语言：<i>简中</i></li>
                                 <li>评分：<i>8.9</i></li>
@@ -161,81 +151,6 @@
                         </div>
                         <a href="https://dl.3dmgame.com/pc/126110.html" target="_blank" class="a_click">
                             <i></i>游戏下载 (6.05GB)
-                        </a>
-                    </div>
-                </li>
-                <li>
-                    <div class="item">
-                        <div class="img"><a href="https://dl.3dmgame.com/pc/128885.html" target="_blank"><img
-                                src="../../image/1567748902_758879.jpg"></a></div>
-                        <div class="text">
-                            <div class="bt"><a href="https://dl.3dmgame.com/pc/128885.html"
-                                               target="_blank">《原始部落》游戏库</a></div>
-                            <ol>
-                                <li>类型：<i>角色扮演</i></li>
-                                <li class="li1"><span></span><i>1</i></li>
-                                <li>语言：<i>简中</i></li>
-                                <li>评分：<i>0.0</i></li>
-                                <li>发布：<i>2019-09-06</i></li>
-                                <li>平台：<i>pc</i></li>
-                                <li class="li2">标签：
-                                    <a href="https://www.3dmgame.com/tag/katong_1/" target="_blank">卡通</a>
-                                    <a href="https://www.3dmgame.com/tag/huihezhi_1/" target="_blank">回合制</a>
-                                </li>
-                            </ol>
-                        </div>
-                        <a href="https://dl.3dmgame.com/pc/128885.html" target="_blank" class="a_click">
-                            暂无资源
-                        </a>
-                    </div>
-                </li>
-                <li>
-                    <div class="item">
-                        <div class="img"><a href="https://dl.3dmgame.com/pc/128597.html" target="_blank"><img
-                                src="../../image/1566263255_322492.jpg"></a></div>
-                        <div class="text">
-                            <div class="bt"><a href="https://dl.3dmgame.com/pc/128597.html" target="_blank">《Blood
-                                Magic》steam正版分流</a></div>
-                            <ol>
-                                <li>类型：<i>动作游戏</i></li>
-                                <li class="li1"><span></span><i>1</i></li>
-                                <li>语言：<i>英文</i></li>
-                                <li>评分：<i>0.0</i></li>
-                                <li>发布：<i>2019-09-06</i></li>
-                                <li>平台：<i>pc</i></li>
-                                <li class="li2">标签：
-                                    <a href="https://www.3dmgame.com/tag/mohuan_1/" target="_blank">魔幻</a>
-                                    <a href="https://www.3dmgame.com/tag/tanxian_1/" target="_blank">探险</a>
-                                </li>
-                            </ol>
-                        </div>
-                        <a href="https://dl.3dmgame.com/pc/128597.html" target="_blank" class="a_click">
-                            <i></i>游戏下载 (93.78MB)
-                        </a>
-                    </div>
-                </li>
-                <li>
-                    <div class="item">
-                        <div class="img"><a href="https://dl.3dmgame.com/pc/128884.html" target="_blank"><img
-                                src="../../image/1567739427_639605.jpg"></a></div>
-                        <div class="text">
-                            <div class="bt"><a href="https://dl.3dmgame.com/pc/128884.html" target="_blank">《Overland》游戏库</a>
-                            </div>
-                            <ol>
-                                <li>类型：<i>策略游戏</i></li>
-                                <li class="li1"><span></span><i>1</i></li>
-                                <li>语言：<i>简中</i></li>
-                                <li>评分：<i>0.0</i></li>
-                                <li>发布：<i>2019-09-06</i></li>
-                                <li>平台：<i>pc</i></li>
-                                <li class="li2">标签：
-                                    <a href="https://www.3dmgame.com/tag/huihezhi_1/" target="_blank">回合制</a>
-                                    <a href="https://www.3dmgame.com/tag/roguelike_1/" target="_blank">Roguelike</a>
-                                </li>
-                            </ol>
-                        </div>
-                        <a href="https://dl.3dmgame.com/pc/128884.html" target="_blank" class="a_click">
-                            暂无资源
                         </a>
                     </div>
                 </li>
@@ -328,4 +243,14 @@
     </div>
 
 </body>
+<script src="../js/jquery-1.8.3.min.js"></script>
+<script>
+
+    $(function () {
+        $(".list li").click(function () {
+            $(this).addClass("on").siblings().removeClass("on");
+            $(this).children("a").attr("flag");
+        });
+    });
+</script>
 </html>
