@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <!-- saved from url=(0034)https://ol.3dmgame.com/v/2634.html -->
+<html xmlns:th="http://www.thymeleaf.org">
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -77,15 +78,14 @@
 <div class="content">
     <div class="title">
         <div class="home"></div>
-        <span class="spanlist_1">您的位置：<a href="https://ol.3dmgame.com/" target="_blank">网游</a> &gt; <i> <a
-                href="https://ol.3dmgame.com/v_1_1/" target="_blank">原创视频</a> </i> &gt;</span>
-        <span class="spanlist_2">《猫和老鼠》手游跨平台精英赛开始啦！9大平台上演猫鼠欢爷追逐</span>
+        <span class="spanlist_1">您的位置： <a href="index" target="_blank">视频</a> </i> &gt;</span>
+        <span class="spanlist_2" th:text="${videos[0].getVideo_title()}"></span>
     </div>
     <div class="cent">
         <div class="centleft">
             <div class="warp_top">
-                <h1 style="color: #313131;font-size: 20px; text-align: center;width: 100%; height: 50px;line-height: 50px;overflow: hidden;font-weight: 600; margin-bottom: 10px;">《猫和老鼠》手游跨平台精英赛开始啦！9大平台上演猫鼠欢爷追逐</h1>
-                <div class="time" style="float: left;height: 40px; width: 180px;overflow: hidden;font-size: 13px;color: #959595;line-height: 40px; padding-right: 30px; white-space: nowrap; ">时间：<span>2019-09-09 10:46:16</span></div>
+                <h1 style="color: #313131;font-size: 20px; text-align: center;width: 100%; height: 50px;line-height: 50px;overflow: hidden;font-weight: 600; margin-bottom: 10px;" th:text="${videos[0].getVideo_title()}"></h1>
+                <div class="time" style="float: left;height: 40px; width: 180px;overflow: hidden;font-size: 13px;color: #959595;line-height: 40px; padding-right: 30px; white-space: nowrap; ">时间：<span th:text="${videos[0].getVideo_date()}">2019-09-09 10:46:16</span></div>
                 <ul class="intem" style="height: 40px;overflow: hidden;font-size: 13px;color: #959595;line-height: 40px;width: 470px; float: left;" >
                     <li >来源：<span class="weibo">官方</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;作者：<span class="name">官方</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;编辑：<span class="bianji">睡懒觉的羊</span></li>
                 </ul>
@@ -98,11 +98,10 @@
                 <p style="color: #333;
     line-height: 30px;
     font-size: 15px;
-    margin: 10px auto;">
-                    由华纳兄弟互动娱乐正版IP授权，网易游戏打造的互动游戏《猫和老鼠》手游跨平台精英赛即日开启。16支队伍将展开为期一个月的角逐，胜者将捧起第一个《猫和老鼠》手游官方跨平台赛事的奖杯！总奖金15万元虚位以待！
-                </p>
+    margin: 10px auto;" th:text="${videos[0].getVideo_content()}">
+                   </p>
                 <p style="text-align:center;">
-                    <iframe src="videos/《逆战》百科长白天境尼路曼德森降临.mp4" width="680" height="458" frameborder="0">
+                    <iframe th:src="${videos[0].getVideo_src()}" width="680" height="458" frameborder="0">
                     </iframe>
                 </p>
             </div>

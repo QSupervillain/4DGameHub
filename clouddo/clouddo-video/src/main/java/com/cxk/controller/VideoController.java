@@ -7,6 +7,7 @@ import com.github.pagehelper.Page;
 import com.github.pagehelper.PageHelper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
@@ -68,16 +69,16 @@ public class VideoController {
         return pa;
     }
     @RequestMapping("/videoDescribe")
-    @ResponseBody
-    public List<Video> videoDescribe(String video_id){
+    public String videoDescribe(Model model, String video_id){
         //获取页面对应视屏id
         int video_ids=Integer.valueOf(video_id);
         List<Video> videos = videoService.videoDescribe(video_ids);
-        return videos;
+        model.addAttribute("videos",videos);
+        return "videoDetails";
     }
     @RequestMapping("/index")
     public String index(){
-        return "videoDetails";
+        return "index";
     }
 
     @RequestMapping("/test")
