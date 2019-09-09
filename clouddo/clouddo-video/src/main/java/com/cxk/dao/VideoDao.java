@@ -25,4 +25,5 @@ public interface VideoDao {
      * 根据点击相应视屏进入对应视屏详情播放页
      */
     public List<Video> videoDescribe(int video_id);
+
 }
