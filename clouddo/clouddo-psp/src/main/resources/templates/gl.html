@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
     <title>英雄联盟LOL_LOL官网_LOL活动_LOL资料_3DM英雄联盟专区_3DM网游</title>
@@ -27,15 +27,15 @@
                 <a href="https://www.3dmgame.com/app.html" target="_blank"><i class="ico4"></i>手机APP</a>
             </div>
             <div class="head_top_rt" id="my_user_top">
-                <img src="image/ioc-ren.png">
+                <img src="picture/ioc-ren.png">
                 <a href="javascript:void(0);" class="login" onclick="openlogin()">登录</a>
                 <a href="javascript:void(0);" class="enroll" onclick="openregister()">注册</a>
             </div>
         </div>
     </div>
     <div class="banner">
-        <img src="image/1562927126_923697.jpg">
-        <div class="baidu_img_Grasp"><img src="image/1513565838_688301.jpg"></div>
+        <img src="picture/1562927126_923697.jpg">
+        <div class="baidu_img_Grasp"><img src="picture/1513565838_688301.jpg"></div>
         <div class="top">
             <div class="nava">
                 <ul>
@@ -132,198 +132,198 @@ $(".header_warp .banner .top .nava .search").css({"width":1200-$(".header_warp .
                 </li>
                             </ol>
                         <ul class="list ">
+                            <li th:each="Psp:${pspList}">
+                                <a th:href="@{'/moban?pid='+${Psp.psp_id}}" target="_blank">
+                                    <div class="imgst">
+                                        <img th:src="@{'picture/'+${Psp.psp_image}}">
+                                    </div>
+                                    <div class="h3"th:text="${Psp.psp_title }"></div>
+                                    <p th:text="${Psp.psp_content}"></p>
+                                    <div class="item">
+                                        <span class="time"><i></i><span th:text="${Psp.psp_date}"></span></span>
+                                        <span class="it"><i class="eye"></i><span th:text="${Psp.psp_pv }"></span></span>
+                                    </div>
+                                </a>
+                            </li>
+                                <li>
+                    <a href="https://ol.3dmgame.com/gl/61943.html" target="_blank">
+                        <div class="imgst">
+                            <img src="picture/1567994206536.png">
+                        </div>
+                        <div class="h3">《LOL》2019全球总决赛赛程时间一览</div>
+                        <p>LOL英雄联盟随着IG成功拿到世界赛门票，各个赛区都已经圆满收官，而S9全球总决赛也即将带来，很多玩家都想知道S9总决赛的赛程时间?下面，我就给大家带来详细介绍，一起来看看吧!2019全球总决赛赛程公布： 入围赛 10月2-5日，7-8日小组赛 10月12-1</p>
+                        <div class="item">
+                            <span class="time"><i></i>2019-09-09 09:58:54</span>
+                            <span class="it"><i class="eye"></i>99</span>
+                        </div>
+                    </a>
+                </li>
+                                <li>
+                    <a href="https://ol.3dmgame.com/gl/61941.html" target="_blank">
+                        <div class="imgst">
+                            <img src="picture/1567992626211.jpg">
+                        </div>
+                        <div class="h3">《LOL》云顶之弈9.16版本末剑士玩法</div>
+                        <p>在云顶之弈9.16版本，很强势的恶魔羁绊对剑士的影响不是特别大，海克斯科技羁绊对于装备的禁用，导致了很大程度上对站位的考验；再就是换型师的存在，可以说只要大哥们（德莱文金克丝）没被切死就很OK。下面一起跟小编看下剑士阵容搭配吧。这里是刚刚混上铂金没多久的新人小</p>
+                        <div class="item">
+                            <span class="time"><i></i>2019-09-09 09:39:44</span>
+                            <span class="it"><i class="eye"></i>83</span>
+                        </div>
+                    </a>
+                </li>
                                 <li>
                     <a href="https://ol.3dmgame.com/gl/61863.html" target="_blank">
                         <div class="imgst">
-                            <img src="image/1567764654896.jpg">
+                            <img src="picture/1567764654896.jpg">
                         </div>
                         <div class="h3">《LOL》9.17版本禁用率前五英雄推荐</div>
                         <p>LOL英雄联盟9.17版本在外服上线已经有一段时间，新版本中各路英雄的排名也发生了不小改变。本次，我就给大家带来LOL9.17版本禁用率前五英雄推荐，一起来看看吧!血港鬼影 派克   派克自从再次更改后仍然受到了大部分玩家们的青睐，操作比较容易而且也能打出来爆</p>
                         <div class="item">
                             <span class="time"><i></i>2019-09-06 18:14:05</span>
-                            <span class="it"><i class="eye"></i>370</span>
+                            <span class="it"><i class="eye"></i>1174</span>
                         </div>
                     </a>
                 </li>
                                 <li>
                     <a href="https://ol.3dmgame.com/gl/61853.html" target="_blank">
                         <div class="imgst">
-                            <img src="image/1567763676926.jpg">
+                            <img src="picture/1567763676926.jpg">
                         </div>
                         <div class="h3">《LOL》云顶之弈9.17版本虚空刺客卡萨丁阵容攻略</div>
                         <p>LOL英雄联盟云顶之弈9.17版本和9.18版本将会在9月12号合并更新，目前在国服也衍生出许多奇奇怪怪但强力的玩法，很多玩家都想知道9.17版本虚空刺客卡萨丁阵容怎么玩?下面，我给大家带来详细介绍，一起来看看吧!虚空刺客卡萨丁   核心羁绊 羁绊：虚空(3)</p>
                         <div class="item">
                             <span class="time"><i></i>2019-09-06 17:56:13</span>
-                            <span class="it"><i class="eye"></i>888</span>
+                            <span class="it"><i class="eye"></i>3227</span>
                         </div>
                     </a>
                 </li>
                                 <li>
                     <a href="https://ol.3dmgame.com/gl/61851.html" target="_blank">
                         <div class="imgst">
-                            <img src="image1567763023974.jpg">
+                            <img src="picture/1567763023974.jpg">
                         </div>
                         <div class="h3">《LOL》云顶之弈9.17版本贵族法师船长阵容攻略</div>
                         <p>LOL英雄联盟云顶之弈9.17版本和9.18版本将会在9月12号合并更新，目前在国服也衍生出许多奇奇怪怪但强力的玩法，很多玩家都想知道9.17版本贵族法师船长阵容怎么玩?下面，我给大家带来详细介绍，一起来看看吧!贵族法师船长   核心羁绊 羁绊：贵族(6)部署</p>
                         <div class="item">
                             <span class="time"><i></i>2019-09-06 17:50:46</span>
-                            <span class="it"><i class="eye"></i>414</span>
+                            <span class="it"><i class="eye"></i>1460</span>
                         </div>
                     </a>
                 </li>
                                 <li>
                     <a href="https://ol.3dmgame.com/gl/61845.html" target="_blank">
                         <div class="imgst">
-                            <img src="image/1567762883222.jpg">
+                            <img src="picture/1567762883222.jpg">
                         </div>
                         <div class="h3">《LOL》云顶之弈9.17版本六换型龙女阵容攻略</div>
                         <p>LOL英雄联盟云顶之弈9.17版本和9.18版本将会在9月12号合并更新，目前在国服也衍生出许多奇奇怪怪但强力的玩法，很多玩家都想知道9.17版本六换型龙女阵容怎么玩?下面，我给大家带来详细介绍，一起来看看吧!六换型龙女阵容   核心羁绊 羁绊：换形师(6)部</p>
                         <div class="item">
                             <span class="time"><i></i>2019-09-06 17:41:26</span>
-                            <span class="it"><i class="eye"></i>455</span>
+                            <span class="it"><i class="eye"></i>1615</span>
                         </div>
                     </a>
                 </li>
                                 <li>
                     <a href="https://ol.3dmgame.com/gl/61843.html" target="_blank">
                         <div class="imgst">
-                            <img src="image/1567761366897.jpg">
+                            <img src="picture/1567761366897.jpg">
                         </div>
                         <div class="h3">《LOL》云顶之弈9.17版本强势T1黑科技套路阵容汇总</div>
                         <p>LOL英雄联盟云顶之弈9.17版本和9.18版本将会在9月12号合并更新，目前在国服也衍生出许多奇奇怪怪但强力的玩法，很多玩家都想知道9.17版本强势T1黑科技套路阵容有哪些?下面，我给大家带来详细介绍，一起来看看吧!套路一：不死换形师龙女   核心羁绊 羁绊</p>
                         <div class="item">
                             <span class="time"><i></i>2019-09-06 17:32:37</span>
-                            <span class="it"><i class="eye"></i>595</span>
+                            <span class="it"><i class="eye"></i>2318</span>
                         </div>
                     </a>
                 </li>
                                 <li>
                     <a href="https://ol.3dmgame.com/gl/61821.html" target="_blank">
                         <div class="imgst">
-                            <img src="image/1567760454823.jpg">
+                            <img src="picture/1567760454823.jpg">
                         </div>
                         <div class="h3">《LOL》9.16末期峡谷之巅冲分英雄推荐</div>
                         <p>LOL英雄联盟即将更新9.18版本，在版本末期国服峡谷之巅玩家也开始疯狂冲分。本次，我就给大家带来LOL9.16末期峡谷之巅冲分英雄推荐，一起来看看吧!峡谷之巅第一 ：赏金猎人  技能加点： 主Q副W一级学习Q技能 出装：  核心装备选择吸蓝刀+无尽之刃+火炮</p>
                         <div class="item">
                             <span class="time"><i></i>2019-09-06 17:02:12</span>
-                            <span class="it"><i class="eye"></i>68</span>
+                            <span class="it"><i class="eye"></i>151</span>
                         </div>
                     </a>
                 </li>
                                 <li>
                     <a href="https://ol.3dmgame.com/gl/61816.html" target="_blank">
                         <div class="imgst">
-                            <img src="static/picture/1567759954383.jpg">
+                            <img src="picture/1567759954383.jpg">
                         </div>
                         <div class="h3">《LOL》9.17版本T1级别上路推荐</div>
                         <p>LOL英雄联盟9.17版本在外服上线已经有一段时间，新版本中坦克英雄表现十分强势，上路也变得举足轻重。本次，我就给大家带来LOL9.17版本T1级别上路推荐，一起来看看吧!不屈之枪：潘森   技能升级顺序推荐：  主Q副E，有R点R。符文推荐：  主系推荐选择</p>
                         <div class="item">
                             <span class="time"><i></i>2019-09-06 16:52:41</span>
-                            <span class="it"><i class="eye"></i>78</span>
+                            <span class="it"><i class="eye"></i>166</span>
                         </div>
                     </a>
                 </li>
                                 <li>
                     <a href="https://ol.3dmgame.com/gl/61795.html" target="_blank">
                         <div class="imgst">
-                            <img src="static/picture/1567757198955.jpg">
+                            <img src="picture/1567757198955.jpg">
                         </div>
                         <div class="h3">《炉石传说》奥丹姆奇兵ig战队冰法卡组推荐</div>
                         <p>炉石传说奥丹姆奇兵已经上线有一段时间了，很多玩家都想知道奥丹姆奇兵有什么版本强势卡组?本次，我就给大家带来炉石传说奥丹姆奇兵ig战队冰法卡组推荐，感兴趣的玩家，一起来看看吧! 卡组代码：         点击复制点评： 黄金战队联赛ig战队的一套冰法。卡组思路</p>
                         <div class="item">
                             <span class="time"><i></i>2019-09-06 16:07:04</span>
-                            <span class="it"><i class="eye"></i>31</span>
+                            <span class="it"><i class="eye"></i>84</span>
                         </div>
                     </a>
                 </li>
                                 <li>
                     <a href="https://ol.3dmgame.com/gl/61761.html" target="_blank">
                         <div class="imgst">
-                            <img src="static/picture/1567752935190.png">
+                            <img src="picture/1567752935190.png">
                         </div>
                         <div class="h3">《LOL》云顶之弈9.18最后的轻语适合阵容推荐</div>
                         <p>LOL英雄联盟云顶之弈9.17版本和9.18版本将会在9月12号合并更新，新装备也即将登陆国服，很多玩家都想知道9.18版本正义之拳适合哪些阵容?下面，我给大家带来详细介绍，一起来看看吧! 装备解析：首先是正义之拳，正义之拳的两个效果都有不错的收益，第一种可以</p>
                         <div class="item">
                             <span class="time"><i></i>2019-09-06 14:56:22</span>
-                            <span class="it"><i class="eye"></i>282</span>
+                            <span class="it"><i class="eye"></i>555</span>
                         </div>
                     </a>
                 </li>
                                 <li>
                     <a href="https://ol.3dmgame.com/gl/61760.html" target="_blank">
                         <div class="imgst">
-                            <img src="static/picture/1567752897794.png">
+                            <img src="picture/1567752897794.png">
                         </div>
                         <div class="h3">《LOL》云顶之弈9.18正义之拳适合阵容推荐</div>
                         <p>LOL英雄联盟云顶之弈9.17版本和9.18版本将会在9月12号合并更新，新装备也即将登陆国服，很多玩家都想知道9.18版本正义之拳适合哪些阵容?下面，我给大家带来详细介绍，一起来看看吧! 装备解析：首先是正义之拳，正义之拳的两个效果都有不错的收益，第一种可以</p>
                         <div class="item">
                             <span class="time"><i></i>2019-09-06 14:54:59</span>
-                            <span class="it"><i class="eye"></i>114</span>
+                            <span class="it"><i class="eye"></i>262</span>
                         </div>
                     </a>
                 </li>
                                 <li>
                     <a href="https://ol.3dmgame.com/gl/61758.html" target="_blank">
                         <div class="imgst">
-                            <img src="static/picture/1567752670166.png">
+                            <img src="picture/1567752670166.png">
                         </div>
                         <div class="h3">《LOL》云顶之弈9.18快速闪避适合阵容推荐</div>
                         <p>LOL英雄联盟云顶之弈9.17版本和9.18版本将会在9月12号合并更新，新装备也即将登陆国服，很多玩家都想知道9.18版本快速闪避适合哪些阵容?下面，我给大家带来详细介绍，一起来看看吧!  装备解析：领主之剑的作用就是能够快速的提升刺客英雄的战斗力，在我们没</p>
                         <div class="item">
                             <span class="time"><i></i>2019-09-06 14:52:12</span>
-                            <span class="it"><i class="eye"></i>115</span>
+                            <span class="it"><i class="eye"></i>247</span>
                         </div>
                     </a>
                 </li>
                                 <li>
                     <a href="https://ol.3dmgame.com/gl/61757.html" target="_blank">
                         <div class="imgst">
-                            <img src="static/picture/1567752620415.png">
+                            <img src="picture/1567752620415.png">
                         </div>
                         <div class="h3">《LOL》云顶之弈9.18领主之剑适合阵容推荐</div>
                         <p>LOL英雄联盟云顶之弈9.17版本和9.18版本将会在9月12号合并更新，新装备也即将登陆国服，很多玩家都想知道9.18版本领主之剑适合哪些阵容?下面，我给大家带来详细介绍，一起来看看吧!  装备解析：领主之剑的作用就是能够快速的提升刺客英雄的战斗力，在我们没</p>
                         <div class="item">
                             <span class="time"><i></i>2019-09-06 14:52:39</span>
-                            <span class="it"><i class="eye"></i>69</span>
-                        </div>
-                    </a>
-                </li>
-                                <li>
-                    <a href="https://ol.3dmgame.com/gl/61755.html" target="_blank">
-                        <div class="imgst">
-                            <img src="static/picture/1567752471653.png">
-                        </div>
-                        <div class="h3">《LOL》云顶之弈9.18冰脉护手适合阵容推荐</div>
-                        <p>LOL英雄联盟云顶之弈9.17版本和9.18版本将会在9月12号合并更新，新装备也即将登陆国服，很多玩家都想知道9.18版本冰脉护手适合哪些英雄?下面，我给大家带来详细介绍，一起来看看吧!  躲避成功时，生成一个扩展的冰封区域，降低敌人30%攻速装备解析：这两</p>
-                        <div class="item">
-                            <span class="time"><i></i>2019-09-06 14:53:00</span>
-                            <span class="it"><i class="eye"></i>56</span>
-                        </div>
-                    </a>
-                </li>
-                                <li>
-                    <a href="https://ol.3dmgame.com/gl/61753.html" target="_blank">
-                        <div class="imgst">
-                            <img src="static/picture/1567752253881.png">
-                        </div>
-                        <div class="h3">《LOL》云顶之弈9.18连指手套适合阵容推荐</div>
-                        <p>LOL英雄联盟云顶之弈9.17版本和9.18版本将会在9月12号合并更新，新装备也即将登陆国服，很多玩家都想知道9.18版本连指手套适合哪些英雄?下面，我给大家带来详细介绍，一起来看看吧!  躲避成功时，生成一个扩展的冰封区域，降低敌人30%攻速装备解析：这两</p>
-                        <div class="item">
-                            <span class="time"><i></i>2019-09-06 14:45:21</span>
-                            <span class="it"><i class="eye"></i>49</span>
-                        </div>
-                    </a>
-                </li>
-                                <li>
-                    <a href="https://ol.3dmgame.com/gl/61745.html" target="_blank">
-                        <div class="imgst">
-                            <img src="static/picture/1567751369165.png">
-                        </div>
-                        <div class="h3">《LOL》云顶之弈9.18版本新装备阵容搭配汇总</div>
-                        <p>LOL英雄联盟云顶之弈9.17版本和9.18版本将会在9月12号合并更新，新装备也即将登陆国服，很多玩家都想知道9.18版本哪些英雄适合新装备?下面，我给大家带来详细介绍，一起来看看吧!  躲避成功时，生成一个扩展的冰封区域，降低敌人30%攻速装备解析：这两件</p>
-                        <div class="item">
-                            <span class="time"><i></i>2019-09-06 14:30:44</span>
-                            <span class="it"><i class="eye"></i>170</span>
+                            <span class="it"><i class="eye"></i>164</span>
                         </div>
                     </a>
                 </li>
@@ -339,7 +339,7 @@ $(".header_warp .banner .top .nava .search").css({"width":1200-$(".header_warp .
 <li><a href="https://ol.3dmgame.com/lol/gl_all_7/" data-page="6">7</a></li>
 <li><a href="https://ol.3dmgame.com/lol/gl_all_8/" data-page="7">8</a></li>
 <li class="next"><a href="https://ol.3dmgame.com/lol/gl_all_2/" data-page="1">&raquo;</a></li>
-<li class="last"><a href="https://ol.3dmgame.com/lol/gl_all_564/" data-page="563">末页</a></li></ul></div>
+<li class="last"><a href="https://ol.3dmgame.com/lol/gl_all_571/" data-page="570">末页</a></li></ul></div>
                     </div>
         <div class="centright">
             <div class="item6 mb30">
@@ -375,19 +375,19 @@ $(".header_warp .banner .top .nava .search").css({"width":1200-$(".header_warp .
     </div>
     <ul>
                 <li>
+            <a href="https://ol.3dmgame.com/news/201909/22284.html" target="_blank"><i></i>《英雄联盟》8周年盛典落幕 全球总决赛LPL代表队出炉</a>
+        </li>
+                <li>
+            <a href="https://ol.3dmgame.com/news/201909/22274.html" target="_blank"><i></i>虎牙独播LCK：功亏一篑 生死战崩盘KZ憾负DWG错失世界赛</a>
+        </li>
+                <li>
+            <a href="https://ol.3dmgame.com/news/201909/22267.html" target="_blank"><i></i>《英雄联盟》将办LPL全明星周末！首届赛事落户海南</a>
+        </li>
+                <li>
+            <a href="https://ol.3dmgame.com/news/201909/22263.html" target="_blank"><i></i>《英雄联盟》“星之守护者”宣传片 泽野弘之配乐燃爆</a>
+        </li>
+                <li>
             <a href="https://ol.3dmgame.com/news/201909/22261.html" target="_blank"><i></i>LPL夏季赛决赛：FPX3:1击败RNG 夺得LPL冠军！</a>
-        </li>
-                <li>
-            <a href="https://ol.3dmgame.com/news/201909/22256.html" target="_blank"><i></i>LPL冒泡赛对阵确定：BLG遗憾出局，JDG快被网友玩坏了</a>
-        </li>
-                <li>
-            <a href="https://ol.3dmgame.com/news/201909/22252.html" target="_blank"><i></i>福布斯中国：UZI是中国电竞第一流量担当</a>
-        </li>
-                <li>
-            <a href="https://ol.3dmgame.com/news/201909/22232.html" target="_blank"><i></i>无限可能，无限热爱！欢迎来到英雄联盟8周年盛典</a>
-        </li>
-                <li>
-            <a href="https://ol.3dmgame.com/news/201909/22223.html" target="_blank"><i></i>冠军诞生！ 2019中国移动电子竞技大赛8月线上完美收官</a>
         </li>
             </ul>
 </div>
@@ -400,27 +400,27 @@ $(".header_warp .banner .top .nava .search").css({"width":1200-$(".header_warp .
     </div>
     <ul>
                 <li class="leftz">
+            <a href="https://ol.3dmgame.com/v/2633.html" target="_blank">
+                <div class="imga"><img src="picture/1567994409_191256.jpg"><i></i></div>
+                <p>《LOL》八周年明星表演赛</p>
+            </a>
+        </li>
+                <li class="leftz">
+            <a href="https://ol.3dmgame.com/v/2632.html" target="_blank">
+                <div class="imga"><img src="picture/1567992159_778897.jpg"><i></i></div>
+                <p>LCK2019夏季赛常规赛9月7日DWG VS KZ视频回顾</p>
+            </a>
+        </li>
+                <li class="leftz">
             <a href="https://ol.3dmgame.com/v/2631.html" target="_blank">
-                <div class="imga"><img src="static/picture/1567561280_188693.jpg"><i></i></div>
+                <div class="imga"><img src="picture/1567561280_188693.jpg"><i></i></div>
                 <p>LCK2019夏季赛常规赛9月5日SB VS KZ视频回顾</p>
             </a>
         </li>
                 <li class="leftz">
             <a href="https://ol.3dmgame.com/v/2630.html" target="_blank">
-                <div class="imga"><img src="static/picture/1567560722_590150.jpg"><i></i></div>
+                <div class="imga"><img src="picture/1567560722_590150.jpg"><i></i></div>
                 <p>LPL2019夏季赛常规赛9月6日FPX VS RNG频回顾</p>
-            </a>
-        </li>
-                <li class="leftz">
-            <a href="https://ol.3dmgame.com/v/2629.html" target="_blank">
-                <div class="imga"><img src="static/picture/1567387456_551645.jpg"><i></i></div>
-                <p>LCK2019夏季赛常规赛9月3日KZ VS AF视频回顾</p>
-            </a>
-        </li>
-                <li class="leftz">
-            <a href="https://ol.3dmgame.com/v/2628.html" target="_blank">
-                <div class="imga"><img src="static/picture/1567387013_232916.jpg"><i></i></div>
-                <p>LPL2019夏季赛常规赛9月4日BLG VS TES频回顾</p>
             </a>
         </li>
                 <div class="clear"></div>
@@ -435,34 +435,34 @@ $(".header_warp .banner .top .nava .search").css({"width":1200-$(".header_warp .
     </div>
     <ul>
                 <li>
-            <a href="https://ol.3dmgame.com/gl/55228.html" target="_blank"><i></i>《LOL》云顶之弈新版本强势吃鸡上分阵容汇总</a>
+            <a href="https://ol.3dmgame.com/gl/23912.html" target="_blank"><i></i>《LOL》S8总决赛入围赛规则详解</a>
         </li>
                 <li>
-            <a href="https://ol.3dmgame.com/gl/52344.html" target="_blank"><i></i>《LOL》云顶之弈新手吃鸡阵容汇总</a>
+            <a href="https://ol.3dmgame.com/gl/53837.html" target="_blank"><i></i>《LOL》云顶之弈六极地四斗士攻略</a>
         </li>
                 <li>
-            <a href="https://ol.3dmgame.com/gl/55875.html" target="_blank"><i></i>云顶之弈装备合成表</a>
+            <a href="https://ol.3dmgame.com/gl/53669.html" target="_blank"><i></i>《LOL》云顶之弈劫装备选择</a>
         </li>
                 <li>
-            <a href="https://ol.3dmgame.com/gl/51845.html" target="_blank"><i></i>《LOL》云顶之弈主流阵容推荐</a>
+            <a href="https://ol.3dmgame.com/gl/54240.html" target="_blank"><i></i>英雄联盟云顶之弈怎么升级英雄</a>
         </li>
                 <li>
-            <a href="https://ol.3dmgame.com/gl/50674.html" target="_blank"><i></i>《LOL》云顶之弈职业效果一览</a>
+            <a href="https://ol.3dmgame.com/gl/10005.html" target="_blank"><i></i>LOLS8新版本符文天赋加点一览</a>
         </li>
                 <li>
-            <a href="https://ol.3dmgame.com/gl/50526.html" target="_blank"><i></i>《LOL》云顶之弈装备合成方法攻略</a>
+            <a href="https://ol.3dmgame.com/gl/10006.html" target="_blank"><i></i>《LOL》S8电刑劫秒人符文天赋加点推荐</a>
         </li>
                 <li>
-            <a href="https://ol.3dmgame.com/gl/53456.html" target="_blank"><i></i>《LOL》云顶之弈好用阵容分享</a>
+            <a href="https://ol.3dmgame.com/gl/10009.html" target="_blank"><i></i>《LOL》S8赛季英雄洛最新玩法一览</a>
         </li>
                 <li>
-            <a href="https://ol.3dmgame.com/gl/60036.html" target="_blank"><i></i>《LOL》峡谷彩蛋大搜查全攻略</a>
+            <a href="https://ol.3dmgame.com/gl/10010.html" target="_blank"><i></i>《LOL》S8赛季最强英雄虚空先知玩法解析</a>
         </li>
                 <li>
-            <a href="https://ol.3dmgame.com/gl/50303.html" target="_blank"><i></i>《LOL》云顶之弈最强阵容选择</a>
+            <a href="https://ol.3dmgame.com/gl/10011.html" target="_blank"><i></i>《英雄联盟》S8赛季ADC最新玩法详解</a>
         </li>
                 <li>
-            <a href="https://ol.3dmgame.com/gl/50905.html" target="_blank"><i></i>《LOL》美服汉化攻略</a>
+            <a href="https://ol.3dmgame.com/gl/10012.html" target="_blank"><i></i>《英雄联盟》S8赛季瑞文新玩法一览</a>
         </li>
             </ul>
 </div>
@@ -470,7 +470,7 @@ $(".header_warp .banner .top .nava .search").css({"width":1200-$(".header_warp .
         <div class="clear"></div>
     </div>
 </div>
-<script type="text/javascript" src="static/js/conmmon.js"></script>
+<script type="text/javascript" src="js/conmmon.js"></script>
 <div class="fotter">
 	<div class="fotter-top">
 		<div class="center">
@@ -538,7 +538,7 @@ $(".header_warp .banner .top .nava .search").css({"width":1200-$(".header_warp .
 	})();
 	</script>
 </div>
-<script src="static/js/user.js"></script>
+<script src="js/user.js"></script>
         <div id="my_login_form" class="login_wrap"  style="display: none;">
             <div class="form_login">
                 <div class="title">会员登录</div>
