@@ -66,10 +66,17 @@ public class VideoController {
         pa.setTotal((int) page.getTotal());
         return pa;
     }
-
+    @RequestMapping("/videoDescribe")
+    @ResponseBody
+    public List<Video> videoDescribe(String video_id){
+        //获取页面对应视屏id
+        int video_ids=Integer.valueOf(video_id);
+        List<Video> videos = videoService.videoDescribe(video_ids);
+        return videos;
+    }
     @RequestMapping("/index")
     public String index(){
-        return "index";
+        return "videoDetails";
     }
 
     @RequestMapping("/test")

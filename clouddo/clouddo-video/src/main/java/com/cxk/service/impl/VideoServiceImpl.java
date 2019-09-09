@@ -17,6 +17,16 @@ public class VideoServiceImpl implements VideoService {
     }
 
     /**
+     * 根据点击相应视屏进入对应视屏详情播放页
+     *
+     * @param video_id
+     */
+    @Override
+    public List<Video> videoDescribe(int video_id) {
+        return videoDao.videoDescribe(video_id);
+    }
+
+    /**
      * 分页显示原创视频
      */
     @Override
