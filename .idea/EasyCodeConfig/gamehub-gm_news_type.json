@@ -1,0 +1,24 @@
+{
+  "name" : "GmNewsType",
+  "comment" : null,
+  "fullColumn" : [ {
+    "name" : "typeId",
+    "comment" : null,
+    "type" : null,
+    "shortType" : null,
+    "custom" : false,
+    "ext" : { }
+  }, {
+    "name" : "typeName",
+    "comment" : null,
+    "type" : null,
+    "shortType" : null,
+    "custom" : false,
+    "ext" : { }
+  } ],
+  "pkColumn" : null,
+  "otherColumn" : null,
+  "savePackageName" : "com.cxk.dao",
+  "savePath" : "./clouddo/clouddo-news/src/main/java",
+  "saveModelName" : "clouddo-video"
+}
