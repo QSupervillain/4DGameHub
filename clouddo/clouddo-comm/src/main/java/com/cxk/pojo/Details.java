@@ -18,7 +18,7 @@ import java.io.Serializable;
 @Accessors(chain = true)
 public class Details implements Serializable {
 
-    private ../../static final long serialVersionUID = -280317695730240195L;
+    private static final long serialVersionUID = -280317695730240195L;
     private Integer details_id;             //唯一标识ID
     private String details_name;            //游戏介绍
     private String details_feature;         //游戏特色

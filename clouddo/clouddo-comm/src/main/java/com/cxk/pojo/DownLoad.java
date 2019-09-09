@@ -19,7 +19,7 @@ import java.sql.Date;
 @Accessors(chain = true)
 public class DownLoad implements Serializable {
 
-    private ../../static final long serialVersionUID = -4532241936033527116L;
+    private static final long serialVersionUID = -4532241936033527116L;
     private Integer download_id;                       //唯一标识ID
     private Integer gametype_id;                       //游戏类型ID   一对多
     private Integer details_id;                        //游戏详情ID   一对一
