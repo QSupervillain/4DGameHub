@@ -18,7 +18,7 @@ import java.io.Serializable;
 @Accessors(chain = true)
 public class GameType implements Serializable {
 
-    private static final long serialVersionUID = 2932723630990138417L;
+    private ../../static final long serialVersionUID = 2932723630990138417L;
     private Integer gameType_id;
     private String gameType_name;
 

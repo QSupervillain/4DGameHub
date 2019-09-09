@@ -7,13 +7,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="clouddo-cms" />
+        <module name="clouddo-zuul" />
         <module name="clouddo-download" />
         <module name="clouddo-comm" />
-        <module name="clouddo-zuul" />
+        <module name="clouddo-news" />
         <module name="clouddo-psp" />
         <module name="clouddo-base" />
         <module name="clouddo-server" />
+        <module name="clouddo-cms" />
         <module name="clouddo-video" />
         <module name="clouddo-admin" />
       </profile>
@@ -25,6 +26,7 @@
       <module name="clouddo-cms" target="1.8" />
       <module name="clouddo-comm" target="1.8" />
       <module name="clouddo-download" target="1.8" />
+      <module name="clouddo-news" target="1.8" />
       <module name="clouddo-psp" target="1.8" />
       <module name="clouddo-server" target="1.8" />
       <module name="clouddo-video" target="1.8" />
@@ -38,6 +40,7 @@
       <module name="clouddo-cms" options="-parameters" />
       <module name="clouddo-comm" options="-parameters" />
       <module name="clouddo-download" options="-parameters" />
+      <module name="clouddo-news" options="-parameters" />
       <module name="clouddo-psp" options="-parameters" />
       <module name="clouddo-server" options="-parameters" />
       <module name="clouddo-video" options="-parameters" />

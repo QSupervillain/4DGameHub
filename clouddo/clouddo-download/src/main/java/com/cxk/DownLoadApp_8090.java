@@ -17,7 +17,7 @@ import org.springframework.scheduling.annotation.EnableAsync;
 @EnableAsync
 public class DownLoadApp_8090 {
 
-    public static void main(String[] args) {
+    public ../../static void main(String[] args) {
         SpringApplication.run(DownLoadApp_8090.class, args);
     }
 
