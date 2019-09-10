@@ -34,11 +34,5 @@ public class VideoServiceImpl implements VideoService {
         return videoDao.pageOriginalVideo(video_type);
     }
 
-    /**
-     * 分页显示最新视屏页面
-     */
-    @Override
-    public List<Video> fenYeNewVideo() {
-        return videoDao.fenYeNewVideo();
-    }
+
 }

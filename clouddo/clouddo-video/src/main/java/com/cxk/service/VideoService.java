@@ -9,10 +9,7 @@ public interface VideoService {
      * @return
      */
     public List<Video> findAll();
-    /**
-     * 分页显示最新视屏页面
-     */
-    public List<Video> fenYeNewVideo();
+
     /**
      * 分页显示原创视频
      */

@@ -27,26 +27,6 @@ public class VideoController {
         }*/
         return videoService.findAll();
     }
-
-    /**
-     * 分页显示
-     * @return
-     */
-    @RequestMapping("/fenYeNewVideo")
-    @ResponseBody
-    public Pagination<Video> fenYeNewVideo(String index){
-        //获取页码
-        int pageindex = Integer.valueOf(index);
-        Page<Object> page = PageHelper.startPage(pageindex, 3);//每页显示3条数据
-        List<Video> videos = videoService.fenYeNewVideo();
-        Pagination<Video> pa = new Pagination<Video>();
-        pa.setList(videos);
-        pa.setPageIndex(page.getPageNum());
-        pa.setPages(page.getPages());
-        pa.setPageSize(page.getPageSize());
-        pa.setTotal((int) page.getTotal());
-        return pa;
-    }
     /**
      *根据视屏类型分页显示相应数据
      * @return
@@ -57,7 +37,7 @@ public class VideoController {
         //获取页面返回的信息
         int video_type1 = Integer.valueOf(video_type);
         int pageindex = Integer.valueOf(index);
-        System.out.println(video_type1+index);
+        System.out.println(pageindex);
         Page<Object> page = PageHelper.startPage(pageindex,3);//每页显示3条数据
         List<Video> videos = videoService.pageOriginalVideo(video_type1);
         Pagination<Video> pa = new Pagination<Video>();
@@ -68,6 +48,23 @@ public class VideoController {
         pa.setTotal((int) page.getTotal());
         return pa;
     }
+   /* @RequestMapping("/pageVideos")
+    @ResponseBody
+    public Pagination<Video> pageOriginalVideos(String video_type, String index){
+        //获取页面返回的信息
+        int video_type1 = Integer.valueOf(video_type);
+        int pageindex = Integer.valueOf(index);
+        System.out.println(pageindex);
+        Page<Object> page = PageHelper.startPage(pageindex,1);//每页显示3条数据
+        List<Video> videos = videoService.pageOriginalVideo(video_type1);
+        Pagination<Video> pa = new Pagination<Video>();
+        pa.setList(videos);
+        pa.setPageIndex(page.getPageNum());
+        pa.setPages(page.getPages());
+        pa.setPageSize(page.getPageSize());
+        pa.setTotal((int) page.getTotal());
+        return pa;
+    }*/
     @RequestMapping("/videoDescribe")
     public String videoDescribe(Model model, String video_id){
         //获取页面对应视屏id

@@ -1,5 +1,6 @@
 package com.cxk.pojo;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -16,6 +17,7 @@ public class Video {
     private String video_image;//图片
     private String video_content;//类容
     private String video_src;//视屏路径
+    @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss")
     private Date video_date;//发布时间
     private int video_type;//视屏类型
 }
