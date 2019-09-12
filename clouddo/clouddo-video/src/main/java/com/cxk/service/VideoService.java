@@ -18,4 +18,9 @@ public interface VideoService {
      * 根据点击相应视屏进入对应视屏详情播放页
      */
     public List<Video> videoDescribe(int video_id);
+    /**
+     * 侧边栏显示8条热门视屏链接
+     * @return
+     */
+    public List<Video>  sidebarVideo();
 }

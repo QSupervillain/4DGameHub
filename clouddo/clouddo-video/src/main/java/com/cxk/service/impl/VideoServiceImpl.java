@@ -34,5 +34,13 @@ public class VideoServiceImpl implements VideoService {
         return videoDao.pageOriginalVideo(video_type);
     }
 
-
+    /**
+     * 侧边栏显示8条热门视屏链接
+     *
+     * @return
+     */
+    @Override
+    public List<Video> sidebarVideo() {
+        return videoDao.sidebarVideo();
+    }
 }

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -24,7 +24,8 @@
     var pageIndex = 0;
     var video_type = 1;
     $(function () {
-        dianji()
+        dianji();
+       // cebian();
         fenye(1);
     })
 
@@ -69,6 +70,25 @@
         )
     }
 
+    /*function cebian() {
+        $.ajax({
+                url: "sidebarVideo",
+                async: false,
+                dataType: 'json',
+                success: function (re) {
+                    alert();
+                    var li = "";
+                    for (var i; i < re.list.length; i++) {
+                        li += "<li>";
+                        li += "<a href='/videoDescribe?video_id=" + re.list[i].video_id + "' target='_blank'><i></i>" + re.list[i].video_title + "</a>"
+                        li += "</li>"
+                    }
+                    $("#cebian").append(li);
+                }
+            }
+        )
+    }*/
+
     function fenye(index) {
         //alert(pageIndex)
         $.ajax({
@@ -80,7 +100,6 @@
                 var li = "";
                 pageIndex = re.pageIndex;
                 //alert(pageIndex);
-
                 $(".video_list li").remove();
                 for (var i = 0; i < re.list.length; i++) {
                     li += "<li class='selectpost'>"
@@ -165,7 +184,6 @@
                     </div>
                 </div>
             </div>
-            <script src="js/ds.js"></script>
         </div>
     </div>
 
@@ -217,82 +235,38 @@
                             <a href="/v_all_1" target="_blank">更多</a>
                         </div>
                     </div>
-                    <ul>
-                        <li>
-                            <a href="https://ol.3dmgame.com/v/2627.html" target="_blank"><i></i>LPL2019夏季赛常规赛9月1日TES VS
-                                RNG频回顾</a>
-                        </li>
-                        <li>
-                            <a href="https://ol.3dmgame.com/v/2619.html" target="_blank"><i></i>LCK2019夏季赛常规赛8月31日GRF VS
-                                SKT视频回顾</a>
-                        </li>
-                        <li>
-                            <a href="https://ol.3dmgame.com/v/2629.html" target="_blank"><i></i>LCK2019夏季赛常规赛9月3日KZ VS
-                                AF视频回顾</a>
-                        </li>
-                        <li>
-                            <a href="https://ol.3dmgame.com/v/2628.html" target="_blank"><i></i>LPL2019夏季赛常规赛9月4日BLG VS
-                                TES频回顾</a>
-                        </li>
-                        <li>
-                            <a href="https://ol.3dmgame.com/v/2626.html" target="_blank"><i></i>LPL2019夏季赛常规赛8月31日FPX VS
-                                BLG频回顾</a>
-                        </li>
-                        <li>
-                            <a href="https://ol.3dmgame.com/v/2623.html" target="_blank"><i></i>《魔兽世界怀旧服》新手入坑指南：盗贼篇</a>
-                        </li>
-                        <li>
-                            <a href="https://ol.3dmgame.com/v/2618.html" target="_blank"><i></i>LCK2019夏季赛常规赛8月25日DWG VS
-                                SKT视频回顾</a>
-                        </li>
-                        <li>
-                            <a href="https://ol.3dmgame.com/v/2625.html"
-                               target="_blank"><i></i>《魔兽世界》怀旧服1-60部落升级思路分享</a>
-                        </li>
+                    <ul id="cebian">
+                            <li th:each="stu,state:${videos}">
+                                <i><a th:href="${'/videoDescribe?video_id='+stu.video_id}"  th:text="${'* '+stu.getVideo_title()}" target="_blank" >sss</a></i>
+                            </li>
+                        <!--  <li>
+                             <a href="https://ol.3dmgame.com/v/2619.html" target="_blank"><i></i>LCK2019夏季赛常规赛8月31日GRF VS
+                                 SKT视频回顾</a>
+                         </li>
+                         <li>
+                             <a href="https://ol.3dmgame.com/v/2629.html" target="_blank"><i></i>LCK2019夏季赛常规赛9月3日KZ VS
+                                 AF视频回顾</a>
+                         </li>
+                         <li>
+                             <a href="https://ol.3dmgame.com/v/2628.html" target="_blank"><i></i>LPL2019夏季赛常规赛9月4日BLG VS
+                                 TES频回顾</a>
+                         </li>
+                         <li>
+                             <a href="https://ol.3dmgame.com/v/2626.html" target="_blank"><i></i>LPL2019夏季赛常规赛8月31日FPX VS
+                                 BLG频回顾</a>
+                         </li>
+                         <li>
+                             <a href="https://ol.3dmgame.com/v/2623.html" target="_blank"><i></i>《魔兽世界怀旧服》新手入坑指南：盗贼篇</a>
+                         </li>
+                         <li>
+                             <a href="https://ol.3dmgame.com/v/2618.html" target="_blank"><i></i>LCK2019夏季赛常规赛8月25日DWG VS
+                                 SKT视频回顾</a>
+                         </li>
+                         <li>
+                             <a href="https://ol.3dmgame.com/v/2625.html"
+                                target="_blank"><i></i>《魔兽世界》怀旧服1-60部落升级思路分享</a>
+                         </li>-->
                     </ul>
-                </div>
-                <div class="warp_d">
-                    <div class="tist">
-                        <div class="imglist"><i class="warpd_i"></i><span>竞技视频</span></div>
-                        <div class="rightlist"><i></i>
-                            <a href="https://ol.3dmgame.com/v_2_1/" target="_blank">更多</a>
-                        </div>
-                    </div>
-                    <ul>
-                        <li>
-                            <a href="https://ol.3dmgame.com/v/2631.html" target="_blank" class="leftlist">
-                                <div class="imgwarp "><img
-                                        src="/uploads/images/thumbnews/20190904/1567561280_188693.jpg">
-                                </div>
-                                <p>LCK2019夏季赛常规赛9月5日SB VS KZ视频回顾</p>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://ol.3dmgame.com/v/2630.html" target="_blank" class="leftlist">
-                                <div class="imgwarp "><img
-                                        src="/uploads/images/thumbnews/20190904/1567560722_590150.jpg">
-                                </div>
-                                <p>LPL2019夏季赛常规赛9月6日FPX VS RNG频回顾</p>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://ol.3dmgame.com/v/2629.html" target="_blank" class="leftlist">
-                                <div class="imgwarp "><img
-                                        src="/uploads/images/thumbnews/20190902/1567387456_551645.jpg">
-                                </div>
-                                <p>LCK2019夏季赛常规赛9月3日KZ VS AF视频回顾</p>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://ol.3dmgame.com/v/2628.html" target="_blank" class="leftlist">
-                                <div class="imgwarp "><img
-                                        src="/uploads/images/thumbnews/20190902/1567387013_232916.jpg">
-                                </div>
-                                <p>LPL2019夏季赛常规赛9月4日BLG VS TES频回顾</p>
-                            </a>
-                        </li>
-                    </ul>
-                    <div class="clear"></div>
                 </div>
             </div>
             <div class="clear"></div>

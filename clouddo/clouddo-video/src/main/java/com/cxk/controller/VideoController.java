@@ -78,8 +78,16 @@ public class VideoController {
         return "index";
     }
 
-    @RequestMapping("/test")
+    /*@RequestMapping("/test")
     public String test(){
         return "Test";
+    }*/
+    @RequestMapping("/sidebarVideo")
+    public String sidebarVideo(Model model){
+        List<Video> videos = videoService.sidebarVideo();
+        model.addAttribute("videos",videos);
+        return "index";
     }
 }
+
+

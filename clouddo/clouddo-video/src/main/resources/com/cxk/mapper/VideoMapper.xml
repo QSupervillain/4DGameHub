@@ -15,4 +15,7 @@
     <select id="com.cxk.dao.VideoDao.videoDescribe" resultType="com.cxk.pojo.Video" parameterType="int">
         SELECT * FROM gm_video WHERE video_id=#{video_id}
     </select>
+    <select id="com.cxk.dao.VideoDao.sidebarVideo" resultType="com.cxk.pojo.Video">
+        SELECT video_id,video_title FROM gm_video WHERE video_type=1 ORDER BY video_date DESC LIMIT 0,8
+    </select>
 </mapper>

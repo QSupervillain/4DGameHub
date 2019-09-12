@@ -23,4 +23,10 @@ public interface VideoDao {
      */
     public List<Video> videoDescribe(int video_id);
 
+    /**
+     * 侧边栏显示8条热门视屏链接
+     * @return
+     */
+    public List<Video>  sidebarVideo();
+
 }
