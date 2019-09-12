@@ -70,25 +70,6 @@
         )
     }
 
-    /*function cebian() {
-        $.ajax({
-                url: "sidebarVideo",
-                async: false,
-                dataType: 'json',
-                success: function (re) {
-                    alert();
-                    var li = "";
-                    for (var i; i < re.list.length; i++) {
-                        li += "<li>";
-                        li += "<a href='/videoDescribe?video_id=" + re.list[i].video_id + "' target='_blank'><i></i>" + re.list[i].video_title + "</a>"
-                        li += "</li>"
-                    }
-                    $("#cebian").append(li);
-                }
-            }
-        )
-    }*/
-
     function fenye(index) {
         //alert(pageIndex)
         $.ajax({
@@ -237,7 +218,7 @@
                     </div>
                     <ul id="cebian">
                             <li th:each="stu,state:${videos}">
-                                <i><a th:href="${'/videoDescribe?video_id='+stu.video_id}"  th:text="${'* '+stu.getVideo_title()}" target="_blank" >sss</a></i>
+                                <a th:href="${'/videoDescribe?video_id='+stu.video_id}"  th:text="${'* '+stu.getVideo_title()}" target="_blank" >sss</a>
                             </li>
                         <!--  <li>
                              <a href="https://ol.3dmgame.com/v/2619.html" target="_blank"><i></i>LCK2019夏季赛常规赛8月31日GRF VS

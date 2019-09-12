@@ -48,29 +48,15 @@ public class VideoController {
         pa.setTotal((int) page.getTotal());
         return pa;
     }
-   /* @RequestMapping("/pageVideos")
-    @ResponseBody
-    public Pagination<Video> pageOriginalVideos(String video_type, String index){
-        //获取页面返回的信息
-        int video_type1 = Integer.valueOf(video_type);
-        int pageindex = Integer.valueOf(index);
-        System.out.println(pageindex);
-        Page<Object> page = PageHelper.startPage(pageindex,1);//每页显示3条数据
-        List<Video> videos = videoService.pageOriginalVideo(video_type1);
-        Pagination<Video> pa = new Pagination<Video>();
-        pa.setList(videos);
-        pa.setPageIndex(page.getPageNum());
-        pa.setPages(page.getPages());
-        pa.setPageSize(page.getPageSize());
-        pa.setTotal((int) page.getTotal());
-        return pa;
-    }*/
     @RequestMapping("/videoDescribe")
     public String videoDescribe(Model model, String video_id){
         //获取页面对应视屏id
         int video_ids=Integer.valueOf(video_id);
         List<Video> videos = videoService.videoDescribe(video_ids);
         model.addAttribute("videos",videos);
+        //侧边栏信息
+        List<Video> videoss = videoService.sidebarVideo();
+        model.addAttribute("videoss",videoss);
         return "videoDetails";
     }
     @RequestMapping("/index")
@@ -78,12 +64,9 @@ public class VideoController {
         return "index";
     }
 
-    /*@RequestMapping("/test")
-    public String test(){
-        return "Test";
-    }*/
-    @RequestMapping("/sidebarVideo")
+    @RequestMapping()
     public String sidebarVideo(Model model){
+        //视屏页面侧边栏热门推荐视频
         List<Video> videos = videoService.sidebarVideo();
         model.addAttribute("videos",videos);
         return "index";

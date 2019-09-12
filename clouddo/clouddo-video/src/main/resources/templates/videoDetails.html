@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- saved from url=(0034)https://ol.3dmgame.com/v/2634.html -->
-<html xmlns:th="http://www.thymeleaf.org">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -103,21 +103,6 @@
                     </iframe>
                 </p>
             </div>
-            <div class="post">
-               <div id="Comments_wrap">
-                    <div class="Cs_head">
-                        <div class="Cs_ico1"></div>
-                        <div id="Cs_report" class="Cs_report">
-                        </div>
-                    </div>
-                    <div id="Comments_wrap_div" class="cmt_hot">
-                    </div>
-                    <div class="Cslis_wrap" id="Cslis_wrap"></div>
-                    <input type="hidden" id="Ct_maxid" value="0"><input type="hidden" id="Ct_totalnum" value="0"><input
-                        type="hidden" id="Ct_sid" value="0"><input type="hidden" id="Ct_totalpage" value="1"><input
-                        type="hidden" id="Ct_nowpage" value="1"></div>
-                <script src="./《猫和老鼠》手游跨平台精英赛开始啦！9大平台上演猫鼠欢爷追逐_3DM网游_files/comments.js.下载"></script>
-            </div>
         </div>
         <div class="centright">
             <!--侧边栏推荐视频-->
@@ -129,7 +114,10 @@
                     </div>
                 </div>
                 <ul>
-                    <li>
+                    <li th:each="stu,state:${videoss}">
+                        <a th:href="${'/videoDescribe?video_id='+stu.video_id}"  th:text="${'* '+stu.getVideo_title()}" target="_blank" >sss</a>
+                    </li>
+                    <!--<li>
                         <a href="https://ol.3dmgame.com/v/2627.html" target="_blank"><i></i>LPL2019夏季赛常规赛9月1日TES VS
                             RNG频回顾</a>
                     </li>
@@ -158,7 +146,7 @@
                     </li>
                     <li>
                         <a href="https://ol.3dmgame.com/v/2625.html" target="_blank"><i></i>《魔兽世界》怀旧服1-60部落升级思路分享</a>
-                    </li>
+                    </li>-->
                 </ul>
             </div>
         </div>
