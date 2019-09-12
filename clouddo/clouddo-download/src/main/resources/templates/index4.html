@@ -124,7 +124,7 @@
             </ul>
         </div>
         <div class="Litstop">
-            <div class="num">共计：<span th:text="${webPage.total}">37917</span> 款</div>
+            <div class="num">共计：<span class="number1">2</span> 款</div>
             <div class="px">
                 <span>排序方式：</span>
                 <a flag="download_time" href="javascript:void(0)" class="on">时间</a>
@@ -133,7 +133,7 @@
             </div>
         </div>
         <div class="listwrap content">
-            <ul class="downllis news">
+            <ul class="downllis news" id="table_refresh" th:fragment="table_refresh">
                 <li th:each="downLoad : ${downLoadList}">
                     <div class="item">
                         <div class="img"><a href="https://dl.3dmgame.com/pc/126110.html" target="_blank"><img
@@ -170,13 +170,19 @@
             <div class="pagestart">首页</div>
             <div class="pageUp">上一页</div>
             <div class="pageList">
-                <ul><li>6</li><li>7</li><li>8</li><li>9</li><li class="on">10</li></ul>
+                <ul>
+                    <li>6</li>
+                    <li>7</li>
+                    <li>8</li>
+                    <li>9</li>
+                    <li class="on">10</li>
+                </ul>
             </div>
             <div class="pageDown">下一页</div>
             <div class="pageend">尾页</div>
             <div class="link-page">
                 <span>跳至</span>
-                <input type="text" />
+                <input type="text"/>
                 <a href="javascript:;" class="pageHerf">Go</a>
             </div>
             <div class="page-total-info">
@@ -254,18 +260,29 @@
 
 </body>
 <script>
-    var id = "";
-    var type = "download_time";
-    var pageNum = 1;
 
     $(function () {
-        $('.pagination').find('li:eq(2)').addClass("active");
 
-        $(".list li").click(function () {
+        $(".list li,.px a").click(function () {
             $(this).addClass("on").siblings().removeClass("on");
-        });
-        $(".px a").click(function () {
-            $(this).addClass("on").siblings().removeClass("on");
+            var ids = $(".list li[class='on']").attr("flag");
+            if (ids == null) {
+                ids = 1;
+            }
+            var type = $(".px a[class='on']").attr("flag");
+            $('#table_refresh').load("/index/pageHelper?id=" + ids + "&type=" + type);
+            /*$.ajax({
+                type: "POST",
+                url: "/index/pageHelper",
+                data:{
+                    id: ids,
+                    type: type
+                },
+                async: false,
+                success:function (data) {
+                    $('.listwrap').load("/index/pageHelper");
+                }
+            });*/
         });
 
     });

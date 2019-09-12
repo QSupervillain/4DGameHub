@@ -11,7 +11,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
 import sun.rmi.runtime.Log;
 
 import java.util.List;
@@ -50,7 +49,7 @@ public class IndexController {
 
         List<GameType> gameTypeList = gameTypeService.getAll();
 
-        List<DownLoad> downLoadList = DownLoadPageHelper.downLoads(downLoadService, null, "download_time", "desc", 1, 4);
+        List<DownLoad> downLoadList = DownLoadPageHelper.downLoads(downLoadService, null, "download_time", "desc");
         for (DownLoad downLoad : downLoadList) {
             for (GameType gameType : gameTypeList) {
                 if (downLoad.getGametype_id() == gameType.getGameType_id()) {
@@ -66,14 +65,14 @@ public class IndexController {
     }
 
     @RequestMapping("/pageHelper")
-    @ResponseBody
-    public String pageHelper(String id, String type, int pageNum) {
+    public String pageHelper(Model model, String id, String type) {
         BY_Name=BY_Name=="asc"?"desc":"asc";
-        List<DownLoad> downLoads = DownLoadPageHelper.downLoads(downLoadService, id, type, BY_Name, pageNum, 4);
+        List<DownLoad> downLoads = DownLoadPageHelper.downLoads(downLoadService, id, type, BY_Name);
         for (DownLoad downLoad : downLoads) {
             System.out.println("downLoad = " + downLoad);
         }
-        return "success";
+        model.addAttribute("downLoadList", downLoads);
+        return "index4::table_refresh";
     }
 
 }
