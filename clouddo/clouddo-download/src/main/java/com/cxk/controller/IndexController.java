@@ -31,6 +31,9 @@ public class IndexController {
     @Autowired
     private DownLoadService downLoadService;
 
+
+    private static String BY_Name = "asc";
+
     private Logger log = LoggerFactory.getLogger(Log.class);
 
     /**
@@ -46,25 +49,27 @@ public class IndexController {
         long l1 = System.currentTimeMillis();
 
         List<GameType> gameTypeList = gameTypeService.getAll();
-        for (GameType gameType : gameTypeList) {
-            System.out.println("gameType = " + gameType);
-        }
 
-        List<DownLoad> downLoadList = DownLoadPageHelper.downLoads(downLoadService, null, "download_time", "asc", 1, 3);
+        List<DownLoad> downLoadList = DownLoadPageHelper.downLoads(downLoadService, null, "download_time", "desc", 1, 4);
         for (DownLoad downLoad : downLoadList) {
-            System.out.println("downLoad = " + downLoad);
+            for (GameType gameType : gameTypeList) {
+                if (downLoad.getGametype_id() == gameType.getGameType_id()) {
+                    downLoad.setGametype_name(gameType.getGameType_name());
+                }
+            }
         }
         long l2 = System.currentTimeMillis();
         model.addAttribute("gameTypeList", gameTypeList);
         model.addAttribute("downLoadList", downLoadList);
-        System.out.println("load方法总耗时 = " + (l2 - l1));
+        System.out.println("总耗时 = " + (l2 - l1));
         return "index4";
     }
 
     @RequestMapping("/pageHelper")
     @ResponseBody
-    public String pageHelper(String id, String type, String by, int pageNum) {
-        List<DownLoad> downLoads = DownLoadPageHelper.downLoads(downLoadService, id, type, by, pageNum, 3);
+    public String pageHelper(String id, String type, int pageNum) {
+        BY_Name=BY_Name=="asc"?"desc":"asc";
+        List<DownLoad> downLoads = DownLoadPageHelper.downLoads(downLoadService, id, type, BY_Name, pageNum, 4);
         for (DownLoad downLoad : downLoads) {
             System.out.println("downLoad = " + downLoad);
         }

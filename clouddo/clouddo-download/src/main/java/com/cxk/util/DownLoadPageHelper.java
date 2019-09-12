@@ -24,6 +24,8 @@ public class DownLoadPageHelper {
 
         Page<DownLoad> page = PageHelper.startPage(pageNum, pageSize);
         List<DownLoad> downLoad = downLoadService.getAll(map);
+        System.out.println("page = " + page);
+        System.out.println("page.PageNum = " + page.getPageNum());
         return downLoad;
     }
 

@@ -13,8 +13,6 @@ pagehelper:
 spring:
   mvc:
     static-path-pattern: /**
-  resources:
-    static-locations: classpath:/static/
   thymeleaf:
     encoding: UTF-8
     cache: false
