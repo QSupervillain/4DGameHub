@@ -14,7 +14,7 @@
     <select id="getAll" resultMap="gm_download" parameterType="map">
         select <include refid="download"/> from gm_download
         <trim prefix="where" prefixOverrides="and || or">
-            <if test="gameType_id != null and gameType_id !=''">
+            <if test="gameType_id != null and gameType_id !='0'">
                 gametype_id=#{gameType_id}
             </if>
         </trim>

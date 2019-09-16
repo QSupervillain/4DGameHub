@@ -67,7 +67,11 @@ public class IndexController {
     @RequestMapping("/pageHelper")
     public String pageHelper(Model model, String id, String type) {
         BY_Name=BY_Name=="asc"?"desc":"asc";
+        if (id.equals("0")){
+            id=null;
+        }
         List<DownLoad> downLoads = DownLoadPageHelper.downLoads(downLoadService, id, type, BY_Name);
+
         for (DownLoad downLoad : downLoads) {
             System.out.println("downLoad = " + downLoad);
         }
