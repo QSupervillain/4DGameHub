@@ -1,23 +1,23 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<html xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">-->
     <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
     <title>视频中心_最新游戏视频_游戏视频大全_3DM网游</title>
     <!-- Bootstrap -->
     <!--<link href="css/bootstrap.css" rel="stylesheet">-->
-    <meta name="Keywords" content="游戏视频,赛事视频"/>
-    <meta name="Description" content="3DM视频栏目为玩家带来游戏视频汇总，不仅有热门电竞赛事视频，新游戏宣传视频，更有游戏试玩视频等等。"/>
-    <link rel="canonical" href="https://ol.3dmgame.com/v_all_1"/>
-    <link rel="stylesheet" type="text/css" href="css/wy-base-1908207.css"/>
-    <link rel="stylesheet" type="text/css" href="css/wy-common-1908206.css"/>
-    <link rel="stylesheet" type="text/css" href="css/wy_fa_video.css"/>
-    <script type="text/javascript" src="js/jq1.91.js"></script>
-    <script src="js/ds.js"></script>
+    <!--<meta name="Keywords" content="游戏视频,赛事视频"/>
+    <meta name="Description" content="3DM视频栏目为玩家带来游戏视频汇总，不仅有热门电竞赛事视频，新游戏宣传视频，更有游戏试玩视频等等。"/>-->
+   <!-- <link rel="canonical" href="https://ol.3dmgame.com/v_all_1"/>-->
+    <link rel="stylesheet" type="text/css" href="http://47.102.198.5:22222/css/wy-base-1908207.css"/>
+    <link rel="stylesheet" type="text/css" href="http://47.102.198.5:22222/css/wy-common-1908206.css"/>
+    <link rel="stylesheet" type="text/css" href="http://47.102.198.5:22222/css/wy_fa_video.css"/>
+    <script type="text/javascript" src="http://47.102.198.5:22222/js/jq1.91.js"></script>
+    <script src="http://47.102.198.5:22222/js/ds.js"></script>
 </head>
-<script src="js/jquery-1.8.3.js" type="text/javascript"></script>
+<script src="http://47.102.198.5:22222/js/jquery-1.8.3.js" type="text/javascript"></script>
 <script type="text/javascript">
     //alert("1");
     //获取当前页码
@@ -27,7 +27,7 @@
         dianji();
        // cebian();
         fenye(1);
-    })
+    });
 
     function dianji() {
         $("#testt li a").click(
@@ -117,12 +117,11 @@
         fenye(pageIndex + 1);
     }
 </script>
-</head>
 <body>
 <!-- jQuery (Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边) -->
-<script src="js/jquery-3.4.0.min.js"></script>
+<!--<script src="js/jquery-3.4.0.min.js"></script>-->
 <!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
-<script src="js/bootstrap.min.js"></script>
+<!--<script src="js/bootstrap.min.js"></script>-->
 <div class="container-fluid">
     <div class="row">
         <div class="col-lg-12 inner ">
@@ -137,7 +136,7 @@
                         </div>
                         <div class="head_top_rt" id="my_user_top">
                             <!--<img src="../static/images/ioc-ren.png">-->
-                            <img src="images/ioc-ren.png">
+                            <img src="http://47.102.198.5:22222/image/ioc-ren.png">
                             <a href="javascript:void(0);" class="login" onclick="openlogin()">登录</a>
                             <a href="javascript:void(0);" class="enroll" onclick="openregister()">注册</a>
                         </div>
@@ -158,7 +157,7 @@
                                 <button>
                                     <i>
                                         <!-- <img src="../static/images/ioc-sou.png">-->
-                                        <img src="images/ioc-sou.png">
+                                        <img src="http://47.102.198.5:22222/image/ioc-sou.png">
                                     </i></button>
                             </form>
                         </div>
@@ -181,7 +180,7 @@
                         <a href="#" value="1" class="as">推荐视频</a>
                     </li>
                     <li>
-                        <a href="#" onclick="test()" value="2">原创视频</a>
+                        <a href="#"  value="2">原创视频</a>
                     </li>
                     <li>
                         <a href="#" value="3">赛事视频</a>
