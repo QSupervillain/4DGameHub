@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="x-admin-sm">
+<html class="x-admin-sm" xmlns:th="http://www.thymeleaf.org">
     <head>
         <meta charset="UTF-8">
         <title>欢迎页面-X-admin2.2</title>
@@ -10,6 +10,11 @@
         <link rel="stylesheet" href="./css/xadmin.css">
         <script src="./lib/layui/layui.js" charset="utf-8"></script>
         <script type="text/javascript" src="./js/xadmin.js"></script>
+        <script src="js/jquery.min.js">
+            $(function () {
+                alert('dsadas')
+            })
+        </script>
         <!--[if lt IE 9]>
           <script src="https://cdn.staticfile.org/html5shiv/r29/html5.min.js"></script>
           <script src="https://cdn.staticfile.org/respond.js/1.4.2/respond.min.js"></script>
@@ -62,28 +67,31 @@
                                   <th>手机</th>
                                   <th>邮箱</th>
                                   <th>角色</th>
-                                  <th>加入时间</th>
-                                  <th>状态</th>
+<!--                                  <th>状态</th>-->
                                   <th>操作</th>
+                                    <th>找回密码问题</th>
+                                    <th>找回密码答案</th>
                               </thead>
                               <tbody>
-                                <tr>
+                                <tr th:each="u:${userlist}">
                                   <td>
                                     <input type="checkbox" name=""  lay-skin="primary">
                                   </td>
-                                  <td>1</td>
-                                  <td>admin</td>
-                                  <td>18925139194</td>
-                                  <td>113664000@qq.com</td>
-                                  <td>超级管理员</td>
-                                  <td>2017-01-01 11:11:42</td>
-                                  <td class="td-status">
-                                    <span class="layui-btn layui-btn-normal layui-btn-mini">已启用</span></td>
+                                  <td th:text="${u.user_id}"></td>
+                                  <td th:text="${u.user_name}"></td>
+                                  <td th:text="${u.user_phone}"></td>
+                                  <td th:text="${u.user_email}"></td>
+                                  <p th:if="${u.user_role==1}"><td>小编</td></p>
+                                    <p th:if="${u.user_role==-1}"><td>超级管理员</td></p>
+                                    <td th:text="${u.user_question}"></td>
+                                    <td th:text="${u.user_answer}"></td>
+<!--                                  <td class="td-status">-->
+<!--                                    <span class="layui-btn layui-btn-normal layui-btn-mini">已启用</span></td>-->
                                   <td class="td-manage">
-                                    <a onclick="member_stop(this,'10001')" href="javascript:;"  title="启用">
-                                      <i class="layui-icon">&#xe601;</i>
-                                    </a>
-                                    <a title="编辑"  onclick="xadmin.open('编辑','admin-edit.html')" href="javascript:;">
+<!--                                    <a onclick="member_stop(this,'10001')" href="javascript:;"  title="启用">-->
+<!--                                      <i class="layui-icon">&#xe601;</i>-->
+<!--                                    </a>-->
+                                    <a title="编辑"  onclick="xadmin.open('编辑','update?id='+this.parent('tr').children().eq(1).text())" href="javascript:;">
                                       <i class="layui-icon">&#xe642;</i>
                                     </a>
                                     <a title="删除" onclick="member_del(this,'要删除的id')" href="javascript:;">

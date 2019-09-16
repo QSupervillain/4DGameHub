@@ -27,9 +27,9 @@ public class Psp implements Serializable {
     @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss")
     private Date psp_date;           //发布时间
     private int psp_authoridid;      //作者ID
-    private String psp_source;          //攻略来源
+    private String psp_source;       //攻略来源
     private int psp_pv;              //浏览数
     private int psp_tpye;            //攻略类型
     private String psp_description;  //详情
-
+    private int psp_pspnameid;       //游戏ID
 }

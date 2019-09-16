@@ -18,8 +18,8 @@ public class PspServiceImpl implements PspService {
     @Autowired(required = false)
     private PspDao pspDao;
     @Override
-    public List fenye() {
-        return pspDao.fenye();
+    public List fenye(int id) {
+        return pspDao.fenye(id);
     }
 
     @Override

@@ -1,42 +1,32 @@
 # 服务器启动的端口号
 server:
-  port: 8088
+  port: 8094
 #mybatis 配置
 mybatis:
-  #config-location: classpath:com/cxk/mapper/VideoMapper.xml
-  mapper-locations: classpath:com/cxk/mapper/*.xml
+  config-location: classpath:mybatis/mybatis-cfg.xml
+  mapper-locations: classpath:mybatis/mapper/*.xml
+ #服务器名称
 spring:
   mvc:
     static-path-pattern: /**
   resources:
-    static-locations: classpath:/static/
+    static-locations: classpath:/templates/
   thymeleaf:
     encoding: UTF-8
     cache: false
     prefix: classpath:/templates/
     suffix: .html
-
-
+  application:
+    name: Admin-client                         #微服务名
   datasource:
-    driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://47.102.198.5:3306/gamehub?serverTimezone=GMT
+    driver-class-name: com.mysql.jdbc.Driver
     username: gamehub
     password: eeKfWH8NRz
-    #jackson
-  jackson:
-    date-format: yyyy-MM-dd HH:mm:ss
-    time-zone: GMT+8
-
+#eureka 配置
 eureka:
   client:                                         #客户端注册进eureka服务列表内
     service-url:
       defaultZone: http://127.0.0.1:8010/eureka   #单机
-    register-with-eureka: true
-    fetch-registry: true
-
-#pagehelper分页插件配置
-pagehelper:
-  #<!-- 启用合理化时，如果pageNum<1或pageNum>pages会返回首页或尾页 -->
-  reasonable: true
-  #<!-- pageSize=0相当于没有执行分页查询，但是返回结果仍然是Page类型 -->
-  pageSizeZero: true
+    register-with-eureka: false
+    fetch-registry: false

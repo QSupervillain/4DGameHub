@@ -5,6 +5,8 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.experimental.Accessors;
 
+import java.io.Serializable;
+
 /**
  * @Author ：WenBinZeng
  * @Date ：2019/9/5 19:24
@@ -14,7 +16,7 @@ import lombok.experimental.Accessors;
 @NoArgsConstructor
 @AllArgsConstructor
 @Accessors(chain = true)
-public class PspType {
+public class PspType implements Serializable {
     private static final long serialVersionUID = 2932723630990138417L;
 
     private Integer psptype_id;

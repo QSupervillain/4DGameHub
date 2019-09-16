@@ -113,7 +113,7 @@
    <div class="cent">
 	 <div class="centleft">
 			<div class="warp_top">
-				<h1>《LOL》云顶之弈更新预览 阿卡丽卡密尔蜘蛛增强</h1>
+				<h1 th:text="${details.psp_title}"></h1>
 				<div class="time">时间：<span>2019-09-09 10:45:27</span></div>
 				<ul class="intem">
 											<li>来源：<span class="weibo">3DM整理</span></li>
@@ -126,69 +126,44 @@
 			<input type="hidden" value="https://ol.3dmgame.com/uploads/images/thumbnews/2019/0909/1567997088128.png" id="coverUrl"/>
 		 <div class="warp_center">
 			 <p style="text-indent:2em;">
-				 <a target="_blank" href="https://ol.3dmgame.com/lol/">LOL英雄联盟</a>云顶之弈9.17版本和9.18版本将会在9月12号合并更新，目前在国服也衍生出许多奇奇怪怪但强力的玩法，很多玩家都想知道9.17版本虚空刺客卡萨丁阵容怎么玩?下面，我给大家带来详细介绍，一起来看看吧!
+				 <a target="_blank" href="https://ol.3dmgame.com/lol/"th:text="${deslist.get(0)}"></a><span th:text="${deslist.get(1)}"></span>
 			 </p>
 			 <p style="text-indent:2em;">
-				 <strong><span style="color:#E53333;">虚空刺客卡萨丁</span></strong>
+				 <strong><span style="color:#E53333;"th:text="${deslist.get(2)}"></span></strong>
 			 </p>
 			 <p align="center">
-				 <img alt="《LOL》云顶之弈9.17版本虚空刺客卡萨丁阵容攻略" src="picture/1567992626211.jpg" width="600" height="300">
+				 <img alt="《LOL》云顶之弈9.17版本虚空刺客卡萨丁阵容攻略" th:src="@{'picture/'+${imglist.get(1)}}" >
 
 			 </p>
 			 <p style="text-indent:2em;">
-				 <strong>核心羁绊</strong>
-			 </p>
-			 <p style="text-indent:2em;">
-				 羁绊：虚空(3)部署足够多的虚空英雄可以使你的虚空单位造成真实伤害。
-			 </p>
-			 <p style="text-indent:2em;">
-				 羁绊：刺客(6)刺客在作战开始时会潜伏穿越战场，前往其初始位置的对面。部署多个刺客英雄可以增加他们的暴击伤害，随着刺客数量的增加，暴击伤害也会提升。暴击伤害由125%/350%降低至75/150%，[新增]获得10%/25%暴击率。
-			 </p>
-			 <p style="text-indent:2em;">
-				 羁绊：忍者(1)部署且仅部署一个忍者英雄可以使其获得攻击力。部署所有不同忍者英雄可以使这些忍者英雄获得更多的攻击力。
-			 </p>
-			 <p style="text-indent:2em;">
-				 羁绊：斗士(2)部署多个斗士英雄可以使他们获得额外的生命值，随着斗士数量的增加，额外生命值也会提升。
-			 </p>
-			 <p style="text-indent:2em;">
-				 <strong>前中期过度</strong>
+				 <strong th:text="${deslist.get(3)}"></strong>
 			 </p>
 			 <p align="center">
-				 <img alt="《LOL》云顶之弈9.17版本虚空刺客卡萨丁阵容攻略" src="./ksd_files/1567763674866.jpg" width="469" height="63">
+				 <img alt="《LOL》云顶之弈9.17版本虚空刺客卡萨丁阵容攻略" th:src="@{'picture/'+${imglist.get(2)}}"  >
 			 </p>
 			 <p style="text-indent:2em;">
-				 前期我们优先选择刺客羁绊帮助发育，刺客羁绊在前期有着很出色的伤害加成保证阵容的整体战力输出，中期我们保留刺客羁绊的同事集齐虚空羁绊，在羁绊伤害加成的同时给予真伤进一步提升阵容战力。
+				 <span th:text="${deslist.get(4)}"></span>
 			 </p>
 			 <p style="text-indent:2em;">
-				 <strong>核心装备</strong>
+				 <strong th:text="${deslist.get(5)}"></strong>
 			 </p>
 			 <p align="center">
-				 <img alt="《LOL》云顶之弈9.17版本虚空刺客卡萨丁阵容攻略" src="./ksd_files/1567763674642.jpg" width="198" height="69">
+				 <img alt="《LOL》云顶之弈9.17版本虚空刺客卡萨丁阵容攻略" th:src="@{'picture/'+${imglist.get(3)}}"  >
 			 </p>
 			 <p style="text-indent:2em;">
-				 这里我们选择卡萨丁作为主力输出，前两件装备必备选择羊刀配合绿叉不仅给予攻速加成还能帮助我们规避暴击伤害，配合神圣之剑给予的不断叠加暴击加上羁绊效果，随着战斗的不断进行卡萨丁的伤害会不断叠加。
+				 <span th:text="${deslist.get(6)}"></span>
 			 </p>
 			 <p style="text-indent:2em;">
-				 <strong>阵容站位</strong>
+				 <strong th:text="${deslist.get(7)}"></strong>
 			 </p>
+
 			 <p align="center">
-				 <img alt="《LOL》云顶之弈9.17版本虚空刺客卡萨丁阵容攻略" src="./ksd_files/1567763674758.jpg" width="297" height="154">
+				 <img alt="《LOL》云顶之弈9.17版本虚空刺客卡萨丁阵容攻略" th:src="@{'picture/'+${imglist.get(4)}}">
 			 </p>
-			 <p style="text-indent:2em;">
-				 这里我们选择刺客的标准站位，刺客天生具备突进跳跃到后排的能力所以统一布置到后排，其次就是部分虚空卡片不属于刺客，但是我们依旧布置到后排，配合刺客的突进承受伤害并给予控制。
-			 </p>
-			 <p style="text-indent:2em;">
-				 <strong>阵容点评</strong>
-			 </p>
-			 <p style="text-indent:2em;">
-				 这套阵容是近期一个很强的套路玩法，卡萨丁配合攻速成为主C是前几个版本的一个玩法，新版本强势回归搭配新的装备及羁绊表现更加出色。阵容优势前中期过度稳定，阵容不具备高费卡片，成型较简单。阵容成型后表现极强，不会出现后期乏力，卡萨丁会随着战斗时间越来越强并且输出都是真伤。阵容劣势刺客羁绊是我们的必备选择，需要保证中后期尽量拿到快速的成型并发力，其次就是装备我们选择卡萨丁作为主C，3件装备缺一不可但是绿叉和神圣之剑相对简单拿到一定程度减少阵容难度。
-			 </p>
-			 <p style="text-indent:2em;">
-				 <strong>卡萨丁对局超稳定持续输出能力</strong>
-			 </p>
-			 <p align="center">
-				 <img alt="《LOL》云顶之弈9.17版本虚空刺客卡萨丁阵容攻略" src="./ksd_files/1567763674964.gif" width="523" height="336">
-			 </p>			</div>
+             <p style="text-indent:2em;">
+                 <span th:text="${deslist.get(8)}"></span>
+             </p>
+		 </div>
 												<div class="warp_b">  <div class="h4"><i></i><span>版本资讯汇总</span></div>  <div class="itemb"><table border="2" align="center" style="width:100%;height:280px;">
 	<tbody>
 		<tr>
