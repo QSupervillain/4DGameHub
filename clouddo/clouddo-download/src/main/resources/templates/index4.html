@@ -11,9 +11,8 @@
     <link rel="stylesheet" type="text/css" href="http://47.102.198.5:22222/css/dj_common.css">
     <link rel="stylesheet" type="text/css" href="http://47.102.198.5:22222/css/downl.css">
     <!--分页插件-->
-    <link rel="stylesheet" type="text/css" href="http://47.102.198.5:22222/css/pageGroup.css">
-    <script src="http://www.jq22.com/jquery/jquery-2.1.1.js"></script>
     <script type="text/javascript" src="http://47.102.198.5:22222/js/pageGroup.js"></script>
+
 </head>
 <body>
 
@@ -117,7 +116,7 @@
                 <a><p class="on">游戏下载</p></a>
             </div>
             <ul class="list" style="display: block;">
-                <li class="on"><a>全部游戏</a></li>
+                <li class="on" flag="0"><a>全部游戏</a></li>
                 <li th:each="gameType : ${gameTypeList}" th:attr="flag=${gameType.gameType_id}">
                     <a th:text="${gameType.gameType_name}">游戏+1</a>
                 </li>
@@ -132,8 +131,8 @@
                 <a flag="download_grade" href="javascript:void(0)">评分</a>
             </div>
         </div>
-        <div class="listwrap content">
-            <ul class="downllis news" id="table_refresh" th:fragment="table_refresh">
+        <div class="listwrap content" id="table_refresh" th:fragment="table_refresh">
+            <ul class="downllis news">
                 <li th:each="downLoad : ${downLoadList}">
                     <div class="item">
                         <div class="img"><a href="https://dl.3dmgame.com/pc/126110.html" target="_blank"><img
@@ -259,6 +258,7 @@
     </div>
 
 </body>
+<script src="http://www.jq22.com/jquery/jquery-2.1.1.js"></script>
 <script>
 
     $(function () {
@@ -266,25 +266,13 @@
         $(".list li,.px a").click(function () {
             $(this).addClass("on").siblings().removeClass("on");
             var ids = $(".list li[class='on']").attr("flag");
-            if (ids == null) {
-                ids = 1;
-            }
             var type = $(".px a[class='on']").attr("flag");
             $('#table_refresh').load("/index/pageHelper?id=" + ids + "&type=" + type);
-            /*$.ajax({
-                type: "POST",
-                url: "/index/pageHelper",
-                data:{
-                    id: ids,
-                    type: type
-                },
-                async: false,
-                success:function (data) {
-                    $('.listwrap').load("/index/pageHelper");
-                }
-            });*/
+            var number_of_items = $('.news').children().size();
+            $('.number1').text(number_of_items );
         });
 
     });
 </script>
+<script type="text/javascript" src="http://47.102.198.5:22222/js/pageGroup.js"></script>
 </html>

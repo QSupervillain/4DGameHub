@@ -11,6 +11,8 @@ pagehelper:
   pageSizeZero: true
 # 服务器名称
 spring:
+  application:
+    name: download-client                         #微服务名
   mvc:
     static-path-pattern: /**
   thymeleaf:
@@ -18,8 +20,6 @@ spring:
     cache: false
     prefix: classpath:/templates/
     suffix: .html
-  application:
-    name: download-client                         #微服务名
   datasource:
     url: jdbc:mysql://47.102.198.5:3306/gamehub?serverTimezone=GMT
     driver-class-name: com.mysql.jdbc.Driver
