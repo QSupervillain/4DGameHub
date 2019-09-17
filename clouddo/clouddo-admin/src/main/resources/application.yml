@@ -1,15 +1,13 @@
 # 服务器启动的端口号
 server:
-  port: 8088
+  port: 8094
 #mybatis 配置
 mybatis:
-  #config-location: classpath:com/cxk/mapper/VideoMapper.xml
-  mapper-locations: classpath:com/cxk/mapper/*.xml
+  config-location: classpath:mybatis/mybatis-cfg.xml
+  mapper-locations: classpath:mybatis/mapper/*.xml
 spring:
   mvc:
     static-path-pattern: /**
-  resources:
-    static-locations: classpath:/static/
   thymeleaf:
     encoding: UTF-8
     cache: false
