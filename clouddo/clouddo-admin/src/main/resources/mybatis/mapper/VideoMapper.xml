@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.cxk.dao.VideoDao">
+    <resultMap id="gm_video" type="com.cxk.pojo.Video">
+        <id property="video_id" column="video_id"/>
+        <result property="video_title" column="video_title"></result>
+        <result property="video_image" column="video_image"></result>
+        <result property="video_content" column="video_content"></result>
+        <result property="video_src" column="video_src"></result>
+        <result property="video_date" column="video_date"></result>
+        <result property="video_type" column="video_type"></result>
+    </resultMap>
+    <insert id="com.cxk.dao.VideoDao.insertVideos" parameterType="com.cxk.pojo.Video">
+        INSERT INTO gm_video values(0,#{video_title},#{video_image},#{video_content},#{video_src},#{video_date},#{video_type})
+    </insert>
+    <select id="com.cxk.dao.VideoDao.findById" parameterType="com.cxk.pojo.Video">
+        SELECT * FROM gm_video WHERE video_id=#{video_id}
+    </select>
+    <select id="com.cxk.dao.VideoDao.findAll" resultMap="gm_video">
+        SELECT video_id,video_title,video_content,video_date,video_type FROM gm_video
+    </select>
+    <update id="com.cxk.dao.VideoDao.updateVideo" parameterType="com.cxk.pojo.Video">
+        UPDATE gm_video SET video_title=#{video_title},video_image=#{video_title},video_content=#{video_title},video_src=#{video_title},video_date=#{video_title},video_type=#{video_type} WHERE video_id=#{video_id}
+    </update>
+    <delete id="com.cxk.dao.VideoDao.deleteVideo" parameterType="int">
+        DELETE FROM gm_video WHERE video_id=#{video_id}
+    </delete>
+</mapper>

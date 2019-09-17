@@ -2,6 +2,8 @@ package com.cxk.service;
 
 import com.cxk.pojo.Video;
 
+import java.util.List;
+
 public interface VideoService {
     //添加视屏
     public int insertVideo(Video video);
@@ -11,4 +13,6 @@ public interface VideoService {
     public Video findById(int video_id);
     //删除视屏
     public int deleteVideo(int video_id);
+    //显示视屏
+    public List<Video> findAll();
 }
