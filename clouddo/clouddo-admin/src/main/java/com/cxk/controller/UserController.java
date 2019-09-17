@@ -7,6 +7,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 import java.util.List;
 
@@ -30,8 +31,24 @@ public class UserController {
         return "admin-list";
     }
     @RequestMapping("/update")
-    public String update(@RequestParam("id") String id){
-        System.out.println(id);
+    public String update(@RequestParam("id") int id,Model model){
+        User u = userService.showbyid(id);
+        model.addAttribute("user",u);
         return "admin-edit";
+    }
+    @RequestMapping("/updateok")
+    @ResponseBody
+    public void updateok(User user){
+        System.out.println(user.getUser_role());
+        userService.update(user);
+    }
+    @RequestMapping("/add")
+    public String add(){
+        return "admin-add";
+    }
+    @RequestMapping("/addok")
+    @ResponseBody
+    public void add(User user){
+        userService.add(user);
     }
 }

@@ -1,4 +1,4 @@
-package com.cxk.service.impl;
+package com.cxk.service.Impl;
 
 import com.cxk.dao.UserDao;
 import com.cxk.pojo.User;
@@ -31,5 +31,16 @@ public class UserDaoImpl implements UserService {
     @Override
     public User showbyid(int id) {
         return userDao.showbyid(id);
+    }
+
+    @Override
+    public int add(User user) {
+         user.setUser_image("a");
+        return userDao.add(user);
+    }
+
+    @Override
+    public int delet(int id) {
+        return userDao.delet(id);
     }
 }

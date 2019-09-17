@@ -10,9 +10,15 @@
         <link rel="stylesheet" href="./css/xadmin.css">
         <script src="./lib/layui/layui.js" charset="utf-8"></script>
         <script type="text/javascript" src="./js/xadmin.js"></script>
-        <script src="js/jquery.min.js">
+        <script src="js/jquery.min.js" type="text/javascript">
+
+        </script>
+        <script type="text/javascript">
             $(function () {
-                alert('dsadas')
+                $("#bb").click(function () {
+                   var a=$(this).parents('tr').children().eq(1).text();
+                   alert(a)
+                })
             })
         </script>
         <!--[if lt IE 9]>
@@ -53,7 +59,7 @@
                         </div>
                         <div class="layui-card-header">
                             <button class="layui-btn layui-btn-danger" onclick="delAll()"><i class="layui-icon"></i>批量删除</button>
-                            <button class="layui-btn" onclick="xadmin.open('添加用户','./admin-add.html',600,400)"><i class="layui-icon"></i>添加</button>
+                            <button  class="layui-btn" onclick="xadmin.open('添加用户','/add',600,400)"><i class="layui-icon"></i>添加</button>
                         </div>
                         <div class="layui-card-body ">
                             <table class="layui-table layui-form">
@@ -67,13 +73,12 @@
                                   <th>手机</th>
                                   <th>邮箱</th>
                                   <th>角色</th>
-<!--                                  <th>状态</th>-->
-                                  <th>操作</th>
                                     <th>找回密码问题</th>
                                     <th>找回密码答案</th>
+                                    <th>操作</th>
                               </thead>
                               <tbody>
-                                <tr th:each="u:${userlist}">
+                                <tr th:each="u:${userlist }">
                                   <td>
                                     <input type="checkbox" name=""  lay-skin="primary">
                                   </td>
@@ -83,6 +88,7 @@
                                   <td th:text="${u.user_email}"></td>
                                   <p th:if="${u.user_role==1}"><td>小编</td></p>
                                     <p th:if="${u.user_role==-1}"><td>超级管理员</td></p>
+                                    <p th:if="${u.user_role==0}"><td>普通用户</td></p>
                                     <td th:text="${u.user_question}"></td>
                                     <td th:text="${u.user_answer}"></td>
 <!--                                  <td class="td-status">-->
@@ -91,10 +97,10 @@
 <!--                                    <a onclick="member_stop(this,'10001')" href="javascript:;"  title="启用">-->
 <!--                                      <i class="layui-icon">&#xe601;</i>-->
 <!--                                    </a>-->
-                                    <a title="编辑"  onclick="xadmin.open('编辑','update?id='+this.parent('tr').children().eq(1).text())" href="javascript:;">
+                                    <a title="编辑" id="aa"  onclick="xadmin.open('编辑','update?id='+$(this).parents('tr').children().eq(1).text(),600,400)" href="javascript:;">
                                       <i class="layui-icon">&#xe642;</i>
                                     </a>
-                                    <a title="删除" onclick="member_del(this,'要删除的id')" href="javascript:;">
+                                    <a title="删除" id="bb" onclick="member_del(this,'要删除的id')" href="javascript:;">
                                       <i class="layui-icon">&#xe640;</i>
                                     </a>
                                   </td>
@@ -117,13 +123,13 @@
                     </div>
                 </div>
             </div>
-        </div> 
+        </div>
     </body>
     <script>
       layui.use(['laydate','form'], function(){
         var laydate = layui.laydate;
         var form = layui.form;
-        
+
         //执行一个laydate实例
         laydate.render({
           elem: '#start' //指定元素
@@ -155,7 +161,7 @@
                 $(obj).parents("tr").find(".td-status").find('span').removeClass('layui-btn-disabled').html('已启用');
                 layer.msg('已启用!',{icon: 5,time:1000});
               }
-              
+
           });
       }
 
@@ -173,7 +179,7 @@
       function delAll (argument) {
 
         var data = tableCheck.getData();
-  
+
         layer.confirm('确认要删除吗？'+data,function(index){
             //捉到所有被选中的，发异步进行删除
             layer.msg('删除成功', {icon: 1});

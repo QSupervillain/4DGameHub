@@ -39,4 +39,12 @@ public class Test {
         User showbyid = userService.showbyid(1);
         System.out.println(showbyid);
     }
+    @org.junit.Test
+    public void dd(){
+        User user=new User();
+        user.setUser_pwd("1233456");
+        user.setUser_id(2);
+        int update = userService.update(user);
+        System.out.println(update);
+    }
 }

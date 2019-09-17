@@ -21,22 +21,22 @@
         update gm_user
         <set>
             <if test="user_name!=null">
-                user_name=#{user_name}
+                user_name=#{user_name},
             </if>
             <if test="user_pwd!=null">
-                user_pwd=#{user_pwd}
+                user_pwd=#{user_pwd},
             </if>
-            <if test="user_role!=null">
-                user_role=#{user_role}
+            <if test="user_role!=null and user_role != '0'">
+                user_role=#{user_role},
             </if>
             <if test="user_phone!=null">
-                user_phone=#{user_phone}
+                user_phone=#{user_phone},
             </if>
             <if test="user_email!=null">
-                user_email=#{user_email}
+                user_email=#{user_email},
             </if>
             <if test="user_image!=null">
-                user_image=#{user_image}
+                user_image=#{user_image},
             </if>
             <if test="user_question!=null">
                 user_question=#{user_question}
@@ -50,4 +50,10 @@
     <select id="showbyid" resultMap="gm_user" parameterType="int">
         SELECT user_id,user_name,user_pwd,user_role,user_phone,user_email,user_image,user_question,user_answer FROM gm_user where user_id=#{user_id}
     </select>
+    <insert id="add" parameterType="com.cxk.pojo.User">
+        INSERT INTO gm_user VALUES(0,#{user_name},#{user_pwd},#{user_role},#{user_phone},#{user_email},#{user_image},#{user_question},#{user_answer})
+    </insert>
+    <delete id="delet" parameterType="int">
+        delete from gm_user where user_id=#{user_id}
+    </delete>
 </mapper>

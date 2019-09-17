@@ -15,4 +15,6 @@ public interface UserDao {
     public List<User> showUser();
     public int update(User user);
     public User showbyid(int id);
+    public int add(User user);
+    public int delet(int id);
 }
