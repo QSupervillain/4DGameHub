@@ -84,6 +84,7 @@
                             <td th:text="${u.user_email}"></td>
                             <p th:if="${u.user_role==1}"><td>小编</td></p>
                             <p th:if="${u.user_role==-1}"><td>超级管理员</td></p>
+                            <p th:if="${u.user_role==0}"><td>普通用户</td></p>
                             <td th:text="${u.user_question}"></td>
                             <td th:text="${u.user_answer}"></td>
                             <!--                                  <td class="td-status">-->
