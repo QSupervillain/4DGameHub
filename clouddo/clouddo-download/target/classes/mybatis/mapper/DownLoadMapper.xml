@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.cxk.dao.DownLoadDao">
+    <sql id="download">
+        download_id,gametype_id,details_id,download_name,download_image,download_heat,download_language,download_grade,download_time,download_platform,download_release,download_size,download_network,download_label,download_download
+    </sql>
+
+    <resultMap id="gm_download" type="com.cxk.pojo.DownLoad">
+        <id property="download_id" column="download_id"/>
+        <result property="gametype_id" column="gametype_id"/>
+        <result property="details_id" column="details_id"/>
+        <result property="download_name" column="download_name"/>
+        <result property="download_image" column="download_image"/>
+        <result property="download_heat" column="download_heat"/>
+        <result property="download_language" column="download_language"/>
+        <result property="download_grade" column="download_grade"/>
+        <result property="download_time" column="download_time"/>
+        <result property="download_platform" column="download_platform"/>
+        <result property="download_release" column="download_release"/>
+        <result property="download_size" column="download_size"/>
+        <result property="download_network" column="download_network"/>
+        <result property="download_label" column="download_label"/>
+        <result property="download_download" column="download_download"/>
+    </resultMap>
+
+    <select id="getAll" resultMap="gm_download" parameterType="map">
+        select <include refid="download"/> from gm_download
+        <trim prefix="where" prefixOverrides="and || or">
+            <if test="gameType_id != null and gameType_id !='0'">
+                gametype_id=#{gameType_id}
+            </if>
+        </trim>
+        order by ${download_type} ${download_by}
+    </select>
+    <select id="findById" resultMap="gm_download" parameterType="java.lang.Integer">
+        select * from gm_download where download_id=#{id}
+    </select>
+
+
+
+</mapper>

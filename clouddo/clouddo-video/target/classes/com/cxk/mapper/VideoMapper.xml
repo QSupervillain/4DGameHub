@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.cxk.dao.VideoDao">
+    <select id="com.cxk.dao.VideoDao.findAll" resultType="com.cxk.pojo.Video">
+        select * from gm_video
+    </select>
+    <select id="com.cxk.dao.VideoDao.fenYeNewVideo" resultType="com.cxk.pojo.Video">
+        SELECT * FROM gm_video GROUP BY video_date DESC
+    </select>
+    <select id="com.cxk.dao.VideoDao.pageOriginalVideo" resultType="com.cxk.pojo.Video" parameterType="int">
+        SELECT * FROM gm_video WHERE video_type=#{video_type} GROUP BY video_date DESC
+    </select>
+    <select id="com.cxk.dao.VideoDao.videoDescribe" resultType="com.cxk.pojo.Video" parameterType="int">
+        SELECT * FROM gm_video WHERE video_id=#{video_id}
+    </select>
+    <select id="com.cxk.dao.VideoDao.sidebarVideo" resultType="com.cxk.pojo.Video">
+        SELECT video_id,video_title FROM gm_video WHERE video_type=1 ORDER BY video_date DESC LIMIT 0,8
+    </select>
+</mapper>

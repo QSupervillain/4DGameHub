@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.cxk.dao.NewsDao">
+    <resultMap id="gm_news" type="com.cxk.pojo.GmNews">
+        <id column="news_id" property="news_id"/>
+        <result property="news_title" column="news_title"/>
+        <result property="news_preview_img" column="news_preview_img"/>
+        <result property="news_typeid" column="news_typeid"/>
+        <result property="news_date" column="news_date"/>
+        <result property="news_pageview" column="news_pageview"/>
+        <result property="news_cintent" column="news_cintent"/>
+    </resultMap>
+    <!--查询所有新闻-->
+        <select id="getNewsAll" resultMap="gm_news">
+          SELECT
+                `news_id`,`news_title`,`news_preview_img`,`news_typeid`,
+                `news_date`,`news_pageview`,`news_brief`
+          FROM  `gm_news`
+        </select>
+
+
+    <!--查询与类型对应的新闻-->
+        <select id="getNewsByType" resultMap="gm_news">
+          SELECT `news_id`,`news_title`,`news_preview_img`,`news_typeid`,`news_date`,`news_pageview`,`news_brief`
+          FROM   `gm_news`
+          WHERE  `news_id`=#{news_typeid}
+        </select>
+
+
+    <!--根据ID查询新闻-->
+        <select id="getNewsByID" resultType="com.cxk.pojo.GmNews" parameterType="int">
+          SELECT `news_id`,`news_title`,`news_preview_img`,`news_typeid`,`news_date`,`news_pageview`,`news_brief`,`news_cintent`
+          FROM   `gm_news`
+          WHERE  `news_id`=#{news_id}
+        </select>
+</mapper>

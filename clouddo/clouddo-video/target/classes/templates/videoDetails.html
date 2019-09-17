@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<!-- saved from url=(0034)https://ol.3dmgame.com/v/2634.html -->
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>视屏详情播放页面</title>
+    <link rel="stylesheet" type="text/css" href="http://47.102.198.5:22222/css/wy-news-info.css">
+    <link rel="stylesheet" type="text/css" href="http://47.102.198.5:22222/css/wy-base-1908207.css"/>
+    <link rel="stylesheet" type="text/css" href="http://47.102.198.5:22222/css/wy-common-1908206.css"/>
+    <link rel="stylesheet" type="text/css" href="http://47.102.198.5:22222/css/wy_fa_video.css"/>
+    <link rel="stylesheet" type="text/css" href="http://47.102.198.5:22222/css/wy-base.css">
+    <link rel="stylesheet" type="text/css" href="http://47.102.198.5:22222/css/wy-common.css">
+    <!--<script type="text/javascript" src="js/jq1.91.js"></script>
+    <script src="js/ds.js"></script>-->
+    <script type="text/javascript" src="http://47.102.198.5:22222/js/jquery-1.8.3.js"></script>
+</head>
+<body>
+<!--导航栏-->
+<div class="header_wrap">
+    <div class="header_top">
+        <div class="center">
+            <div class="ul_link">
+                <a href="../Index.html" target="_blank"><i class="ico1"></i>主站</a>
+                <a href="../Index1.html" target="_blank"><i class="ico2"></i>商城</a>
+                <a href="../Index2.html" target="_blank"><i class="ico3"></i>论坛</a>
+            </div>
+            <div class="head_top_rt" id="my_user_top">
+                <!--<img src="../static/images/ioc-ren.png">-->
+                <img src="http://47.102.198.5:22222/image/ioc-ren.png">
+                <a href="javascript:void(0);" class="login" onclick="openlogin()">登录</a>
+                <a href="javascript:void(0);" class="enroll" onclick="openregister()">注册</a>
+            </div>
+        </div>
+    </div>
+    <div class="header">
+        <div class="center">
+            <a href="https://www.3dmgame.com"><img src="https://ol.3dmgame.com/page/images/logo.png" class="login"></a>
+            <div class="search">
+                <form action="https://so.3dmgame.com/" method="get" target="_blank" autocomplete="off" id="bdcs">
+                    <input type="text" onblur="if (this.value=='') this.value='我的世界'" value="我的世界"
+                           this.style.color="#000000" onfocus="if (this.value!='') this.value=''" name="keyword"/>
+                    <input type="hidden" name="subsearch" value="1"/>
+                    <input type="hidden" name="type" value="3"/>
+                    <button>
+                        <i>
+                            <!-- <img src="../static/images/ioc-sou.png">-->
+                            <img src="http://47.102.198.5:22222/image/ioc-sou.png">
+                        </i></button>
+                </form>
+            </div>
+        </div>
+    </div>
+<div class="nav">
+    <div class="center">
+        <ul>
+            <li>
+                <a href="https://ol.3dmgame.com/news/">新闻<span></span></a>
+            </li>
+            <li class="on">
+                <a href="https://ol.3dmgame.com/v_all_1/">视频<span></span></a>
+            </li>
+            <li>
+                <a href="https://ol.3dmgame.com/gl/">攻略<span></span></a>
+            </li>
+            <li>
+                <a href="https://ol.3dmgame.com/news/">下载<span></span></a>
+            </li>
+        </ul>
+    </div>
+</div>
+</div>
+<div class="content">
+    <div class="title">
+        <div class="home"></div>
+        <span class="spanlist_1">您的位置： <a href="index" target="_blank">视频</a> </i> &gt;</span>
+        <span class="spanlist_2" th:text="${videos[0].getVideo_title()}"></span>
+    </div>
+    <div class="cent">
+        <div class="centleft">
+            <div class="warp_top">
+                <h1 style="color: #313131;font-size: 20px; text-align: center;width: 100%; height: 50px;line-height: 50px;overflow: hidden;font-weight: 600; margin-bottom: 10px;" th:text="${videos[0].getVideo_title()}"></h1>
+                <div class="time" style="float: left;height: 40px; width: 180px;overflow: hidden;font-size: 13px;color: #959595;line-height: 40px; padding-right: 30px; white-space: nowrap; ">时间：<span th:text="${videos[0].getVideo_date()}">2019-09-09 10:46:16</span></div>
+                <ul class="intem" style="height: 40px;overflow: hidden;font-size: 13px;color: #959595;line-height: 40px;width: 470px; float: left;" >
+                    <li >来源：<span class="weibo">官方</span></li>
+                </ul>
+                <div class="pin" data-id="Comments_wrap"><span><i class="in"></i></span></div>
+                <div class="clear"></div>
+            </div>
+            <div class="warp_center">
+                <p style="color: #333;
+    line-height: 30px;
+    font-size: 15px;
+    margin: 10px auto;" th:text="${videos[0].getVideo_content()}">
+                   </p>
+                <p style="text-align:center;">
+                    <iframe th:src="${videos[0].getVideo_src()}" width="680" height="458" frameborder="0">
+                    </iframe>
+                </p>
+            </div>
+        </div>
+        <div class="centright">
+            <!--侧边栏推荐视频-->
+            <div class="warp_a">
+                <div class="tist">
+                    <div class="imglist"><i class="warpa_i"></i><span>近期热门</span></div>
+                    <div class="rightlist"><i></i>
+                        <a href="index.html" target="_blank">更多</a>
+                    </div>
+                </div>
+                <ul>
+                    <li th:each="stu,state:${videoss}">
+                        <a th:href="${'/videoDescribe?video_id='+stu.video_id}"  th:text="${'* '+stu.getVideo_title()}" target="_blank" >sss</a>
+                    </li>
+                    <!--<li>
+                        <a href="https://ol.3dmgame.com/v/2627.html" target="_blank"><i></i>LPL2019夏季赛常规赛9月1日TES VS
+                            RNG频回顾</a>
+                    </li>
+                    <li>
+                        <a href="https://ol.3dmgame.com/v/2619.html" target="_blank"><i></i>LCK2019夏季赛常规赛8月31日GRF VS
+                            SKT视频回顾</a>
+                    </li>
+                    <li>
+                        <a href="https://ol.3dmgame.com/v/2629.html" target="_blank"><i></i>LCK2019夏季赛常规赛9月3日KZ VS
+                            AF视频回顾</a>
+                    </li>
+                    <li>
+                        <a href="https://ol.3dmgame.com/v/2628.html" target="_blank"><i></i>LPL2019夏季赛常规赛9月4日BLG VS
+                            TES频回顾</a>
+                    </li>
+                    <li>
+                        <a href="https://ol.3dmgame.com/v/2626.html" target="_blank"><i></i>LPL2019夏季赛常规赛8月31日FPX VS
+                            BLG频回顾</a>
+                    </li>
+                    <li>
+                        <a href="https://ol.3dmgame.com/v/2623.html" target="_blank"><i></i>《魔兽世界怀旧服》新手入坑指南：盗贼篇</a>
+                    </li>
+                    <li>
+                        <a href="https://ol.3dmgame.com/v/2618.html" target="_blank"><i></i>LCK2019夏季赛常规赛8月25日DWG VS
+                            SKT视频回顾</a>
+                    </li>
+                    <li>
+                        <a href="https://ol.3dmgame.com/v/2625.html" target="_blank"><i></i>《魔兽世界》怀旧服1-60部落升级思路分享</a>
+                    </li>-->
+                </ul>
+            </div>
+        </div>
+        </div>
+        <div class="clear"></div>
+    </div>
+</div>
+<div class="fotter">
+    <div class="fotter-top">
+        <div class="center">
+            <div class="wrap">
+                <p>综合内容</p>
+                <ul>
+                    <li><a href="http://3c.3dmgame.com/" target="_blank">硬件设备</a></li>
+                    <li><a href="https://bbs.3dmgame.com/" target="_blank">游戏论坛</a></li>
+                    <li><a href="https://www.3dmgame.com/bagua/" target="_blank">娱乐频道</a></li>
+                    <li><a href="https://www.3dmgame.com/original.html" target="_blank">原创专栏</a></li>
+                    <li><a href="https://shop.3dmgame.com/" target="_blank">游戏商城</a></li>
+                    <li><a href="https://www.3dmgame.com/hanhua/" target="_blank">游戏汉化</a></li>
+                </ul>
+            </div>
+            <div class="wrap">
+                <p>单机游戏</p>
+                <ul>
+                    <li><a href="https://dl.3dmgame.com/" target="_blank">游戏下载</a></li>
+                    <li><a href="https://dl.3dmgame.com/patch/" target="_blank">补丁MOD</a></li>
+                    <li><a href="https://www.3dmgame.com/gl/" target="_blank">原创攻略</a></li>
+                    <li><a href="https://www.3dmgame.com/games/ns_all_1/" target="_blank">Switch</a></li>
+                    <li><a href="https://www.3dmgame.com/games/ps4_all_1/" target="_blank">PS4</a></li>
+                    <li><a href="https://www.3dmgame.com/release/" target="_blank">发售表</a></li>
+                </ul>
+            </div>
+            <div class="wrap">
+                <p>手机游戏</p>
+                <ul>
+                    <li><a href="https://shouyou.3dmgame.com/android/" target="_blank">安卓游戏</a></li>
+                    <li><a href="https://shouyou.3dmgame.com/ios/" target="_blank">苹果游戏</a></li>
+                    <li><a href="https://shouyou.3dmgame.com/gl/" target="_blank">手游攻略</a></li>
+                    <li><a href="https://shouyou.3dmgame.com/ka/" target="_blank">手游礼包</a></li>
+                    <li><a href="https://shouyou.3dmgame.com/zt/" target="_blank">专题合集</a></li>
+                    <li><a href="https://shouyou.3dmgame.com/phb/" target="_blank">手游排行</a></li>
+                </ul>
+            </div>
+            <div class="wrap">
+                <p>网络游戏</p>
+                <ul>
+                    <li><a href="https://ol.3dmgame.com/news/" target="_blank">网游资讯</a></li>
+                    <li><a href="https://ol.3dmgame.com/esports/" target="_blank">竞技赛事</a></li>
+                    <li><a href="https://ol.3dmgame.com/news_5_1/" target="_blank">网游活动</a></li>
+                    <li><a href="https://ol.3dmgame.com/ku/" target="_blank">网游大全</a></li>
+                    <li><a href="https://ol.3dmgame.com/test/" target="_blank">新游试玩</a></li>
+                    <li><a href="https://ol.3dmgame.com/hao/" target="_blank">激活码</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="fotter-bottom">
+        <div class="fotter-link">
+            <a href="https://www.3dmgame.com/s/about.html" target="_blank">关于3DMGAME</a>|<a
+                href="https://www.3dmgame.com/s/joinus.html" target="_blank">招聘信息</a>|<a
+                href="https://www.3dmgame.com/s/sitemap.html" target="_blank">网站地图</a>|<a
+                href="https://www.3dmgame.com/s/contact.html" target="_blank">联系我们</a>
+            <p>CopyRight©2003-2018 <a href="https://www.3dmgame.com/">WWW.3DMGAME.COM</a> All Right Reserved
+                京ICP备14006952号-1 京网文（2016）1650-207号</p>
+        </div>
+    </div>
+</div>
+</body>
+</html>

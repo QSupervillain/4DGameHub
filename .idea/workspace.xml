@@ -1,37 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="96f07e93-8169-472d-a909-4db721c67e13" name="Default Changelist" comment="templates">
-      <change afterPath="$PROJECT_DIR$/.idea/EasyCodeConfig/gamehub-gm_news.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/news-list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/java/com/cxk/controller/NewsTypeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/EasyCodeConfig/gamehub-gm_news_type.json" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/EasyCodeConfig/gamehub-gm_news_type.json" afterDir="false" />
+    <list default="true" id="96f07e93-8169-472d-a909-4db721c67e13" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-admin/clouddo-admin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/clouddo-admin.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/admin-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/admin-list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/css/login.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/css/theme1.css" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/css/theme1.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/css/xadmin.css" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/css/xadmin.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-base/clouddo-base.iml" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-base/clouddo-base.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-cms/clouddo-cms.iml" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-cms/clouddo-cms.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-comm/clouddo-comm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-comm/clouddo-comm.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-download/clouddo-download.iml" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-download/clouddo-download.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/clouddo-news.iml" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-news/clouddo-news.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-news/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/java/com/cxk/controller/NewsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/java/com/cxk/controller/NewsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/java/com/cxk/dao/NewsTypeDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/java/com/cxk/dao/NewsTypeDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/java/com/cxk/service/NewsTypeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/java/com/cxk/service/NewsTypeService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/java/com/cxk/service/impl/NewsTypeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/java/com/cxk/service/impl/NewsTypeServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/com/cxk/mapper/NewsTypeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/com/cxk/mapper/NewsTypeMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/templates/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/templates/news.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-psp/clouddo-psp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-psp/clouddo-psp.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-server/clouddo-server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-server/clouddo-server.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-video/clouddo-video.iml" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-video/clouddo-video.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-zuul/clouddo-zuul.iml" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-zuul/clouddo-zuul.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/news-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/news-list.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -296,7 +268,7 @@
       <workItem from="1568255865116" duration="8269000" />
       <workItem from="1568285482982" duration="117000" />
       <workItem from="1568594097885" duration="17799000" />
-      <workItem from="1568680409910" duration="5712000" />
+      <workItem from="1568680409910" duration="6471000" />
     </task>
     <task id="LOCAL-00001" summary="添加视屏模块">
       <created>1567651800758</created>
@@ -473,7 +445,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568032034803</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="templates">
+      <created>1568710491283</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1568710491283</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

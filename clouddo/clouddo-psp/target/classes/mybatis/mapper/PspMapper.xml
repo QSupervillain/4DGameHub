@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.cxk.dao.PspDao">
+    <resultMap id="gm_psp" type="com.cxk.pojo.Psp">
+        <id property="psp_id" column="psp_id"/>
+        <result property="psp_title" column="psp_title"></result>
+        <result property="psp_image" column="psp_image"></result>
+        <result property="psp_content" column="psp_content"></result>
+        <result property="psp_date" column="psp_date"></result>
+        <result property="psp_authoridid" column="psp_authoridid"></result>
+        <result property="psp_source" column="psp_source"></result>
+        <result property="psp_pv" column="psp_pv"></result>
+        <result property="psp_tpye" column="psp_tpye"></result>
+        <result property="psp_description" column="psp_description"></result>
+        <result property="psp_pspnameid" column="psp_pspnameid"></result>
+    </resultMap>
+    <select id="fenye" resultMap="gm_psp" parameterType="int">
+       SELECT psp_id,psp_title,psp_image,psp_content,psp_date,psp_authoridid,psp_source,psp_pv,psp_tpye,psp_description,psp_pspnameid FROM gm_psp WHERE psp_pspnameid=#{psp_pspnameid}
+    </select>
+    <select id="details" resultMap="gm_psp" parameterType="int">
+        SELECT psp_id,psp_title,psp_image,psp_content,psp_date,psp_authoridid,psp_source,psp_pv,psp_tpye,psp_description FROM gm_psp WHERE psp_id=#{psp_id}
+    </select>
+    <select id="showbytypeid" resultMap="gm_psp" parameterType="int">
+        SELECT psp_id,psp_title,psp_image,psp_content,psp_date,psp_authoridid,psp_source,psp_pv,psp_tpye,psp_description,psp_pspnameid FROM gm_psp WHERE psp_pspnameid=2 AND psp_tpye=2
+    </select>
+</mapper>

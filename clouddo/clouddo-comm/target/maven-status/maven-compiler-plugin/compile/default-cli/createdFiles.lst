@@ -1,0 +1,7 @@
+com\cxk\pojo\Details.class
+com\cxk\pojo\Video.class
+com\cxk\pojo\Video$VideoBuilder.class
+com\cxk\pojo\GameType.class
+com\cxk\pojo\GmNewsType.class
+com\cxk\pojo\Pagination.class
+com\cxk\pojo\DownLoad.class

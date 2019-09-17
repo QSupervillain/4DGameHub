@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<!-- saved from url=(0037)https://dl.3dmgame.com/pc/126110.html -->
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="renderer" content="webkit">
+    <title>游戏下载</title>
+    <link rel="stylesheet" type="text/css" href="http://47.102.198.5:22222/css/dj_base.css">
+    <link rel="stylesheet" type="text/css" href="http://47.102.198.5:22222/css/dj_common.css">
+    <link rel="stylesheet" type="text/css" href="http://47.102.198.5:22222/css/downl.css">
+    <link rel="stylesheet" href="http://47.102.198.5:22222/css/layer.css" id="layuicss-layer">
+    <link rel="stylesheet" href="http://47.102.198.5:22222/css/haslayer.css">
+    <link rel="stylesheet" href="http://47.102.198.5:22222/css/share_style0_24.css">
+
+</head>
+<body>
+
+    <div class="header_wrap">
+        <div class="header_top">
+            <div class="center">
+                <div class="ul_link">
+                    <a href="https://www.3dmgame.com/" target="_blank"><i class="ico1"></i>主站</a>
+                    <a href="https://shop.3dmgame.com/" target="_blank"><i class="ico2"></i>商城</a>
+                </div>
+                <div class="head_top_rt" id="my_user_top">
+                    <img src="http://47.102.198.5:22222/image/ico-tx.png">
+                    <a href="javascript:void(0);" class="login" onclick="openlogin()">登录</a>
+                    <a href="javascript:void(0);" class="enroll" onclick="openregister()">注册</a>
+                </div>
+            </div>
+        </div>
+        <div class="header">
+            <div class="center">
+                <a href="https://www.3dmgame.com/"><img src="http://47.102.198.5:22222/image/logo.png"
+                                                        class="login"></a>
+                <div class="search">
+                    <form name="f" action="https://so.3dmgame.com/" method="get" target="_blank" autocomplete="off"
+                          id="bdcs">
+                        <input type="text" onblur="if (this.value==&#39;&#39;) this.value=&#39;我的世界&#39;" value="我的世界"
+                               this.style.color="#000000" onfocus="if (this.value!=&#39;&#39;) this.value=&#39;&#39;"
+                               name="keyword" style="background: rgb(242, 242, 242); border-color: rgb(219, 219, 219);">
+                        <input type="hidden" name="subsearch" value="1"
+                               style="background: rgb(242, 242, 242); border-color: rgb(219, 219, 219);">
+                        <input type="hidden" name="type" value="1"
+                               style="background: rgb(242, 242, 242); border-color: rgb(219, 219, 219);">
+                        <button type="submit" class="but" style="background: rgb(241, 145, 73);"><i></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="content clear game">
+        <div class="crumb">
+            <i></i>您的位置：
+            <a href="https://www.3dmgame.com/" target="_blank">首页</a> &gt;
+            <a href="https://dl.3dmgame.com/" target="_blank">游戏</a> &gt;
+            <a href="https://dl.3dmgame.com/all_4_1_time/" target="_blank">动作游戏</a> &gt;
+            <a>游戏详情</a>
+        </div>
+        <div class="gameinfo">
+            <input type="hidden" id="aid" value="126110">
+            <div class="img"><img th:src="@{${downLoad.download_image}}" src="http://47.102.198.5:22222/image/1531276406_126051.jpg"></div>
+            <div class="baidu_img_Grasp"><img src="http://47.102.198.5:22222/image/1535629565_141551.jpg"></div>
+            <div class="name">
+                <i></i>
+                <h1 th:text="${downLoad.download_name}">《绿色地狱》官方简体中文免安装版</h1>
+                <a href="https://www.3dmgame.com/games/greenhell/" target="_blank" class="zt">进入专题</a>
+            </div>
+            <ul class="list">
+                <li><p>游戏类型：</p><span>其他游戏</span></li>
+                <li><p>开发发行：</p><span th:text="${downLoad.download_release}">Creepy Jar  |  Creepy Jar</span></li>
+                <li><p>发售日期：</p><span th:text="${downLoad.download_time}">2019-09-05</span></li>
+                <li><p>整理时间：</p><span th:text="${downLoad.download_time}">2019-09-06</span></li>
+                <li><p>游戏平台：</p><span th:text="${downLoad.download_platform}">PC</span></li>
+                <li><p>官方网站：</p><a th:href="@{${downLoad.download_network}}" target="_blank">点击进入</a></li>
+                <li><p>标签：</p>
+                    <i th:each="flag : ${#strings.arraySplit(downLoad.download_label,'、')}"><a href="#" th:text="${flag}">生存</a></i>
+                </li>
+                <li><p>游戏语言：</p><span th:text="${downLoad.download_language}">简中</span></li>
+            </ul>
+        </div>
+        <div class="Content_L">
+            <div class="Gmaeinfobtn">
+                <div class="Gmaeinfobtn_tab">
+                    <!--<a th:href="@{/details/index/{id}/{ids}(id=${downLoad.download_id},ids=${downLoad.details_id})}"-->
+                    <a th:href="@{/download/file/{fileName}(fileName=${downLoad.download_id})}" class="tab tab1 downl2">
+                        <i></i>
+                        <div class="tex">
+                            <div class="bt">普通下载</div>
+                            <p>大小：<span th:text="${downLoad.download_size}">6.05GB</span><span>版本：1.0</span></p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div>
+                <span><img src="http://47.102.198.5:22222/image/1.png"/></span>
+            </div>
+            <div class="GmL_1">
+                <p style="text-indent:2em;" th:text="${details.getDetails_name()}">
+                    《绿色地狱(Green Hell)》是一款由Creepy
+                    Jar制作发行的开放世界生存游戏，游戏的背景设定在亚马逊雨林未知的独特环境中。你孤身一人处在丛林中，且没有任何食物或设备，但你努力想要求生和找到出路。求生的意志让玩家踏上了一段考验耐受力的艰难之旅，因为孤独无依将会让人陷入身与心俱受重压折磨的困境之中。
+                    面对无法预知的危险，你能撑多久?
+                </p>
+
+                <h3><span class="bt">
+	游戏特色
+</span></h3>
+                <p style="text-indent:2em;" th:text="${details.details_feature}">
+                    • 背景：危险致命却美不胜收的亚马逊雨林
+                </p>
+                <h3><span class="bt">
+	安装说明
+</span></h3>
+                <p style="text-indent:2em;">
+                    1、解压缩
+                </p>
+                <p style="text-indent:2em;">
+                    2、运行游戏
+                </p>
+            </div>
+            <div>
+                <span><img th:src="@{${details.details_config}}" src="http://47.102.198.5:22222/image/QQ截图20190916164907.png"/></span>
+            </div>
+
+            <div>
+                <span><img src="http://47.102.198.5:22222/image/2.png"/></span>
+            </div>
+            <div class="GmL_4">
+                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="2000">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active">123</li>
+                        <li data-target="#carousel-example-generic" data-slide-to="1">345</li>
+                        <li data-target="#carousel-example-generic" data-slide-to="2">567</li>
+                        <li data-target="#carousel-example-generic" data-slide-to="3">789</li>
+                    </ol>
+
+                    <!-- Wrapper for slides th:each="flag : ${#strings.arraySplit(details.details_image,' ')}-->
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <img th:src="${details.details_config}" alt="...">
+                            <div class="carousel-caption">
+                                春天
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img th:src="${details.details_config}" alt="...">
+                            <div class="carousel-caption">
+                                春天
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Controls -->
+                    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+
+            <div id="_k3138kuzz7o"></div>
+        </div>
+    </div>
+
+    <div class="fotter">
+        <div class="fotter-top clear">
+            <div class="center">
+                <div class="wrap">
+                    <p>综合内容</p>
+                    <ul>
+                        <li><a href="https://3c.3dmgame.com/" target="_blank">硬件设备</a></li>
+                        <li><a href="https://bbs.3dmgame.com/" target="_blank">游戏论坛</a></li>
+                        <li><a href="https://www.3dmgame.com/bagua/" target="_blank">娱乐频道</a></li>
+                        <li><a href="https://www.3dmgame.com/original.html" target="_blank">原创专栏</a></li>
+                        <li><a href="https://shop.3dmgame.com/" target="_blank">游戏商城</a></li>
+                        <li><a href="https://www.3dmgame.com/hanhua/" target="_blank">游戏汉化</a></li>
+                    </ul>
+                </div>
+                <div class="wrap">
+                    <p>单机游戏</p>
+                    <ul>
+                        <li><a href="https://dl.3dmgame.com/" target="_blank">游戏下载</a></li>
+                        <li><a href="https://dl.3dmgame.com/patch/" target="_blank">补丁MOD</a></li>
+                        <li><a href="https://www.3dmgame.com/gl/" target="_blank">原创攻略</a></li>
+                        <li><a href="https://www.3dmgame.com/games/ns_all_1/" target="_blank">Switch</a></li>
+                        <li><a href="https://www.3dmgame.com/games/ps4_all_1/" target="_blank">PS4</a></li>
+                        <li><a href="https://www.3dmgame.com/release/" target="_blank">发售表</a></li>
+                    </ul>
+                </div>
+                <div class="wrap">
+                    <p>手机游戏</p>
+                    <ul>
+                        <li><a href="https://shouyou.3dmgame.com/android/" target="_blank">安卓游戏</a></li>
+                        <li><a href="https://shouyou.3dmgame.com/ios/" target="_blank">苹果游戏</a></li>
+                        <li><a href="https://shouyou.3dmgame.com/gl/" target="_blank">手游攻略</a></li>
+                        <li><a href="https://shouyou.3dmgame.com/ka/" target="_blank">手游礼包</a></li>
+                        <li><a href="https://shouyou.3dmgame.com/zt/" target="_blank">专题合集</a></li>
+                        <li><a href="https://shouyou.3dmgame.com/phb/" target="_blank">手游排行</a></li>
+                    </ul>
+                </div>
+                <div class="wrap">
+                    <p>网络游戏</p>
+                    <ul>
+                        <li><a href="https://ol.3dmgame.com/news/" target="_blank">网游资讯</a></li>
+                        <li><a href="https://ol.3dmgame.com/esports/" target="_blank">竞技赛事</a></li>
+                        <li><a href="https://ol.3dmgame.com/news_5_1/" target="_blank">网游活动</a></li>
+                        <li><a href="https://ol.3dmgame.com/ku/" target="_blank">网游大全</a></li>
+                        <li><a href="https://ol.3dmgame.com/test/" target="_blank">新游试玩</a></li>
+                        <li><a href="https://ol.3dmgame.com/hao/" target="_blank">激活码</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="fotter-bottom">
+            <div class="fotter-link">
+                <a href="https://www.3dmgame.com/s/about.html" target="_blank">关于3DMGAME</a>|<a
+                    href="https://www.3dmgame.com/s/joinus.html" target="_blank">招聘信息</a>|<a
+                    href="https://www.3dmgame.com/s/sitemap.html" target="_blank">网站地图</a>|<a
+                    href="https://www.3dmgame.com/s/contact.html" target="_blank">联系我们</a>|<a
+                    href="https://www.3dmgame.com/s/media.html" target="_blank">媒体信息</a>|<a
+                    href="https://www.3dmgame.com/s/sqyd.html" target="_blank">家长监护申请引导</a>|<a
+                    href="https://www.3dmgame.com/s/jzjh.html" target="_blank">家长监护</a>|<a
+                    href="https://www.3dmgame.com/s/tl/index.html" target="_blank">汉化翻译</a>
+                <p>CopyRight©2003-2018 <a href="https://www.3dmgame.com/">WWW.3DMGAME.COM</a> All Right Reserved
+                    京ICP备14006952号-1 京网文（2016）1650-207号</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

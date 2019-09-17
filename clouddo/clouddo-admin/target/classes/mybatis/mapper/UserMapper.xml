@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.cxk.dao.UserDao">
+    <resultMap id="gm_user" type="com.cxk.pojo.User">
+        <id property="user_id" column="user_id"/>
+        <result property="user_name" column="user_name"></result>
+        <result property="user_pwd" column="user_pwd"></result>
+        <result property="user_role" column="user_role"></result>
+        <result property="user_phone" column="user_phone"></result>
+        <result property="user_email" column="user_email"></result>
+        <result property="user_image" column="user_image"></result>
+        <result property="user_question" column="user_question"></result>
+        <result property="user_answer" column="user_answer"></result>
+    </resultMap>
+    <select id="showUser" resultMap="gm_user">
+       SELECT user_id,user_name,user_pwd,user_role,user_phone,user_email,user_image,user_question,user_answer FROM gm_user
+    </select>
+    <update id="update" parameterType="com.cxk.pojo.User">
+        update gm_user
+        <set>
+            <if test="user_name!=null">
+                user_name=#{user_name},
+            </if>
+            <if test="user_pwd!=null">
+                user_pwd=#{user_pwd},
+            </if>
+            <if test="user_role!=null and user_role != '0'">
+                user_role=#{user_role},
+            </if>
+            <if test="user_phone!=null">
+                user_phone=#{user_phone},
+            </if>
+            <if test="user_email!=null">
+                user_email=#{user_email},
+            </if>
+            <if test="user_image!=null">
+                user_image=#{user_image},
+            </if>
+            <if test="user_question!=null">
+                user_question=#{user_question}
+            </if>
+            <if test="user_answer!=null">
+                user_answer=#{user_answer}
+            </if>
+        </set>
+        where user_id=#{user_id}
+    </update>
+    <select id="showbyid" resultMap="gm_user" parameterType="int">
+        SELECT user_id,user_name,user_pwd,user_role,user_phone,user_email,user_image,user_question,user_answer FROM gm_user where user_id=#{user_id}
+    </select>
+    <insert id="add" parameterType="com.cxk.pojo.User">
+        INSERT INTO gm_user VALUES(0,#{user_name},#{user_pwd},#{user_role},#{user_phone},#{user_email},#{user_image},#{user_question},#{user_answer})
+    </insert>
+    <delete id="delet" parameterType="int">
+        delete from gm_user where user_id=#{user_id}
+    </delete>
+</mapper>

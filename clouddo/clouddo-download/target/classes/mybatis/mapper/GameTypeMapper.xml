@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.cxk.dao.GameTypeDao">
+
+    <!--<cache type="org.mybatis.caches.ehcache.EhcacheCache"/>-->
+
+
+
+
+
+    <select id="getAll" resultMap="gm_gameType">
+        /*SELECT gametype_id id, gametype_name name FROM gm_gametype*/
+        SELECT * from gm_gametype
+    </select>
+
+    <resultMap id="gm_gameType" type="com.cxk.pojo.GameType">
+        <id property="gameType_id" column="gametype_id"/>
+        <result property="gameType_name" column="gametype_name"/>
+    </resultMap>
+
+</mapper>
