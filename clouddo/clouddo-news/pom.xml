@@ -9,7 +9,9 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <artifactId>clouddo-news</artifactId>
+
     <dependencies>
+
         <!--Spring-Boot-Web 组件包-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -22,9 +24,9 @@
         </dependency>
         <!-- 引入thymeleaf模版 -->
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-thymeleaf</artifactId>
-        </dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-thymeleaf</artifactId>
+    </dependency>
         <!--Mybatis 整合包-->
         <dependency>
             <groupId>org.mybatis.spring.boot</groupId>

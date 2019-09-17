@@ -24,6 +24,7 @@ body{
     color: red;
 }
 
+
 .layui-form-switch{
     margin-top: 0px;
 }
@@ -492,6 +493,9 @@ table th, table td {
 }
 .x-admin-sm  .layui-breadcrumb>*{
    font-size: 12px; 
+}
+.Mylayui-icon{
+
 }
 .x-admin-sm  .layui-btn,.x-admin-sm .layui-btn-xs,.x-admin-sm .layui-btn-sm{
     font-size: 12px;

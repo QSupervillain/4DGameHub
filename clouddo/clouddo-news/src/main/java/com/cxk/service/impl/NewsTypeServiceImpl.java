@@ -21,9 +21,9 @@ public class NewsTypeServiceImpl implements NewsTypeService {
 
     @Autowired(required = false)
     private NewsTypeDao NewsTypeDao;
-
+    //获取全部新闻
     @Override
-    public List<GmNewsType> getAll() {
-        return NewsTypeDao.getAll();
+    public List<GmNewsType> getNewsTypeAll() {
+        return NewsTypeDao.getNewsTypeAll();
     }
 }

@@ -18,7 +18,7 @@
   } ],
   "pkColumn" : null,
   "otherColumn" : null,
-  "savePackageName" : "com.cxk.dao",
-  "savePath" : "./clouddo/clouddo-news/src/main/java",
+  "savePackageName" : "com.cxk.pojo",
+  "savePath" : "./clouddo/clouddo-comm/src/main/java",
   "saveModelName" : "clouddo-video"
 }

@@ -7,7 +7,7 @@
         <id column="type_id" property="type_id"/>
         <result property="type_name" column="type_name"/>
     </resultMap>
-    <select id="getAll" resultMap="gm_newstype">
-        select * from gm_news_type
+    <select id="getNewsTypeAll" resultMap="gm_newstype">
+       SELECT `type_id`,`type_name` FROM `gm_news_type`
     </select>
 </mapper>

@@ -6,5 +6,5 @@ import java.util.List;
 
 public interface NewsTypeService {
 
-    List<GmNewsType> getAll();
+    List<GmNewsType> getNewsTypeAll();
 }

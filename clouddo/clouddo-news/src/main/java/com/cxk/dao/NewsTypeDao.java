@@ -7,7 +7,7 @@ import java.util.List;
 
 @Mapper
 public interface NewsTypeDao {
-
-    List<GmNewsType> getAll();
+    //获取所有新闻类型
+    List<GmNewsType> getNewsTypeAll();
 
 }
