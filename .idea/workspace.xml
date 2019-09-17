@@ -265,7 +265,7 @@
       <workItem from="1568255865116" duration="8269000" />
       <workItem from="1568285482982" duration="117000" />
       <workItem from="1568594097885" duration="17799000" />
-      <workItem from="1568680409910" duration="6780000" />
+      <workItem from="1568680409910" duration="7209000" />
     </task>
     <task id="LOCAL-00001" summary="添加视屏模块">
       <created>1567651800758</created>
@@ -456,7 +456,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568711173842</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="templates">
+      <created>1568711404335</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1568711404335</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
