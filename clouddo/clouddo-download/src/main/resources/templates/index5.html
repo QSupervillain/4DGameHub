@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- saved from url=(0037)https://dl.3dmgame.com/pc/126110.html -->
-<html>
+<html xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="http://47.102.198.5:22222/css/layer.css" id="layuicss-layer">
     <link rel="stylesheet" href="http://47.102.198.5:22222/css/haslayer.css">
     <link rel="stylesheet" href="http://47.102.198.5:22222/css/share_style0_24.css">
+
 </head>
 <body>
 
@@ -60,33 +61,35 @@
         </div>
         <div class="gameinfo">
             <input type="hidden" id="aid" value="126110">
-            <div class="img"><img src="http://47.102.198.5:22222/image/1531276406_126051.jpg"></div>
+            <div class="img"><img th:src="@{${downLoad.download_image}}" src="http://47.102.198.5:22222/image/1531276406_126051.jpg"></div>
             <div class="baidu_img_Grasp"><img src="http://47.102.198.5:22222/image/1535629565_141551.jpg"></div>
             <div class="name">
                 <i></i>
-                <h1>《绿色地狱》官方简体中文免安装版</h1>
+                <h1 th:text="${downLoad.download_name}">《绿色地狱》官方简体中文免安装版</h1>
                 <a href="https://www.3dmgame.com/games/greenhell/" target="_blank" class="zt">进入专题</a>
             </div>
             <ul class="list">
-                <li><p>游戏类型：</p><span>动作游戏</span></li>
-                <li><p>开发发行：</p><span>Creepy Jar  |  Creepy Jar</span></li>
-                <li><p>发售日期：</p><span>2019-09-05</span></li>
-                <li><p>整理时间：</p><span>2019-09-06</span></li>
-                <li><p>游戏平台：</p><span>PC</span></li>
-                <li><p>官方网站：</p><a href="http://www.greenhell-game.com/" target="_blank">点击进入</a></li>
-                <li><p>标签：</p><i><a href="https://www.3dmgame.com/tag/shengcun_1/" target="_blank">生存</a></i><i><a
-                        href="https://www.3dmgame.com/tag/tanxian_1/" target="_blank">探险</a></i></li>
-                <li><p>游戏语言：</p><span>简中</span></li>
+                <li><p>游戏类型：</p><span>其他游戏</span></li>
+                <li><p>开发发行：</p><span th:text="${downLoad.download_release}">Creepy Jar  |  Creepy Jar</span></li>
+                <li><p>发售日期：</p><span th:text="${downLoad.download_time}">2019-09-05</span></li>
+                <li><p>整理时间：</p><span th:text="${downLoad.download_time}">2019-09-06</span></li>
+                <li><p>游戏平台：</p><span th:text="${downLoad.download_platform}">PC</span></li>
+                <li><p>官方网站：</p><a th:href="@{${downLoad.download_network}}" target="_blank">点击进入</a></li>
+                <li><p>标签：</p>
+                    <i th:each="flag : ${#strings.arraySplit(downLoad.download_label,'、')}"><a href="#" th:text="${flag}">生存</a></i>
+                </li>
+                <li><p>游戏语言：</p><span th:text="${downLoad.download_language}">简中</span></li>
             </ul>
         </div>
         <div class="Content_L">
             <div class="Gmaeinfobtn">
                 <div class="Gmaeinfobtn_tab">
-                    <a href="javascript:void(0);" class="tab tab1 downl2">
+                    <!--<a th:href="@{/details/index/{id}/{ids}(id=${downLoad.download_id},ids=${downLoad.details_id})}"-->
+                    <a th:href="@{/download/file/{fileName}(fileName=${downLoad.download_id})}" class="tab tab1 downl2">
                         <i></i>
                         <div class="tex">
                             <div class="bt">普通下载</div>
-                            <p><span>大小：6.05GB</span><span>版本：1.0</span></p>
+                            <p>大小：<span th:text="${downLoad.download_size}">6.05GB</span><span>版本：1.0</span></p>
                         </div>
                     </a>
                 </div>
@@ -95,39 +98,17 @@
                 <span><img src="http://47.102.198.5:22222/image/1.png"/></span>
             </div>
             <div class="GmL_1">
-                <p style="text-indent:2em;">
+                <p style="text-indent:2em;" th:text="${details.getDetails_name()}">
                     《绿色地狱(Green Hell)》是一款由Creepy
                     Jar制作发行的开放世界生存游戏，游戏的背景设定在亚马逊雨林未知的独特环境中。你孤身一人处在丛林中，且没有任何食物或设备，但你努力想要求生和找到出路。求生的意志让玩家踏上了一段考验耐受力的艰难之旅，因为孤独无依将会让人陷入身与心俱受重压折磨的困境之中。
                     面对无法预知的危险，你能撑多久?
                 </p>
-                <p style="text-indent:2em;">
-                    在这段旅程中，你将无法从外界获得任何帮助。你所拥有的只是毫无寸铁的双手，因此你必须得学会建造庇护所、制造工具和制作武器的实际生存技巧，以便狩猎和自卫。在危险四伏的丛林里，你将与野生动物和热带疾病作斗争。玩家还必须面对自己思维所设下的种种陷阱，以及身处这无边丛林的幽晦不明中所滋生的恐惧之感。
-                </p>
-
 
                 <h3><span class="bt">
 	游戏特色
 </span></h3>
-                <p style="text-indent:2em;">
+                <p style="text-indent:2em;" th:text="${details.details_feature}">
                     • 背景：危险致命却美不胜收的亚马逊雨林
-                </p>
-                <p style="text-indent:2em;">
-                    • 身体检查模式
-                </p>
-                <p style="text-indent:2em;">
-                    • 众多的动植物群和危险正等着玩家来发现
-                </p>
-                <p style="text-indent:2em;">
-                    • 环境和情境会影响玩家的心理
-                </p>
-                <p style="text-indent:2em;">
-                    • 环境变化对生态系统的影响
-                </p>
-                <p style="text-indent:2em;">
-                    • 引人入胜的故事
-                </p>
-                <p style="text-indent:2em;">
-                    • 动态变化的环境
                 </p>
                 <h3><span class="bt">
 	安装说明
@@ -140,101 +121,47 @@
                 </p>
             </div>
             <div>
-                <span><img src="http://47.102.198.5:22222/image/QQ截图20190916164907.png"/></span>
-            </div>
-            <div class="GmL_2">
-                <div class="tabletop">
-                    <p>最低配置</p>
-                    <p>推荐配置</p>
-                </div>
-                <table class="table2" border="0" cellspacing="1" cellpadding="1">
-                    <tbody>
-                    <tr>
-                        <td style="height: 18px;">操作系统</td>
-                        <td style="height: 18px; border-right: 1px solid #d2d2d2;">Windows 7 64bit or better</td>
-                        <td style="height: 18px;">Windows 7 64bit or better</td>
-                    </tr>
-                    <tr>
-                        <td style="height: 18px;">CPU</td>
-                        <td style="height: 18px; border-right: 1px solid #d2d2d2;">3.2 GHz Dual Core Processor</td>
-                        <td style="height: 18px;">3.2 GHz Dual Core Processor</td>
-                    </tr>
-                    <tr>
-                        <td style="height: 18px;">内存</td>
-                        <td style="height: 18px; border-right: 1px solid #d2d2d2;"> 4GB RAM</td>
-                        <td style="height: 18px;"> 8GB RAM</td>
-                    </tr>
-                    <tr>
-                        <td style="height: 18px;">显卡</td>
-                        <td style="height: 18px; border-right: 1px solid #d2d2d2;">Nvdia GeForce GTX660</td>
-                        <td style="height: 18px;"> Nvdia GeForce GTX970</td>
-                    </tr>
-                    <tr>
-                        <td style="height: 18px;">存储空间</td>
-                        <td style="height: 18px; border-right: 1px solid #d2d2d2;">需要8GB可用空间</td>
-                        <td style="height: 18px;">需要8GB可用空间</td>
-                    </tr>
-                    </tbody>
-                </table>
+                <span><img th:src="@{${details.details_config}}" src="http://47.102.198.5:22222/image/QQ截图20190916164907.png"/></span>
             </div>
 
             <div>
                 <span><img src="http://47.102.198.5:22222/image/2.png"/></span>
             </div>
             <div class="GmL_4">
-                <div class="large_box">
-                    <ul>
-                        <li style="display: none;"><img src="http://47.102.198.5:22222/image/1535953748_252423.jpg">
-                        </li>
-                        <li style="display: none;"><img src="http://47.102.198.5:22222/image/1535953748_478576.jpg">
-                        </li>
-                        <li style="display: none;"><img src="http://47.102.198.5:22222/image/1535953748_417478.jpg">
-                        </li>
-                        <li style="display: none;"><img src="http://47.102.198.5:22222/image/1535953748_916711.jpg">
-                        </li>
-                        <li style="display: none;"><img src="http://47.102.198.5:22222/image/1535953748_686912.jpg">
-                        </li>
-                        <li style="display: list-item; opacity: 0.730487;"><img
-                                src="http://47.102.198.5:22222/css/1535953748_849450.jpg"></li>
-                    </ul>
-                </div>
-                <div class="small_box">
-                    <span class="btn left_btn"></span>
-                    <div class="small_list">
-                        <ul style="width: 912px; margin-left: -152px;">
-                            <li class="">
-                                <img src="http://47.102.198.5:22222/image/1535953748_252423.jpg" width="110"
-                                     height="73">
-                                <div class="bun_bg"></div>
-                            </li>
-                            <li class="">
-                                <img src="http://47.102.198.5:22222/image/1535953748_478576.jpg" width="110"
-                                     height="73">
-                                <div class="bun_bg"></div>
-                            </li>
-                            <li class="">
-                                <img src="http://47.102.198.5:22222/image/1535953748_417478.jpg" width="110"
-                                     height="73">
-                                <div class="bun_bg"></div>
-                            </li>
-                            <li class="">
-                                <img src="http://47.102.198.5:22222/image/1535953748_916711.jpg" width="110"
-                                     height="73">
-                                <div class="bun_bg"></div>
-                            </li>
-                            <li class="">
-                                <img src="http://47.102.198.5:22222/image/1535953748_686912.jpg" width="110"
-                                     height="73">
-                                <div class="bun_bg"></div>
-                            </li>
-                            <li class="on">
-                                <img src="http://47.102.198.5:22222/image/1535953748_849450.jpg" width="110"
-                                     height="73">
-                                <div class="bun_bg"></div>
-                            </li>
-                        </ul>
+                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="2000">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active">123</li>
+                        <li data-target="#carousel-example-generic" data-slide-to="1">345</li>
+                        <li data-target="#carousel-example-generic" data-slide-to="2">567</li>
+                        <li data-target="#carousel-example-generic" data-slide-to="3">789</li>
+                    </ol>
+
+                    <!-- Wrapper for slides th:each="flag : ${#strings.arraySplit(details.details_image,' ')}-->
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <img th:src="${details.details_config}" alt="...">
+                            <div class="carousel-caption">
+                                春天
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img th:src="${details.details_config}" alt="...">
+                            <div class="carousel-caption">
+                                春天
+                            </div>
+                        </div>
                     </div>
-                    <span class="btn right_btn"></span>
+
+                    <!-- Controls -->
+                    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
                 </div>
             </div>
 

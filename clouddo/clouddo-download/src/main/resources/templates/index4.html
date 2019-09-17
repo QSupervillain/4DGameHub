@@ -135,8 +135,10 @@
             <ul class="downllis news">
                 <li th:each="downLoad : ${downLoadList}">
                     <div class="item">
-                        <div class="img"><a href="https://dl.3dmgame.com/pc/126110.html" target="_blank"><img
-                                th:src="${downLoad.download_image}"/></a></div>
+                        <div class="img">
+                            <a th:href="@{/details/index/{id}/{ids}(id=${downLoad.download_id},ids=${downLoad.details_id})}"
+                               target="_blank">
+                                <img th:src="${downLoad.download_image}"/></a></div>
                         <div class="text">
                             <div class="bt"><a th:text="${downLoad.download_name}"
                                                href="https://dl.3dmgame.com/pc/126110.html" target="_blank">游戏名称</a>
@@ -269,7 +271,7 @@
             var type = $(".px a[class='on']").attr("flag");
             $('#table_refresh').load("/index/pageHelper?id=" + ids + "&type=" + type);
             var number_of_items = $('.news').children().size();
-            $('.number1').text(number_of_items );
+            $('.number1').text(number_of_items);
         });
 
     });

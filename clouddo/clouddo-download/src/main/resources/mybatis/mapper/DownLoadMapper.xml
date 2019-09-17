@@ -3,24 +3,6 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
 <mapper namespace="com.cxk.dao.DownLoadDao">
-
-    <!--<cache type="org.mybatis.caches.ehcache.EhcacheCache"/>-->
-
-
-    <!--* gameType_id      null id-->
-    <!--* download_type    null-->
-    <!--* cln              desc-->
-
-    <select id="getAll" resultMap="gm_download" parameterType="map">
-        select <include refid="download"/> from gm_download
-        <trim prefix="where" prefixOverrides="and || or">
-            <if test="gameType_id != null and gameType_id !='0'">
-                gametype_id=#{gameType_id}
-            </if>
-        </trim>
-        order by ${download_type} ${download_by}
-    </select>
-
     <sql id="download">
         download_id,gametype_id,details_id,download_name,download_image,download_heat,download_language,download_grade,download_time,download_platform,download_release,download_size,download_network,download_label,download_download
     </sql>
@@ -42,5 +24,20 @@
         <result property="download_label" column="download_label"/>
         <result property="download_download" column="download_download"/>
     </resultMap>
+
+    <select id="getAll" resultMap="gm_download" parameterType="map">
+        select <include refid="download"/> from gm_download
+        <trim prefix="where" prefixOverrides="and || or">
+            <if test="gameType_id != null and gameType_id !='0'">
+                gametype_id=#{gameType_id}
+            </if>
+        </trim>
+        order by ${download_type} ${download_by}
+    </select>
+    <select id="findById" resultMap="gm_download" parameterType="java.lang.Integer">
+        select * from gm_download where download_id=#{id}
+    </select>
+
+
 
 </mapper>

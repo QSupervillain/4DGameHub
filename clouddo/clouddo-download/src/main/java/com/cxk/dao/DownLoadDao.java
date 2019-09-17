@@ -15,4 +15,11 @@ public interface DownLoadDao {
      */
     List<DownLoad> getAll(Map<String,Object> map);
 
+    /**
+     * 获取one个对象
+     * @param id
+     * @return
+     */
+    DownLoad findById(Integer id);
+
 }

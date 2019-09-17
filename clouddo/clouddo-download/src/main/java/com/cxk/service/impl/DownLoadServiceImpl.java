@@ -26,4 +26,9 @@ public class DownLoadServiceImpl implements DownLoadService {
     public List<DownLoad> getAll(Map<String, Object> map) {
         return downLoadDao.getAll(map);
     }
+
+    @Override
+    public DownLoad findById(Integer id) {
+        return downLoadDao.findById(id);
+    }
 }

@@ -50,13 +50,6 @@ public class IndexController {
         List<GameType> gameTypeList = gameTypeService.getAll();
 
         List<DownLoad> downLoadList = DownLoadPageHelper.downLoads(downLoadService, null, "download_time", "desc");
-        for (DownLoad downLoad : downLoadList) {
-            for (GameType gameType : gameTypeList) {
-                if (downLoad.getGametype_id() == gameType.getGameType_id()) {
-                    downLoad.setGametype_name(gameType.getGameType_name());
-                }
-            }
-        }
         long l2 = System.currentTimeMillis();
         model.addAttribute("gameTypeList", gameTypeList);
         model.addAttribute("downLoadList", downLoadList);
