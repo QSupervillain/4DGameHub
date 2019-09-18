@@ -6,6 +6,7 @@ import com.cxk.service.VideoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.Date;
 import java.util.List;
 
 @Service
@@ -18,8 +19,8 @@ public class VideoServiceImpl implements VideoService {
     }
 
     @Override
-    public int updateVideo(int video_id) {
-        return videoDao.updateVideo(video_id);
+    public int updateVideo(int video_id, String video_title, String video_content, Date video_date, int video_type) {
+        return videoDao.updateVideo(video_id, video_title,video_content, video_date, video_type);
     }
 
     @Override
