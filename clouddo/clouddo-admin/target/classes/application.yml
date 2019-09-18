@@ -8,6 +8,8 @@ mybatis:
 spring:
   mvc:
     static-path-pattern: /**
+  resources:
+    static-locations: classpath:/templates/
   thymeleaf:
     encoding: UTF-8
     cache: false

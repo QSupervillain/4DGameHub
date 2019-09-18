@@ -37,10 +37,15 @@
                             <input class="layui-input" placeholder="截止日" name="end" id="end"></div>
                         <div class="layui-input-inline layui-show-xs-block">
                             <select name="contrller">
-                                <option>新闻类型</option>
-                                <option>支付宝</option>
-                                <option>微信</option>
-                                <option>货到付款</option></select>
+                                <option value="not">新闻类型</option>
+                              </select>
+                        </div>
+                        <div class="layui-input-inline layui-show-xs-block">
+                            <select name="contrller">
+                                <option value="not">浏览人数排序</option>
+                                <option value="min">顺序</option>
+                                <option value="max">倒序</option>
+                                </select>
                         </div>
                         <div class="layui-input-inline layui-show-xs-block">
                             <input type="text" name="username" placeholder="标题模糊查询" autocomplete="off" class="layui-input"></div>
@@ -62,11 +67,11 @@
                             <th>
                                 <input type="checkbox" name="" lay-skin="primary">
                             </th>
+                            <th>发布人</th>
                             <th>新闻id</th>
                             <th>新闻标题</th>
                             <th>新闻预览图</th>
                             <th>新闻分类</th>
-                            <th>发布人</th>
                             <th>新闻发布日期</th>
                             <th>新闻浏览人数</th>
                             <th>新闻摘要</th>
