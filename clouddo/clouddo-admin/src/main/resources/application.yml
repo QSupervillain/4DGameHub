@@ -6,6 +6,10 @@ mybatis:
   config-location: classpath:mybatis/mybatis-cfg.xml
   mapper-locations: classpath:mybatis/mapper/*.xml
 spring:
+  servlet:
+    multipart: #请求文件大小
+      max-file-size: 300MB
+      max-request-size: 500MB
   mvc:
     static-path-pattern: /**
   resources:

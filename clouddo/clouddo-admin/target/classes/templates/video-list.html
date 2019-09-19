@@ -13,7 +13,9 @@
     <script type="text/javascript" src="./js/xadmin.js"></script>
     <script src="js/jquery.min.js">
         $(function () {
-            alert('dsadas')
+            $("#aa").click(function () {
+                alert(123)
+            })
         })
     </script>
     <!--[if lt IE 9]>
@@ -88,13 +90,12 @@
                                 <p th:case="'6'" th:text="视频攻略"></p>
                             </td>
                             <td th:text="${v.video_date}">2018-9-8</td>
-                            <td class="td-manage">
+                            <td class="td-manage" id="aa">
                                 <a title="编辑"
-                                   onclick="xadmin.open('编辑','update?id='+this.parent('tr').children().eq(1).text())"
-                                   href="javascript:;">
+                                   onclick="xadmin.open('编辑','/findById?video_id='+$(this).parent('td').parent('tr').children().eq(1).text(),600,400)" href="javascript:;">
                                     <i class="layui-icon">&#xe642;</i>
                                     &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a>
-                                <a title="删除" onclick="member_del(this,'要删除的id')" href="javascript:;">
+                                <a title="删除" onclick="member_del(this,$(this).parent('td').parent('tr').children().eq(1).text())" href="javascript:;">
                                     <i class="layui-icon">&#xe640;</i>
                                 </a>
                             </td>
@@ -135,36 +136,21 @@
         });
     });
 
-    /*用户-停用*/
-    function member_stop(obj, id) {
-        layer.confirm('确认要停用吗？', function (index) {
-
-            if ($(obj).attr('title') == '启用') {
-
-                //发异步把用户状态进行更改
-                $(obj).attr('title', '停用')
-                $(obj).find('i').html('&#xe62f;');
-
-                $(obj).parents("tr").find(".td-status").find('span').addClass('layui-btn-disabled').html('已停用');
-                layer.msg('已停用!', {icon: 5, time: 1000});
-
-            } else {
-                $(obj).attr('title', '启用')
-                $(obj).find('i').html('&#xe601;');
-
-                $(obj).parents("tr").find(".td-status").find('span').removeClass('layui-btn-disabled').html('已启用');
-                layer.msg('已启用!', {icon: 5, time: 1000});
-            }
-
-        });
-    }
 
     /*用户-删除*/
     function member_del(obj, id) {
         layer.confirm('确认要删除吗？', function (index) {
-            //发异步删除数据
-            $(obj).parents("tr").remove();
-            layer.msg('已删除!', {icon: 1, time: 1000});
+            $.ajax({
+                    type: 'post',//提交方式 post 或者get
+                    url:'/deleteVideoByid',
+                    async: false,
+                    data: {'id': id},//提交的参数
+                    success: function (re) {
+                        //发异步删除数据
+                        $(obj).parents("tr").remove();
+                        layer.msg('已删除!', {icon: 1, time: 1000});
+                    }
+            })
         });
     }
 

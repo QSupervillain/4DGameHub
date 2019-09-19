@@ -4,15 +4,16 @@ import com.cxk.pojo.Video;
 import org.apache.ibatis.annotations.Mapper;
 import org.springframework.stereotype.Repository;
 
+import java.util.Date;
 import java.util.List;
 
 @Repository
 @Mapper
 public interface VideoDao {
     //添加视屏
-    public int insertVideo(Video video);
+    public int insertVideo(String video_src,String video_image,String video_title, String video_content, Date video_date,int video_type);
     //修改视屏
-    public int updateVideo(int video_id);
+    public int updateVideo(int video_id, String video_title, String video_content, Date video_date,int video_type);
     //根据id获取视屏数据
     public Video findById(int video_id);
     //显示视屏
