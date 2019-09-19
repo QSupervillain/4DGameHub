@@ -12,7 +12,7 @@
         <result property="video_date" column="video_date"></result>
         <result property="video_type" column="video_type"></result>
     </resultMap>
-    <insert id="com.cxk.dao.VideoDao.insertVideos" parameterType="com.cxk.pojo.Video">
+    <insert id="com.cxk.dao.VideoDao.insertVideo"  parameterType="com.cxk.pojo.Video">
         INSERT INTO gm_video values(0,#{video_title},#{video_image},#{video_content},#{video_src},#{video_date},#{video_type})
     </insert>
     <select id="com.cxk.dao.VideoDao.findById" resultMap="gm_video" parameterType="com.cxk.pojo.Video">

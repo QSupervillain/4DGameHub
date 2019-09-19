@@ -20,34 +20,40 @@
     <body>
         <div class="layui-fluid">
             <div class="layui-row">
-                <form class="layui-form">
+                <form  class="layui-form">
                   <div class="layui-form-item">
                       <label class="layui-form-label">
-                          <span class="x-red">*</span>视屏id
+                          <span class="x-red">*</span>视频标题
                       </label>
                       <div class="layui-input-inline">
-                          <input type="text" id="video_id" name="username" required="" lay-verify="required"
-                          autocomplete="off" class="layui-input" readonly="readonly" >
+                          <input type="text" id="video_title" name="video_title" required="" lay-verify="required"
+                          autocomplete="off" class="layui-input" >
                       </div>
-                      <div class="layui-form-mid layui-word-aux">
-                          <span class="x-red">*</span>id不可更改
-                      </div>
+
                   </div>
                     <div class="layui-form-item">
                         <label class="layui-form-label">
-                            <span class="x-red">*</span>视屏名称
+                            <span class="x-red">*</span>视屏类容
                         </label>
                         <div class="layui-input-inline">
-                            <input type="text" id="video_" name="video_title" required="" lay-verify="required"
+                             <textarea id="video_content" style="width: 300px;height: 100px" name="video_content"></textarea>
+                        </div>
+                    </div>
+                    <div class="layui-form-item">
+                        <label class="layui-form-label">
+                            <span class="x-red">*</span>上传的视频
+                        </label>
+                        <div class="layui-input-inline">
+                            <input type="file" accept="video/*" id="video_src" name="video_src" required="" lay-verify="required"
                                    autocomplete="off" class="layui-input">
                         </div>
                     </div>
                     <div class="layui-form-item">
                         <label class="layui-form-label">
-                            <span class="x-red">*</span>视频类容
+                            <span class="x-red">*</span>上传的图片
                         </label>
                         <div class="layui-input-inline">
-                            <input type="text" id="video_content" name="username" required="" lay-verify="required"
+                            <input type="file" accept = "image/*" id="video_img" name="video_img" required="" lay-verify="required"
                                    autocomplete="off" class="layui-input">
                         </div>
                     </div>
@@ -56,7 +62,7 @@
                             <span class="x-red">*</span>视屏类型
                         </label>
                         <div class="layui-input-inline">
-                            <input type="text" id="video_type" name="username" required="" lay-verify="required"
+                            <input type="number" id="video_type" name="video_type" required="" lay-verify="required"
                                    autocomplete="off" class="layui-input">
                         </div>
                     </div>
@@ -81,6 +87,20 @@
                 function(data) {
                     console.log(data);
                     //发异步，把数据提交给php
+                   var video_title=$("#video_title").val();
+                    var video_content=$("#video_content").val();
+                    var video_src=$("#video_src").val();
+                    //var video_src=document.getElementById('video_src').files;
+                    //var video_img=document.getElementById('video_img').files;
+                    var video_img=$("#video_img").val();
+                    var video_type=$("#video_type").val();
+                    $.ajax({
+                        type: 'post',//提交方式 post 或者get
+                        url:'/addVideo',
+                        async: false,
+                        data: {'video_title':video_title,'video_content':video_content,'video_src':video_src,'video_img':video_img,'video_type':video_type},//提交的参数
+
+                    });
                     layer.alert("增加成功", {
                         icon: 6
                     },

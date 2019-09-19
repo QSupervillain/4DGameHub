@@ -11,7 +11,7 @@ import java.util.List;
 @Mapper
 public interface VideoDao {
     //添加视屏
-    public int insertVideo(Video video);
+    public int insertVideo(String video_src,String video_image,String video_title, String video_content, Date video_date,int video_type);
     //修改视屏
     public int updateVideo(int video_id, String video_title, String video_content, Date video_date,int video_type);
     //根据id获取视屏数据

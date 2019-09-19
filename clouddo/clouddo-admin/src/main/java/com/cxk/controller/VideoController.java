@@ -42,7 +42,7 @@ public class VideoController {
     @ResponseBody
     public void updateVideo(String video_ids,String video_title ,String video_content ,String video_types ){
         //获取修改数据
-        System.out.println("join******************************************************");
+        System.out.println("join******************************************************updateVideo");
         int video_id=Integer.valueOf(video_ids);
         System.out.println(video_id);
         int video_type=Integer.valueOf(video_types);
@@ -72,9 +72,22 @@ public class VideoController {
     /**
      * 视屏新增
      */
-    public int insertVideo(Video video){
-        int num=0;
-        return num;
+    @RequestMapping("/addVideo")
+    @ResponseBody
+    public void insertVideo(String video_title, String video_content, String video_src, String video_img, String video_type
+    ){
+        System.out.println("join*************************addVideo");
+        com.jcraft.jsch.Session session = JschUtil.getSession("47.102.198.5", 22, "root", "springboot2.0");/*("47.102.198.5", 22, "root", "springboot2.0");*/
+        Sftp sftp = JschUtil.createSftp(session);
+        Sftp video_imgs = sftp.put("C:\\Users\\kk\\Desktop\\gm_video\\"+video_img.substring(12), "/opt/static/image/");
+        Sftp video_srcs = sftp.put("C:\\Users\\kk\\Desktop\\gm_video\\"+video_src.substring(12), "/opt/static/videos/");
+        //String video_title, String video_content, File video_src, File video_img, String video_type
+        //String video_src,String video_image,String video_title, String video_content, Date video_date,int video_type
+       // int video_types=Integer.parseInt(video_type);
+        //int video_
+        String video_srcc="http://47.102.198.5:22222/videos/"+video_src.substring(12);
+        String video_imgg="http://47.102.198.5:22222/image/"+video_img.substring(12);
+        videoService.insertVideo(video_srcc,video_imgg,video_title,video_content,new Date(),Integer.parseInt(video_type));
     }
     @RequestMapping("/test")
     public String test(){

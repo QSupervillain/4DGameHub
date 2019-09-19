@@ -14,8 +14,8 @@ public class VideoServiceImpl implements VideoService {
     @Autowired
     private VideoDao videoDao;
     @Override
-    public int insertVideo(Video video) {
-        return videoDao.insertVideo(video);
+    public int insertVideo(String video_src,String video_image,String video_title, String video_content, Date video_date,int video_type) {
+        return videoDao.insertVideo(video_src,video_image,video_title,video_content,video_date,video_type);
     }
 
     @Override
