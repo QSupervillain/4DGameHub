@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.cxk.dao.NewsTypeDaoA">
+    <resultMap id="gm_newstype" type="com.cxk.pojo.GmNewsType">
+        <id column="type_id" property="type_id"/>
+        <result property="type_name" column="type_name"/>
+    </resultMap>
+    <!-- 添加一条新闻类型 -->
+    <insert id="addNewsType" parameterType="java.lang.String" useGeneratedKeys="true">
+        INSERT INTO `gamehub`.`gm_news_type` (`type_name`)
+        VALUES(#{typeName})
+
+        <selectKey resultType="long" order="AFTER" keyProperty="id">
+            SELECT LAST_INSERT_ID() AS id
+        </selectKey>
+    </insert>
+
+    <!-- 删除指定新闻类型 -->
+    <delete id="deleteNewsTypeByid" parameterType="java.lang.Integer">
+        DELETE
+        FROM
+          `gamehub`.`gm_news_type`
+        WHERE `type_id` = #{typeId};
+    </delete>
+
+    <!-- 根据id修改一条新闻类型 -->
+    <update id="updateNewsType" parameterType="com.cxk.pojo.GmNewsType" useGeneratedKeys="true">
+        UPDATE
+          `gamehub`.`gm_news_type`
+        SET
+          `type_name` = #{newsType.type_name}
+        WHERE `type_id` =#{newsType.type_id}
+
+        <selectKey resultType="long" order="AFTER" keyProperty="id">
+            SELECT LAST_INSERT_ID() AS id
+        </selectKey>
+    </update>
+
+    <!-- 查询所有新闻类型 -->
+    <select id="showNewsTypeAll" resultMap="gm_newstype">
+        SELECT `type_id`,`type_name`FROM`gm_news_type`
+    </select>
+
+
+
+</mapper>

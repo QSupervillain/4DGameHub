@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.cxk.dao.NewsDaoA">
+    <resultMap id="gm_news" type="com.cxk.pojo.GmNews">
+        <id column="news_id" property="news_id"/>
+        <result property="news_title" column="news_title"/>
+        <result property="news_preview_img" column="news_preview_img"/>
+        <result property="news_typeid" column="news_typeid"/>
+        <result property="news_date" column="news_date"/>
+        <result property="news_pageview" column="news_pageview"/>
+        <result property="news_brief" column="news_brief"/>
+        <result property="news_cintent" column="news_cintent"/>
+    </resultMap>
+
+    <!-- 查询所有符合条件的所有新闻并分页 -->
+        <select id="showConditionNewsAll" resultMap="gm_news" parameterType="Map">
+            SELECT
+                `news_id`,`news_title`,`news_preview_img`,`news_typeid`,
+                `news_date`,`news_pageview`,`news_brief`,`news_cintent`
+            FROM`gm_news`
+            <if test="newsCondition != null and newsCondition != ''">
+                <where>
+                    <if test="1==1">
+                        1==1
+                    </if>
+                    /* 开始日 */
+                        <if test="newsCondition.news_gt_date !=null and newsCondition.news_gt_date != ''">
+                            AND `news_date` &gt; = #{newsCondition.news_gt_date}
+                        </if>
+                        /* 截止日 */
+                            <if test="newsCondition.news_lt_date !=null and newsCondition.news_lt_date != ''">
+                                AND `news_date` &lt; = #{newsCondition.news_lt_date}
+                            </if>
+                            /* 新闻类型 */
+                                <if test="newsCondition.news_typeid !=null and newsCondition.news_typeid !=''">
+                                    AND `news_typeid` = #{newsCondition.news_typeid}
+                                </if>
+                                /* 新闻标题模糊查询 */
+                                    <if test="newsCondition.news_title !=null and newsCondition.news_title !=''">
+                                        AND `news_title` like  '$#{newsCondition.news_title}$'
+                                    </if>
+                </where>
+                /* 浏览人数排序 */
+                    <if test="newsCondition.wayRank != null and newsCondition.wayRank != ''">
+                        /* 顺序 */
+                        <if test="wayRank=='min'">
+                            ORDER BY`news_pageview`
+                        </if>
+                        /* 倒序 */
+                        <if test="wayRank=='max'">
+                            ORDER BY`news_pageview` DESC
+                        </if>
+                    </if>
+                /* 分页 */
+                    <if test="newsCondition.pagIndex !=null and newsCondition.pagIndex !=''
+                        and newsCondition.rowsPerPage !=null and newsCondition.rowsPerPage!=''">
+                        LIMIT #{newsCondition.pagIndex},#{newsCondition.rowsPerPage};
+                    </if>
+            </if>
+        </select>
+
+
+    <!-- 获取所有符合条件的所有新闻总条数 -->
+    <select id="getNewsNumberOfBranches" resultType="java.lang.Integer" parameterType="Map">
+            SELECT
+                COUNT(1)
+            FROM`gm_news`
+            <where>
+                <if test="1==1">
+                    1==1
+                </if>
+                <if test="newsCondition.news_id !=null and newsCondition.news_id != ''">
+                    AND `news_id` = #{newsCondition.news_id}
+                </if>
+                /* 开始日 */
+                <if test="newsCondition.news_gt_date !=null and newsCondition.news_gt_date != ''">
+                    AND `news_date` &gt; = #{newsCondition.news_gt_date}
+                </if>
+                /* 截止日 */
+                <if test="newsCondition.news_lt_date !=null and newsCondition.news_lt_date != ''">
+                    AND `news_date` &lt; = #{newsCondition.news_lt_date}
+                </if>
+                /* 新闻类型 */
+                <if test="newsCondition.news_typeid !=null and newsCondition.news_typeid !=''">
+                    AND `news_typeid` = #{newsCondition.news_typeid}
+                </if>
+                /* 新闻标题模糊查询 */
+                <if test="newsCondition.news_title !=null and newsCondition.news_title !=''">
+                    AND `news_title` like  '$#{newsCondition.news_title}$'
+                </if>
+            </where>
+    </select>
+</mapper>
