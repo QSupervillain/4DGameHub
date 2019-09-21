@@ -1,6 +1,7 @@
 package com.cxk.service;
 
 import com.cxk.pojo.Video;
+import org.apache.ibatis.annotations.Param;
 
 import java.util.Date;
 import java.util.List;
@@ -16,4 +17,6 @@ public interface VideoService {
     public int deleteVideo(int video_id);
     //显示视屏
     public List<Video> findAll();
+    //模糊查询
+    public List<Video> fuzzyQuery(@Param(value = "video_title") String video_title);
 }

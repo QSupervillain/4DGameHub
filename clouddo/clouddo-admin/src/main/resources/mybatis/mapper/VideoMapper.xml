@@ -27,4 +27,10 @@
     <delete id="com.cxk.dao.VideoDao.deleteVideo" parameterType="int">
         DELETE FROM gm_video WHERE video_id=#{video_id}
     </delete>
+    <select id="com.cxk.dao.VideoDao.fuzzyQuery" resultMap="gm_video">
+        SELECT video_id,video_title,video_content,video_date,video_type FROM gm_video
+        <if test="video_title!=null and video_title!=''">
+        where video_title like concat('%',#{video_title},'%')
+        </if>
+    </select>
 </mapper>

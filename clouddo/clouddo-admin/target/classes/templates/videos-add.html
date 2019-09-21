@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html class="x-admin-sm" xmlns:th="http://www.thymeleaf.org">
-    
     <head>
         <meta charset="UTF-8">
         <title>视屏新增</title>
@@ -20,7 +19,7 @@
     <body>
         <div class="layui-fluid">
             <div class="layui-row">
-                <form  class="layui-form">
+                <form  class="layui-form" action="/addVideo" method="post" enctype="multipart/form-data">
                   <div class="layui-form-item">
                       <label class="layui-form-label">
                           <span class="x-red">*</span>视频标题
@@ -69,13 +68,26 @@
                   <div class="layui-form-item">
                       <label  class="layui-form-label">
                       </label>
-                      <button  class="layui-btn" lay-filter="add" lay-submit="">
+                      <button  class="layui-btn" type="submit">
                           增加
                       </button>
                   </div>
               </form>
             </div>
         </div>
+            <script  id="successful">
+                var successful=[[${successful}]];
+                //alert(successful=="1");
+                //alert(successful==1);
+                if (successful=="1"){
+                    alert("增加成功");
+                    //关闭当前frame
+                    xadmin.close();
+                    // 可以对父窗口进行刷新
+                    xadmin.father_reload();
+                }
+            </script>
+        </p>
         <script>layui.use(['form', 'layer'],
             function() {
                 $ = layui.jquery;
@@ -87,30 +99,8 @@
                 function(data) {
                     console.log(data);
                     //发异步，把数据提交给php
-                   var video_title=$("#video_title").val();
-                    var video_content=$("#video_content").val();
-                    var video_src=$("#video_src").val();
-                    //var video_src=document.getElementById('video_src').files;
-                    //var video_img=document.getElementById('video_img').files;
-                    var video_img=$("#video_img").val();
-                    var video_type=$("#video_type").val();
-                    $.ajax({
-                        type: 'post',//提交方式 post 或者get
-                        url:'/addVideo',
-                        async: false,
-                        data: {'video_title':video_title,'video_content':video_content,'video_src':video_src,'video_img':video_img,'video_type':video_type},//提交的参数
 
-                    });
-                    layer.alert("增加成功", {
-                        icon: 6
-                    },
-                    function() {
-                        //关闭当前frame
-                        xadmin.close();
 
-                        // 可以对父窗口进行刷新 
-                        xadmin.father_reload();
-                    });
                     return false;
                 });
 

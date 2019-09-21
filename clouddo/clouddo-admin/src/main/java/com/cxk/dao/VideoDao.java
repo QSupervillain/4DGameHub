@@ -2,6 +2,7 @@ package com.cxk.dao;
 
 import com.cxk.pojo.Video;
 import org.apache.ibatis.annotations.Mapper;
+import org.apache.ibatis.annotations.Param;
 import org.springframework.stereotype.Repository;
 
 import java.util.Date;
@@ -16,8 +17,11 @@ public interface VideoDao {
     public int updateVideo(int video_id, String video_title, String video_content, Date video_date,int video_type);
     //根据id获取视屏数据
     public Video findById(int video_id);
-    //显示视屏
+    //显示视屏 +模糊查询
     public List<Video> findAll();
     //删除视屏
     public int deleteVideo(int video_id);
+    //模糊查询
+    public List<Video> fuzzyQuery(@Param(value = "video_title") String video_title);
+
 }
