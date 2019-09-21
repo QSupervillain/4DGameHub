@@ -15,7 +15,10 @@
     <link rel="stylesheet" type="text/css" href="css/wy-common.css" />
     <link rel="stylesheet" href="css/wy_area_jian_news.css" />
     <script type="text/javascript" src="js/jq1.9.js"></script>
-<script src="js/ds.js"></script></head>
+    <script src="js/ds.js"></script>
+    <script src="../static/js/jquery.min.js"></script>
+
+</head>
 <body>
 <div class="header_warp">
     <div class="header_top">
@@ -63,7 +66,7 @@
                         <div class="a-topin">
             <div class="al">英雄玩法</div>
             <ul>
-                                <li th:each="ps:${namelist}"><a th:href="@{'/index?pid='+${ps.getPspname_id()}}" target="_blank" th:text="${ps.pspname_name}"></a></li>
+                                <li th:each="ps:${namelist}"><a th:href="@{'/index?pid='+${ps.getPspname_id()}}" target="_self" th:text="${ps.pspname_name}"></a></li>
                             </ul>
             </div>
                         <div class="a-topin">
@@ -99,32 +102,17 @@ $(".header_warp .banner .top .nava .search").css({"width":1200-$(".header_warp .
 </script><div class="content">
     <div class="title">
         <div class="home"></div>
-        <span>您的位置：<a href="https://ol.3dmgame.com" target="_blank">网游</a> > <i><a href="https://ol.3dmgame.com/lol/" target="_blank">英雄联盟</a></i> > 攻略 </span>
+        <span>您的位置：<a href="https://ol.3dmgame.com" target="_blank">网游</a> > <i><a href="https://ol.3dmgame.com/lol/"+${param.pid}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           target="_blank">英雄联盟</a></i> > 攻略 </span>
     </div>
     <div class="cent">
         <div class="centleft">
-            <ol>
-                                <li>
-                    <a href="https://ol.3dmgame.com/lol/gl/" class="bj">最新攻略</a>
-                </li>
-                                                                <li>
-                    <a href="https://ol.3dmgame.com/lol/gl_1_1/">图文攻略</a>
-                </li>
-                                                <li>
-                    <a href="https://ol.3dmgame.com/lol/gl_2_1/">综合攻略</a>
-                </li>
-                                                <li>
-                    <a href="https://ol.3dmgame.com/lol/gl_3_1/">游戏图鉴</a>
-                </li>
-                                                <li>
-                    <a href="https://ol.3dmgame.com/lol/gl_4_1/">常见问题</a>
-                </li>
-                                                <li>
-                    <a href="https://ol.3dmgame.com/lol/gl_5_1/">游戏问答</a>
+            <ol id="aab">
+                <li th:each="tp:${typelist}" >
+                    <a th:href="@{'/index2?pid='+${id}+'&type='+${tp.psptype_id}}" class="bj" th:text="${tp.psptype_name}"></a>
                 </li>
                             </ol>
                         <ul class="list ">
-                            <li th:each="Psp:${pspList}">
+                            <li th:each="Psp:${pspList.list}">
                                 <a th:href="@{'/moban?pid='+${Psp.psp_id}}" target="_blank">
                                     <div class="imgst">
                                         <img th:src="@{'picture/'+${Psp.psp_image}}">
@@ -138,7 +126,8 @@ $(".header_warp .banner .top .nava .search").css({"width":1200-$(".header_warp .
                                 </a>
                             </li>
                             </ul>
-            <div class="fenye"><ul class="pagination"><li class="first disabled"><span>首页</span></li>
+            <div class="fenye"><ul class="pagination">
+                <li class="first disabled"><a th:href="@{'?pid='+${id}+'&start=1'}" data-page="570">首页</a></li>
 <li class="prev disabled"><span>&laquo;</span></li>
 <li class="active"><a href="https://ol.3dmgame.com/lol/gl/" data-page="0">1</a></li>
 <li><a href="https://ol.3dmgame.com/lol/gl_all_2/" data-page="1">2</a></li>
@@ -149,7 +138,7 @@ $(".header_warp .banner .top .nava .search").css({"width":1200-$(".header_warp .
 <li><a href="https://ol.3dmgame.com/lol/gl_all_7/" data-page="6">7</a></li>
 <li><a href="https://ol.3dmgame.com/lol/gl_all_8/" data-page="7">8</a></li>
 <li class="next"><a href="https://ol.3dmgame.com/lol/gl_all_2/" data-page="1">&raquo;</a></li>
-<li class="last"><a href="https://ol.3dmgame.com/lol/gl_all_571/" data-page="570">末页</a></li></ul></div>
+<li class="last"><a th:href="@{'?pid='+${id}+'&start='+${pspList.pages}}" data-page="570">末页</a></li></ul></div>
                     </div>
         <div class="centright">
             <div class="item6 mb30">
@@ -450,6 +439,18 @@ $(".header_warp .banner .top .nava .search").css({"width":1200-$(".header_warp .
             display: 'inlay-fix'
         });
     })();
+</script>
+<script type="text/javascript">
+    $(function () {
+        $("#aab a").firstChild.addClass("bj");
+        $("#aab a").click(function(){
+
+            $(this).addClass("bj");
+
+            $(this).siblings().removeClass("bj");
+
+        })
+    })
 </script>
 </body>
 </html>

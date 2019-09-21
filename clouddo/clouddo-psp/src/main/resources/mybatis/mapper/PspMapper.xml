@@ -23,6 +23,9 @@
         SELECT psp_id,psp_title,psp_image,psp_content,psp_date,psp_authoridid,psp_source,psp_pv,psp_tpye,psp_description FROM gm_psp WHERE psp_id=#{psp_id}
     </select>
     <select id="showbytypeid" resultMap="gm_psp" parameterType="int">
-        SELECT psp_id,psp_title,psp_image,psp_content,psp_date,psp_authoridid,psp_source,psp_pv,psp_tpye,psp_description,psp_pspnameid FROM gm_psp WHERE psp_pspnameid=2 AND psp_tpye=2
+        SELECT psp_id,psp_title,psp_image,psp_content,psp_date,psp_authoridid,psp_source,psp_pv,psp_tpye,psp_description,psp_pspnameid FROM gm_psp WHERE psp_pspnameid=#{id}
+        <if test="typeid!=null and typeid != 1 ">
+            AND psp_tpye=#{typeid}
+        </if>
     </select>
 </mapper>

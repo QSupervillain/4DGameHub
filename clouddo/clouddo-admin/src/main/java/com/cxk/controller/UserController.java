@@ -49,6 +49,12 @@ public class UserController {
     @RequestMapping("/addok")
     @ResponseBody
     public void add(User user){
+        user.setUser_image("a");
         userService.add(user);
+    }
+    @RequestMapping("/delete")
+    @ResponseBody
+    public void delete(@RequestParam("id") int id){
+        userService.delet(id);
     }
 }

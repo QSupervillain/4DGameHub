@@ -26,4 +26,11 @@ public class PspServiceImpl implements PspService {
     public Psp details(int id) {
         return pspDao.details(id);
     }
+
+    @Override
+    public List<Psp> showbytypeid(int id, int typeid) {
+        return pspDao.showbytypeid(id,typeid);
+    }
+
+
 }

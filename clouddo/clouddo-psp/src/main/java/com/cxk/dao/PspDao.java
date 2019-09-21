@@ -12,5 +12,5 @@ public interface PspDao {
      //根据ID查看详情
      public Psp details(int id);
      //根据类型显示
-     public Psp showbytypeid(int id,int type);
+     public List<Psp> showbytypeid(int id,int typeid);
 }

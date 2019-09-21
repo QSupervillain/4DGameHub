@@ -59,7 +59,12 @@ public class Test {
     }
     @org.junit.Test
     public void dd(){
-        List<PspName> pspNames = pspNameService.showAll();
+        List<PspName> pspNames = pspNameService.pspnamelist();
         System.out.println(pspNames);
+    }
+    @org.junit.Test
+    public void ee(){
+        List<Psp> showbytypeid = pspService.showbytypeid(1, 2);
+        System.out.println(showbytypeid);
     }
 }

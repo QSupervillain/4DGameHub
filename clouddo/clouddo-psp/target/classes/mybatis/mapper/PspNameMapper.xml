@@ -2,12 +2,12 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.cxk.dao.PspNameDap">
+<mapper namespace="com.cxk.dao.PspNameDao">
     <resultMap id="gm_pspname" type="com.cxk.pojo.PspName">
         <id property="pspname_id" column="pspname_id"/>
         <result property="pspname_name" column="pspname_name"></result>
     </resultMap>
-    <select id="showAll" resultMap="gm_pspname">
+    <select id="pspnamelist" resultMap="gm_pspname">
        SELECT pspname_id,pspname_name FROM gm_pspname
     </select>
 </mapper>

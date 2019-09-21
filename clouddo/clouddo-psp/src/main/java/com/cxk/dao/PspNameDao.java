@@ -6,6 +6,6 @@ import org.apache.ibatis.annotations.Mapper;
 import java.util.List;
 
 @Mapper
-public interface PspNameDap {
-    List<PspName>showAll();
+public interface PspNameDao {
+    List<PspName>pspnamelist();
 }

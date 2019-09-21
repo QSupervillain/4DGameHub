@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.cxk.dao.ScDao">
+    <resultMap id="sc_game" type="com.cxk.pojo.Market">
+        <id property="game_id" column="game_id"/>
+        <result property="type_id" column="type_id"></result>
+        <result property="account_id" column="account_id"></result>
+        <result property="game_title" column="game_title"></result>
+        <result property="game_describe" column="game_describe"></result>
+        <result property="game_QQ" column="game_QQ"></result>
+        <result property="game_image" column="game_image"></result>
+        <result property="game_money" column="game_money"></result>
+        <result property="game_time" column="game_time"></result>
+        <result property="game_status" column="game_status"></result>
+        <result property="game_region" column="game_region"></result>
+    </resultMap>
+    <select id="mklist" resultMap="sc_game">
+        SELECT game_id,type_id,account_id,game_title,game_describe,game_QQ,game_image,game_money,game_time,game_status,game_region FROM sc_game
+    </select>
+    <insert id="addmk" parameterType="com.cxk.pojo.Market">
+        INSERT INTO sc_game VALUES(0,#{type_id},#{account_id},#{game_title},#{game_describe},#{game_QQ},#{game_image},#{game_money},#{game_time},#{game_status},#{game_region})
+    </insert>
+    <select id="showmk" resultMap="sc_game" parameterType="int">
+        SELECT game_id,type_id,account_id,game_title,game_describe,game_QQ,game_image,game_money,game_time,game_status,game_region FROM sc_game where game_id=#{id}
+    </select>
+    <update id="updatemk" parameterType="com.cxk.pojo.Market">
+        update sc_game
+        <set>
+            <if test="type_id!=null">
+                type_id=#{type_id},
+            </if>
+            <if test="account_id!=null">
+                account_id=#{account_id},
+            </if>
+            <if test="game_title!=null">
+                game_title=#{game_title},
+            </if>
+            <if test="game_describe!=null">
+                game_describe=#{game_describe},
+            </if>
+            <if test="game_QQ!=null">
+                game_QQ=#{game_QQ},
+            </if>
+            <if test="game_image!=null">
+                game_image=#{game_image},
+            </if>
+            <if test="game_money!=null">
+                game_money=#{game_money},
+            </if>
+            <if test="game_status!=null">
+                game_status=#{game_status},
+            </if>
+            <if test="game_region!=null ">
+                game_region=#{game_region}
+            </if>
+        </set>
+        where game_id=#{game_id}
+    </update>
+</mapper>
