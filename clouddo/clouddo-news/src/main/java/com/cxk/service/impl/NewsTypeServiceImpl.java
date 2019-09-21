@@ -24,6 +24,6 @@ public class NewsTypeServiceImpl implements NewsTypeService {
     //获取全部新闻
     @Override
     public List<GmNewsType> getNewsTypeAll() {
-        return NewsTypeDao.getNewsTypeAll();
+        return NewsTypeDao.showNewsTypeAll();
     }
 }

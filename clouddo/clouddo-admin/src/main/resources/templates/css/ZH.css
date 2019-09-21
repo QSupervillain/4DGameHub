@@ -1,0 +1,57 @@
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, input, select, textarea, div, table, td, th, tr, dt, dd, dl {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    text-align: center;
+}
+.centleft .warp_center {
+    padding-top: 20px;
+}
+
+div {
+    width:1100px;
+/*    border:2px solid red;*/
+    overflow:hidden;
+    text-align:center;
+    vertical-align:middle;
+    margin:0 auto;
+    margin-top: 10px;
+}
+
+.centleft .warp_center p{
+    color: #333;
+    line-height: 50px;
+    font-size: 15px;
+    margin: 10px auto;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 15px;
+    max-width:100%;
+    max-height:100%;
+/*    margin-left: 1%;
+    margin-right: 1%;*/
+}
+
+.centleft .warp_center p img {
+    max-width: 100%;
+}
+
+.centleft .warp_center p img, .content .ZLmp3 .zl_cent p img {
+    cursor: pointer;
+}
+
+img {
+    border: none;
+    vertical-align: middle;
+    max-width:80%;
+    max-height:80%
+}
+
+

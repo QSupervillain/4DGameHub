@@ -1,0 +1,44 @@
+<!DOCTYPE HTML
+        PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:th="http://www.thymeleaf.org" class="x-admin-sm">
+
+<head>
+    <meta charset="UTF-8">
+    <title>新闻内容预览</title>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,user-scalable=yes, minimum-scale=0.4, initial-scale=0.8,target-densitydpi=low-dpi" />
+    <link rel="stylesheet" href="./css/font.css">
+    <link rel="stylesheet" href="./css/xadmin.css">
+    <link rel="stylesheet" href="./css/ZH.css">
+    <script type="text/javascript" src="./lib/layui/layui.js" charset="utf-8"></script>
+    <script type="text/javascript" src="./js/xadmin.js"></script>
+    <!-- 让IE8/9支持媒体查询，从而兼容栅格 -->
+    <!--[if lt IE 9]>
+    <script src="https://cdn.staticfile.org/html5shiv/r29/html5.min.js"></script>
+    <script src="https://cdn.staticfile.org/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body >
+<!--<div class="warp_center">
+    <p align="center">
+        <img src="http://47.102.198.5:22222/image/1567933015_522532.jpg" alt="《英雄联盟》将办LPL全明星周末！首届赛事落户海南" />
+    </p>
+    <p style="text-indent:2em;">
+        和NBA等其他领域联赛的“全明星”一样，LPL全明星赛事的定位为专业性和娱乐性兼顾，对玩家而言则是彻底的狂欢。赛事将摒弃传统正赛紧张刺激的氛围，转而着重于选手的炫技交流。其加入了新生的对抗赛、人气选手的明星对抗、以及退役明星传奇的对抗，充分点燃粉丝们的激情。
+    </p>
+    <p align="center">
+        <img src="http://47.102.198.5:22222/image/1567933021_749256.jpg" alt="《英雄联盟》将办LPL全明星周末！首届赛事落户海南" />
+    </p>
+    <p style="text-indent:2em;">
+        首届《英雄联盟》LPL全明显周末将落户海南，赛事的明星选手和赛制也都将由玩家投票决定。
+    </p>
+</div>-->
+
+    <div class="warp_center" th:utext="${newsCintent}"></div>
+
+    </div>
+</body>
+
+</html>
