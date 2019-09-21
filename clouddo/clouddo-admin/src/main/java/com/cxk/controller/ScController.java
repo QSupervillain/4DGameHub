@@ -8,6 +8,7 @@ import com.cxk.service.ScService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
@@ -36,10 +37,10 @@ public class ScController {
         model.addAttribute("sctypelist",sctypelist);
         return "sc-add";
     }
-    @RequestMapping("/addscok")
+    @PostMapping("/addscok")
     @ResponseBody
-    public void addscok(Market market){
-        System.out.println(market);
+    public void addscok(Market market,@RequestParam("image")String image){
+        System.out.println(image);
         com.jcraft.jsch.Session session = JschUtil.getSession("47.102.198.5", 22, "root", "springboot2.0");/*("47.102.198.5", 22, "root", "springboot2.0");*/
         Sftp sftp = JschUtil.createSftp(session);
         market.setGame_status(0);

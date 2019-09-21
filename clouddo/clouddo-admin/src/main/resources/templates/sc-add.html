@@ -65,7 +65,7 @@
                             <span class="x-red">*</span>游戏描述
                         </label>
                         <div class="layui-input-inline">
-                            <input type="text" id="username3" name="game_describe" required="" lay-verify="required"
+                            <input type="text" id="game_describe" name="game_describe" required="" lay-verify="required"
                                    autocomplete="off" class="layui-input">
                             <!--                          <input type="text" id="phone" name="user_phone" required="" lay-verify="phone"-->
                             <!--                          autocomplete="off" class="layui-input">-->
@@ -80,7 +80,7 @@
                           <span class="x-red">*</span>上传的图片
                       </label>
                       <div class="layui-input-inline">
-                          <input type="file" id="image" name="game_image" required="" lay-verify="required"
+                          <input type="file" id="game_image" name="game_image" required="" lay-verify="required"
                                  autocomplete="off" class="layui-input">
                       </div>
                   </div>
@@ -149,10 +149,12 @@
                 form.on('submit(add)',
                 function(data) {
                     console.log(data);
+                    var a=$("#game_image").val().substring(12);
+                    alert(a)
                     //发异步，把数据提交给php
                     $.ajax({
                         type: "POST",   //提交的方法
-                        url:"/addscok", //提交的地址
+                        url:"/addscok?image="+a, //提交的地址
                         data:$('#name_form').serialize(),// 序列化表单值
                         async: false,
                         // error: function(request) {  //失败的话
