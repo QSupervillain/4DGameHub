@@ -2,36 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96f07e93-8169-472d-a909-4db721c67e13" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_net_commons_net_3_1.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-admin/clouddo-admin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/clouddo-admin.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-admin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/java/com/cxk/controller/VideoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/java/com/cxk/controller/VideoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/java/com/cxk/dao/VideoDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/java/com/cxk/dao/VideoDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/java/com/cxk/service/Impl/VideoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/java/com/cxk/service/Impl/VideoServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/java/com/cxk/service/VideoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/java/com/cxk/service/VideoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/java/com/cxk/util/UploadUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/java/com/cxk/util/UploadUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/mybatis/mapper/VideoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/mybatis/mapper/VideoMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/video-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/video-list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/videos-add.html" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/videos-add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-admin/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-admin/target/classes/com/cxk/controller/VideoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/target/classes/com/cxk/controller/VideoController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-admin/target/classes/com/cxk/dao/VideoDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/target/classes/com/cxk/dao/VideoDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-admin/target/classes/com/cxk/service/Impl/VideoServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/target/classes/com/cxk/service/Impl/VideoServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-admin/target/classes/com/cxk/service/VideoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/target/classes/com/cxk/service/VideoService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-admin/target/classes/mybatis/mapper/VideoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/target/classes/mybatis/mapper/VideoMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-admin/target/classes/templates/video-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/target/classes/templates/video-list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-admin/target/classes/templates/videos-add.html" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/target/classes/templates/videos-add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-base/clouddo-base.iml" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-base/clouddo-base.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-cms/clouddo-cms.iml" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-cms/clouddo-cms.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-comm/clouddo-comm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-comm/clouddo-comm.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-download/clouddo-download.iml" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-download/clouddo-download.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/clouddo-news.iml" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-news/clouddo-news.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-psp/clouddo-psp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-psp/clouddo-psp.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-server/clouddo-server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-server/clouddo-server.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-video/clouddo-video.iml" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-video/clouddo-video.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-zuul/clouddo-zuul.iml" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-zuul/clouddo-zuul.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/clouddo/clouddo-server/target/" />
     <ignored path="$PROJECT_DIR$/clouddo/clouddo-comm/target/" />
@@ -88,11 +60,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/clouddo/clouddo-admin/src/main/java/com/cxk/controller/VideoController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="809">
-              <caret line="175" column="85" selection-start-line="175" selection-start-column="74" selection-end-line="175" selection-end-column="85" />
+            <state relative-caret-position="-1324">
+              <caret line="99" column="45" selection-start-line="99" selection-start-column="37" selection-end-line="99" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -100,11 +72,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/clouddo/clouddo-admin/src/main/java/com/cxk/AdminApp_8094.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+            <state relative-caret-position="248">
+              <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
               <folding>
                 <element signature="e#396#397#0" expanded="true" />
                 <element signature="e#459#460#0" expanded="true" />
@@ -114,9 +86,32 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/clouddo/clouddo-video/src/main/java/com/cxk/Video_App_8091.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/clouddo/clouddo.iml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/clouddo/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="621">
+              <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/video-list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2808">
+            <state relative-caret-position="252">
               <caret line="104" column="58" selection-start-line="104" selection-start-column="43" selection-end-line="104" selection-end-column="58" />
             </state>
           </provider>
@@ -130,8 +125,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/videos-add.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2322">
-              <caret line="86" column="43" selection-start-line="86" selection-start-column="43" selection-end-line="86" selection-end-column="43" />
+            <state relative-caret-position="7">
+              <caret line="22" column="47" lean-forward="true" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
               <folding>
                 <element signature="n#style#0;n#textarea#0;n#div#0;n#div#1;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -258,6 +253,85 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="cxk" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="4DGameHub" type="b2602c69:ProjectViewProjectNode" />
+              <item name="clouddo" type="462c0819:PsiDirectoryNode" />
+              <item name="clouddo-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cxk" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="4DGameHub" type="b2602c69:ProjectViewProjectNode" />
+              <item name="clouddo" type="462c0819:PsiDirectoryNode" />
+              <item name="clouddo-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="4DGameHub" type="b2602c69:ProjectViewProjectNode" />
+              <item name="clouddo" type="462c0819:PsiDirectoryNode" />
+              <item name="clouddo-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="4DGameHub" type="b2602c69:ProjectViewProjectNode" />
+              <item name="clouddo" type="462c0819:PsiDirectoryNode" />
+              <item name="clouddo-video" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="4DGameHub" type="b2602c69:ProjectViewProjectNode" />
+              <item name="clouddo" type="462c0819:PsiDirectoryNode" />
+              <item name="clouddo-video" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="4DGameHub" type="b2602c69:ProjectViewProjectNode" />
+              <item name="clouddo" type="462c0819:PsiDirectoryNode" />
+              <item name="clouddo-video" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="4DGameHub" type="b2602c69:ProjectViewProjectNode" />
+              <item name="clouddo" type="462c0819:PsiDirectoryNode" />
+              <item name="clouddo-video" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="4DGameHub" type="b2602c69:ProjectViewProjectNode" />
+              <item name="clouddo" type="462c0819:PsiDirectoryNode" />
+              <item name="clouddo-video" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cxk" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="4DGameHub" type="b2602c69:ProjectViewProjectNode" />
+              <item name="clouddo" type="462c0819:PsiDirectoryNode" />
+              <item name="clouddo-video" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="4DGameHub" type="b2602c69:ProjectViewProjectNode" />
+              <item name="clouddo" type="462c0819:PsiDirectoryNode" />
+              <item name="clouddo-video" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -299,7 +373,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569027414554" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569034993636" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/alipay-支付宝沙箱支付" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -354,7 +428,7 @@
     </option>
     <option name="contentProportion" value="0.29752705" />
   </component>
-  <component name="RunManager" selected="Spring Boot.AdminApp_8094">
+  <component name="RunManager" selected="Spring Boot.Video_App_8091">
     <configuration name="AdminApp_8094" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="clouddo-admin" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.cxk.AdminApp_8094" />
@@ -490,7 +564,7 @@
       <workItem from="1568992228969" duration="74000" />
       <workItem from="1568992313077" duration="329000" />
       <workItem from="1568993421253" duration="3097000" />
-      <workItem from="1569026331024" duration="859000" />
+      <workItem from="1569026331024" duration="5421000" />
     </task>
     <task id="LOCAL-00001" summary="添加视屏模块">
       <created>1567651800758</created>
@@ -709,11 +783,18 @@
       <option name="project" value="LOCAL" />
       <updated>1568875054497</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="后台视屏添加">
+      <created>1569027487710</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1569027487710</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70772000" />
+    <option name="totallyTimeSpent" value="75334000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -735,7 +816,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="5" />
       <window_info anchor="bottom" id="Database Changes" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run Dashboard" order="8" visible="true" weight="0.0738255" />
+      <window_info anchor="bottom" id="Run Dashboard" order="8" visible="true" weight="0.16442953" />
       <window_info anchor="bottom" id="Spring" order="9" />
       <window_info anchor="bottom" id="Message" order="10" />
       <window_info anchor="bottom" id="Find" order="11" />
@@ -812,27 +893,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/js/xadmin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="75" column="4" selection-start-line="75" selection-start-column="4" selection-end-line="75" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/tables.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="505">
-          <caret line="228" lean-forward="true" selection-start-line="228" selection-end-line="228" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-download/src/main/resources/templates/index4.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="262" selection-start-line="262" selection-end-line="262" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/admin-edit.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="891">
@@ -1090,43 +1150,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-admin/src/main/java/com/cxk/controller/VideoController.java">
+    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/templates/news.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clouddo/clouddo.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-admin/src/main/java/com/cxk/AdminApp_8094.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="809">
-          <caret line="175" column="85" selection-start-line="175" selection-start-column="74" selection-end-line="175" selection-end-column="85" />
+        <state relative-caret-position="248">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#396#397#0" expanded="true" />
+            <element signature="e#459#460#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/video-list.html">
+    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-video/src/main/java/com/cxk/Video_App_8091.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2808">
-          <caret line="104" column="58" selection-start-line="104" selection-start-column="43" selection-end-line="104" selection-end-column="58" />
+        <state relative-caret-position="189">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/templates/news.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/videos-add.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2322">
-          <caret line="86" column="43" selection-start-line="86" selection-start-column="43" selection-end-line="86" selection-end-column="43" />
+        <state relative-caret-position="7">
+          <caret line="22" column="47" lean-forward="true" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
           <folding>
             <element signature="n#style#0;n#textarea#0;n#div#0;n#div#1;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-admin/src/main/java/com/cxk/AdminApp_8094.java">
+    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/video-list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        <state relative-caret-position="252">
+          <caret line="104" column="58" selection-start-line="104" selection-start-column="43" selection-end-line="104" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clouddo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-admin/src/main/java/com/cxk/controller/VideoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1324">
+          <caret line="99" column="45" selection-start-line="99" selection-start-column="37" selection-end-line="99" selection-end-column="45" />
           <folding>
-            <element signature="e#396#397#0" expanded="true" />
-            <element signature="e#459#460#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

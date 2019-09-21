@@ -91,13 +91,15 @@ public class VideoController {
             System.out.println(video_name.getVideo_src().substring(40));
             boolean delImg = sftp.delFile("/home/ftpuser/www/images/"+video_name.getVideo_image().substring(33));
             boolean delVideo = sftp.delFile("/home/ftpuser/www/images/videos/"+video_name.getVideo_src().substring(40));
+            videoService.deleteVideo(video_id);
         } else {
             boolean delImg = sftp.delFile("/opt/static/image/" + video_name.getVideo_image().substring(32));
             boolean delVideo = sftp.delFile("/opt/static/videos/" + video_name.getVideo_src().substring(33));
             //System.out.println(delImg);
             //System.out.println(delVideo);
+            videoService.deleteVideo(video_id);
         }
-        videoService.deleteVideo(video_id);
+
     }
 
     /**
