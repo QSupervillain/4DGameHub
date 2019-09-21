@@ -11,6 +11,12 @@
 
     <artifactId>clouddo-admin</artifactId>
     <dependencies>
+        <!-- ftpclient -->
+        <dependency>
+            <groupId>commons-net</groupId>
+            <artifactId>commons-net</artifactId>
+            <version>3.1</version>
+        </dependency>
         <!--mysql 驱动包-->
         <dependency>
             <groupId>mysql</groupId>

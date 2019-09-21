@@ -37,4 +37,10 @@ public class VideoServiceImpl implements VideoService {
     public List<Video> findAll() {
         return videoDao.findAll();
     }
+
+    @Override
+    public List<Video> fuzzyQuery(String video_title) {
+
+        return videoDao.fuzzyQuery(video_title);
+    }
 }

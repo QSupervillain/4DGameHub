@@ -12,11 +12,7 @@
     <script src="./lib/layui/layui.js" charset="utf-8"></script>
     <script type="text/javascript" src="./js/xadmin.js"></script>
     <script src="js/jquery.min.js">
-        $(function () {
-            $("#aa").click(function () {
-                alert(123)
-            })
-        })
+
     </script>
     <!--[if lt IE 9]>
     <script src="https://cdn.staticfile.org/html5shiv/r29/html5.min.js"></script>
@@ -40,16 +36,41 @@
         <div class="layui-col-md12">
             <div class="layui-card">
                 <div class="layui-card-body ">
-                    <form class="layui-form layui-col-space5">
+                    <form class="layui-form layui-col-space5" method="post" action="Subject-search.action">
                         <div class="layui-inline layui-show-xs-block">
-                            <input type="text" name="username" placeholder="请输入视屏名称" autocomplete="off"
+                            <input type="text" id="video_titlel" name="video_titlel" placeholder="请输入视屏名称" autocomplete="off"
                                    class="layui-input">
                         </div>
                         <div class="layui-inline layui-show-xs-block">
-                            <button class="layui-btn" lay-submit="" lay-filter="sreach"><i
+                            <button class="layui-btn" lay-submit="" onclick="search()" lay-filter="sreach"><i
                                     class="layui-icon">&#xe615;</i></button>
                         </div>
                     </form>
+                    <script>
+                        function search() {
+                            var video_titlel=$('#video_titlel').val()
+                            //alert(video_titlel);
+                            $.ajax({
+                                url: 'fuzzyQuery',
+                                async: false,
+                                dataType: 'json',
+                                data: {'video_title': video_titlel},
+                                success: function (result) {
+                                   alert(result);
+                                   $("#hestia").remove();
+                                    window.location.href="./video-list.html";
+                                   /* //关闭当前frame
+                                    xadmin.close();
+
+                                    // 可以对父窗口进行刷新
+                                    xadmin.father_reload();*/
+
+                                }
+
+
+                            })
+                        }
+                    </script>
                 </div>
                 <div class="layui-card-header">
                     <button class="layui-btn layui-btn-danger" onclick="delAll()"><i class="layui-icon"></i>批量删除
@@ -73,11 +94,11 @@
                             <th>执行操作</th>
                         </thead>
                         <tbody>
-                        <tr th:each="v:${videos}">
+                        <tr th:each="v:${videos}" id="hestia">
                             <td>
                                 <input type="checkbox" name="" lay-skin="primary">
                             </td>
-                            <td th:text="${v.video_id}">1</td>
+                            <td th:text="${v.video_id}" >1</td>
                             <td th:text="${v.video_title}">lol大战</td>
                             <td th:text="${v.video_content}">1aslkhsafadflsjak</td>
                             <!--<td th:text="${v.video_type}">2</td>-->
