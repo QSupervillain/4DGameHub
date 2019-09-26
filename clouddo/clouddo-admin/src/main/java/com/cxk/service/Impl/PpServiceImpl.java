@@ -26,6 +26,11 @@ public class PpServiceImpl implements PpService {
     }
 
     @Override
+    public List<Psp> mohu(String pname) {
+        return ppDao.mohu(pname);
+    }
+
+    @Override
     public List<PspName> namelist() {
         return ppDao.namelist();
     }
@@ -43,5 +48,10 @@ public class PpServiceImpl implements PpService {
     @Override
     public Psp Ppbyid(int id) {
         return ppDao.Ppbyid(id);
+    }
+
+    @Override
+    public int updatepp(Psp psp) {
+        return ppDao.updatepp(psp);
     }
 }

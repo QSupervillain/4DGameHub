@@ -25,7 +25,7 @@ public class Market implements Serializable {
     private int account_id;         //账号
     private String game_title;      //标题
     private String game_describe;   //描述
-    private int game_QQ;            //联系方式
+    private String game_qq;            //联系方式
     private String game_image;      //图片
     private BigDecimal game_money;  //价格
     private Date game_time;         //创建时间

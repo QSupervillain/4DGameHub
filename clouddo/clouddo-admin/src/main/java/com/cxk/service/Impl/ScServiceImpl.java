@@ -48,4 +48,14 @@ public class ScServiceImpl implements ScService {
     public int updatemk(Market market) {
         return scDao.updatemk(market);
     }
+
+    @Override
+    public int deletesc(int id) {
+        return scDao.deletesc(id);
+    }
+
+    @Override
+    public List<Market> mkmohu(String name) {
+        return scDao.mkmohu(name);
+    }
 }

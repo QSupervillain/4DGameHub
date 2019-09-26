@@ -35,12 +35,16 @@ public class UserDaoImpl implements UserService {
 
     @Override
     public int add(User user) {
-         user.setUser_image("a");
         return userDao.add(user);
     }
 
     @Override
     public int delet(int id) {
         return userDao.delet(id);
+    }
+
+    @Override
+    public List<User> mohuuser(String name) {
+        return userDao.mohuuser(name);
     }
 }

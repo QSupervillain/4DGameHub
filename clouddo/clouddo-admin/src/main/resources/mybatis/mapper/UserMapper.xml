@@ -39,7 +39,7 @@
                 user_image=#{user_image},
             </if>
             <if test="user_question!=null">
-                user_question=#{user_question}
+                user_question=#{user_question},
             </if>
             <if test="user_answer!=null">
                 user_answer=#{user_answer}
@@ -56,4 +56,12 @@
     <delete id="delet" parameterType="int">
         delete from gm_user where user_id=#{user_id}
     </delete>
+    <select id="mohuuser" resultMap="gm_user" parameterType="java.lang.String">
+        SELECT user_id,user_name,user_pwd,user_role,user_phone,user_email,user_image,user_question,user_answer FROM gm_user
+        <where>
+            <if test="_parameter !=null and _parameter!='' ">
+                and user_name like "%"#{name}"%"
+            </if>
+        </where>
+    </select>
 </mapper>

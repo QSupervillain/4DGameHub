@@ -35,9 +35,6 @@
                           autocomplete="off" class="layui-input">
                           <input type="hidden" th:value="${user.user_id}" name="user_id">
                       </div>
-                      <div class="layui-form-mid layui-word-aux">
-                          <span class="x-red">*</span>将会成为您唯一的登入名
-                      </div>
                   </div>
                   <div class="layui-form-item">
                       <label for="phone" class="layui-form-label">
@@ -102,6 +99,24 @@
                           autocomplete="off" class="layui-input">
                       </div>
                   </div>
+                    <div class="layui-form-item">
+                        <label for="L_repass" class="layui-form-label">
+                            <span class="x-red">*</span>找回密码问题
+                        </label>
+                        <div class="layui-input-inline">
+                            <input type="text" th:value="${user.user_question}" id="L_repass1" name="user_question" required="" lay-verify="repass"
+                                   autocomplete="off" class="layui-input">
+                        </div>
+                    </div>
+                    <div class="layui-form-item">
+                        <label for="L_repass" class="layui-form-label">
+                            <span class="x-red">*</span>找回密码答案
+                        </label>
+                        <div class="layui-input-inline">
+                            <input type="text" th:value="${user.user_answer}" id="L_repass2" name="user_answer" required="" lay-verify="repass"
+                                   autocomplete="off" class="layui-input">
+                        </div>
+                    </div>
                   <div class="layui-form-item">
                       <label for="L_repass" class="layui-form-label">
                       </label>

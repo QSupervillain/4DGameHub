@@ -37,15 +37,9 @@
         <div class="layui-col-md12">
             <div class="layui-card">
                 <div class="layui-card-body ">
-                    <form class="layui-form layui-col-space5">
+                    <form class="layui-form layui-col-space5" action="/usermohu" method="post">
                         <div class="layui-inline layui-show-xs-block">
-                            <input class="layui-input"  autocomplete="off" placeholder="开始日" name="start" id="start">
-                        </div>
-                        <div class="layui-inline layui-show-xs-block">
-                            <input class="layui-input"  autocomplete="off" placeholder="截止日" name="end" id="end">
-                        </div>
-                        <div class="layui-inline layui-show-xs-block">
-                            <input type="text" name="username"  placeholder="请输入用户名" autocomplete="off" class="layui-input">
+                            <input type="text" name="name"  placeholder="请输入用户名" autocomplete="off" class="layui-input">
                         </div>
                         <div class="layui-inline layui-show-xs-block">
                             <button class="layui-btn"  lay-submit="" lay-filter="sreach"><i class="layui-icon">&#xe615;</i></button>
@@ -54,7 +48,7 @@
                 </div>
                 <div class="layui-card-header">
                     <button class="layui-btn layui-btn-danger" onclick="delAll()"><i class="layui-icon"></i>批量删除</button>
-                    <button class="layui-btn" onclick="xadmin.open('添加用户','./admin-add.html',600,400)"><i class="layui-icon"></i> 添加</button>
+                    <button class="layui-btn" onclick="xadmin.open('添加用户','/add',600,500)"><i class="layui-icon"></i> 添加</button>
                 </div>
                 <div class="layui-card-body ">
                     <table class="layui-table layui-form">
@@ -74,7 +68,7 @@
                             <th>操作</th>
                         </thead>
                         <tbody>
-                        <tr th:each="u:${userlist}">
+                        <tr th:each="u:${userlist.list}">
                             <td>
                                 <input type="checkbox" name=""  lay-skin="primary">
                             </td>
@@ -93,7 +87,7 @@
                                 <!--                                    <a onclick="member_stop(this,'10001')" href="javascript:;"  title="启用">-->
                                 <!--                                      <i class="layui-icon">&#xe601;</i>-->
                                 <!--                                    </a>-->
-                                <a title="编辑"  onclick="xadmin.open('编辑','update?id='+$(this).parents('tr').children().eq(1).text())" href="javascript:;">
+                                <a title="编辑"  onclick="xadmin.open('编辑','update?id='+$(this).parents('tr').children().eq(1).text(),500,500)" href="javascript:;">
                                     <i class="layui-icon">&#xe642;</i>
                                 </a>
                                 <a title="删除" onclick="member_del(this,$(this).parents('tr').children().eq(1).text())" href="javascript:;">
@@ -107,12 +101,10 @@
                 <div class="layui-card-body ">
                     <div class="page">
                         <div>
-                            <a class="prev" href="">&lt;&lt;</a>
-                            <a class="num" href="">1</a>
-                            <span class="current">2</span>
-                            <a class="num" href="">3</a>
-                            <a class="num" href="">489</a>
-                            <a class="next" href="">&gt;&gt;</a>
+                            <a href="?start=1">首  页</a>
+                            <a class="prev" th:href="@{'?start='+${userlist.pageNum-1}}" data-page="570">&lt;&lt;</a>
+                            <a class="next" th:href="@{'?start='+${userlist.pageNum+1}}">&gt;&gt;</a>
+                            <a th:href="@{'?start='+${userlist.pages}}">末  页</a>
                         </div>
                     </div>
                 </div>

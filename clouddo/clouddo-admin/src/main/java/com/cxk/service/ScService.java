@@ -12,4 +12,6 @@ public interface ScService {
     public int addmk(Market market);
     public Market showmk(int id);
     public int updatemk(Market market);
+    public int deletesc(int id);
+    public List<Market> mkmohu(String name);
 }

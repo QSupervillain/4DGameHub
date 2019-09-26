@@ -88,7 +88,7 @@ public class Test {
         mk.setAccount_id(213);
         mk.setGame_describe("dsa");
         mk.setGame_id(321);
-        mk.setGame_QQ(23);
+        mk.setGame_qq("23");
         mk.setType_id(2);
         BigDecimal a=new BigDecimal(2);
         mk.setGame_money(a);

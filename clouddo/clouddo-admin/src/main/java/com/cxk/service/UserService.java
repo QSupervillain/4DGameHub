@@ -10,4 +10,5 @@ public interface UserService {
     public User showbyid(int id);
     public int add(User user);
     public int delet(int id);
+    public List<User> mohuuser(String name);
 }

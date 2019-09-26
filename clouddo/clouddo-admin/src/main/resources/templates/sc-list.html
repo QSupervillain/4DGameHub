@@ -37,15 +37,9 @@
         <div class="layui-col-md12">
             <div class="layui-card">
                 <div class="layui-card-body ">
-                    <form class="layui-form layui-col-space5">
+                    <form class="layui-form layui-col-space5" action="/mkmohu" method="post">
                         <div class="layui-inline layui-show-xs-block">
-                            <input class="layui-input"  autocomplete="off" placeholder="开始日" name="start" id="start">
-                        </div>
-                        <div class="layui-inline layui-show-xs-block">
-                            <input class="layui-input"  autocomplete="off" placeholder="截止日" name="end" id="end">
-                        </div>
-                        <div class="layui-inline layui-show-xs-block">
-                            <input type="text" name="username"  placeholder="请输入用户名" autocomplete="off" class="layui-input">
+                            <input type="text" name="name"  placeholder="请输入用户名" autocomplete="off" class="layui-input">
                         </div>
                         <div class="layui-inline layui-show-xs-block">
                             <button class="layui-btn"  lay-submit="" lay-filter="sreach"><i class="layui-icon">&#xe615;</i></button>
@@ -67,26 +61,37 @@
                             <th>游戏名称</th>
                             <th>账号</th>
                             <th>标题</th>
-                            <th>描述</th>
                             <!--                                  <th>状态</th>-->
                             <th>联系方式</th>
-                            <th>图片</th>
                             <th>时间</th>
                             <th>大区服务器</th>
                             <th>操作</th>
                         </thead>
                         <tbody>
-                        <tr th:each="m:${mklist}">
+                        <tr th:each="m:${mklist.list}">
                             <td>
                                 <input type="checkbox" name=""  lay-skin="primary">
                             </td>
                             <td th:text="${m.game_id}"></td>
-                            <td th:text="${m.type_id}"></td>
+                            <td th:if="${m.type_id==1}" th:text="英雄联盟"></td>
+                            <td th:if="${m.type_id==2}" th:text="穿越火线"></td>
+                            <td th:if="${m.type_id==3}" th:text="DNF"></td>
+                            <td th:if="${m.type_id==4}" th:text="绝地求生"></td>
+                            <td th:if="${m.type_id==5}" th:text="王者荣耀"></td>
+                            <td th:if="${m.type_id==6}" th:text="逆战"></td>
+                            <td th:if="${m.type_id==7}" th:text="穿越火线手游"></td>
+                            <td th:if="${m.type_id==8}" th:text="QQ飞车"></td>
+                            <td th:if="${m.type_id==9}" th:text="QQ飞车手游"></td>
+                            <td th:if="${m.type_id==10}" th:text="反恐精英"></td>
+                            <td th:if="${m.type_id==11}" th:text="侠盗猎车手"></td>
+                            <td th:if="${m.type_id==12}" th:text="守望先锋"></td>
+                            <td th:if="${m.type_id==13}" th:text="火影忍者"></td>
+                            <td th:if="${m.type_id==14}" th:text="加速器"></td>
+                            <td th:if="${m.type_id==15}" th:text="球球大作战"></td>
+                            <td th:if="${m.type_id==16}" th:text="YY号码"></td>
                             <td th:text="${m.account_id}"></td>
                             <td th:text="${m.game_title}"></td>
-                            <td th:text="${m.game_describe}"></td>
-                            <td th:text="${m.game_QQ}"></td>
-                            <td th:text="${m.game_image}"></td>
+                            <td th:text="${m.game_qq}"></td>
                             <td th:text="${m.game_time}"></td>
                             <td th:text="${m.game_region}"></td>
 <!--                            <td th:text="${p.psp_title}"></td>-->
@@ -112,7 +117,7 @@
                                 <!--                                    <a onclick="member_stop(this,'10001')" href="javascript:;"  title="启用">-->
                                 <!--                                      <i class="layui-icon">&#xe601;</i>-->
                                 <!--                                    </a>-->
-                                <a title="编辑"  onclick="xadmin.open('编辑','showmk?id='+$(this).parents('tr').children().eq(1).text())" href="javascript:;">
+                                <a title="编辑"  onclick="xadmin.open('编辑','showmk?id='+$(this).parents('tr').children().eq(1).text(),500,500)" href="javascript:;">
                                     <i class="layui-icon">&#xe642;</i>
                                 </a>
                                 <a title="删除" onclick="member_del(this,$(this).parents('tr').children().eq(1).text())" href="javascript:;">
@@ -126,12 +131,10 @@
                 <div class="layui-card-body ">
                     <div class="page">
                         <div>
-                            <a class="prev" href="">&lt;&lt;</a>
-                            <a class="num" href="">1</a>
-                            <span class="current">2</span>
-                            <a class="num" href="">3</a>
-                            <a class="num" href="">489</a>
-                            <a class="next" href="">&gt;&gt;</a>
+                            <a href="?start=1">首  页</a>
+                            <a class="prev" th:href="@{'?start='+${mklist.pageNum-1}}" data-page="570">&lt;&lt;</a>
+                            <a class="next" th:href="@{'?start='+${mklist.pageNum+1}}">&gt;&gt;</a>
+                            <a th:href="@{'?start='+${mklist.pages}}">末  页</a>
                         </div>
                     </div>
                 </div>
@@ -185,7 +188,7 @@
         layer.confirm('确认要删除吗？',function(index){
             $.ajax({
                 type: "POST",   //提交的方法
-                url:"/deletepp?id="+id+"", //提交的地址
+                url:"/deletesc?id="+id+"", //提交的地址
                 async: false,
                 // error: function(request) {  //失败的话
                 //     alert("Connection error");

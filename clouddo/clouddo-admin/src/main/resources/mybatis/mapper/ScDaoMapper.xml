@@ -9,7 +9,7 @@
         <result property="account_id" column="account_id"></result>
         <result property="game_title" column="game_title"></result>
         <result property="game_describe" column="game_describe"></result>
-        <result property="game_QQ" column="game_QQ"></result>
+        <result property="game_qq" column="game_qq"></result>
         <result property="game_image" column="game_image"></result>
         <result property="game_money" column="game_money"></result>
         <result property="game_time" column="game_time"></result>
@@ -17,13 +17,13 @@
         <result property="game_region" column="game_region"></result>
     </resultMap>
     <select id="mklist" resultMap="sc_game">
-        SELECT game_id,type_id,account_id,game_title,game_describe,game_QQ,game_image,game_money,game_time,game_status,game_region FROM sc_game
+        SELECT game_id,type_id,account_id,game_title,game_describe,game_qq,game_image,game_money,game_time,game_status,game_region FROM sc_game
     </select>
     <insert id="addmk" parameterType="com.cxk.pojo.Market">
-        INSERT INTO sc_game VALUES(0,#{type_id},#{account_id},#{game_title},#{game_describe},#{game_QQ},#{game_image},#{game_money},#{game_time},#{game_status},#{game_region})
+        INSERT INTO sc_game VALUES(0,#{type_id},#{account_id},#{game_title},#{game_describe},#{game_qq},#{game_image},#{game_money},#{game_time},#{game_status},#{game_region})
     </insert>
     <select id="showmk" resultMap="sc_game" parameterType="int">
-        SELECT game_id,type_id,account_id,game_title,game_describe,game_QQ,game_image,game_money,game_time,game_status,game_region FROM sc_game where game_id=#{id}
+        SELECT game_id,type_id,account_id,game_title,game_describe,game_qq,game_image,game_money,game_time,game_status,game_region FROM sc_game where game_id=#{id}
     </select>
     <update id="updatemk" parameterType="com.cxk.pojo.Market">
         update sc_game
@@ -40,8 +40,8 @@
             <if test="game_describe!=null">
                 game_describe=#{game_describe},
             </if>
-            <if test="game_QQ!=null">
-                game_QQ=#{game_QQ},
+            <if test="game_qq!=null">
+                game_qq=#{game_qq},
             </if>
             <if test="game_image!=null">
                 game_image=#{game_image},
@@ -58,4 +58,15 @@
         </set>
         where game_id=#{game_id}
     </update>
+    <delete id="deletesc" parameterType="int">
+        DELETE FROM sc_game WHERE game_id=#{id}
+    </delete>
+    <select id="mkmohu" resultMap="sc_game" parameterType="java.lang.String">
+        SELECT game_id,type_id,account_id,game_title,game_describe,game_qq,game_image,game_money,game_time,game_status,game_region FROM sc_game
+        <where>
+            <if test="_parameter !=null and _parameter!='' ">
+                and game_title like "%"#{name}"%"
+            </if>
+        </where>
+    </select>
 </mapper>
