@@ -45,7 +45,7 @@
                     <li class="{shoupage}"><a href="https://ol.3dmgame.com/lol/">首页</a></li>
                     <li class="{shounews}"><a href="https://ol.3dmgame.com/lol/news/">新闻</a></li>
                     <li class="shou"><a href="https://ol.3dmgame.com/lol/gl/">攻略</a></li>
-                    <li class="{shouvideo}"><a href="https://ol.3dmgame.com/lol/v_all_1/">视频</a></li>
+                    <li class="{shouvideo}"><a href="http://localhost:8091">视频</a></li>
                                         <li class="{shouzone}"><a href="https://ol.3dmgame.com/lol/zone/">资料库</a></li>
                                         <li><a href="https://bbs.3dmgame.com/" target="_blank">论坛</a></li>
                                         <li><a href="https://ol.3dmgame.com/lol/zizouqi/" target="_blank">模拟器</a></li>
@@ -115,7 +115,7 @@ $(".header_warp .banner .top .nava .search").css({"width":1200-$(".header_warp .
                             <li th:each="Psp:${pspList.list}">
                                 <a th:href="@{'/moban?pid='+${Psp.psp_id}}" target="_blank">
                                     <div class="imgst">
-                                        <img th:src="@{'picture/'+${Psp.psp_image}}">
+                                        <img th:src="@{${Psp.psp_image}}">
                                     </div>
                                     <div class="h3"th:text="${Psp.psp_title }"></div>
                                     <p th:text="${Psp.psp_content}"></p>
@@ -127,7 +127,7 @@ $(".header_warp .banner .top .nava .search").css({"width":1200-$(".header_warp .
                             </li>
                             </ul>
             <div class="fenye"><ul class="pagination">
-                <li class="first disabled"><a th:href="@{'?pid='+${id}+'&start=1'}" data-page="570">首页</a></li>
+                <li class="first disabled"><a th:href="@{'index?pid='+${id}+'&start=1'}" data-page="570">首页</a></li>
 <li class="prev disabled"><span>&laquo;</span></li>
 <li class="active"><a href="https://ol.3dmgame.com/lol/gl/" data-page="0">1</a></li>
 <li><a href="https://ol.3dmgame.com/lol/gl_all_2/" data-page="1">2</a></li>
@@ -138,7 +138,7 @@ $(".header_warp .banner .top .nava .search").css({"width":1200-$(".header_warp .
 <li><a href="https://ol.3dmgame.com/lol/gl_all_7/" data-page="6">7</a></li>
 <li><a href="https://ol.3dmgame.com/lol/gl_all_8/" data-page="7">8</a></li>
 <li class="next"><a href="https://ol.3dmgame.com/lol/gl_all_2/" data-page="1">&raquo;</a></li>
-<li class="last"><a th:href="@{'?pid='+${id}+'&start='+${pspList.pages}}" data-page="570">末页</a></li></ul></div>
+<li class="last"><a th:href="@{'index?pid='+${id}+'&start='+${pspList.pages}}" data-page="570">末页</a></li></ul></div>
                     </div>
         <div class="centright">
             <div class="item6 mb30">
