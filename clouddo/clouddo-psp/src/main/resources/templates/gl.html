@@ -128,16 +128,8 @@ $(".header_warp .banner .top .nava .search").css({"width":1200-$(".header_warp .
                             </ul>
             <div class="fenye"><ul class="pagination">
                 <li class="first disabled"><a th:href="@{'index?pid='+${id}+'&start=1'}" data-page="570">首页</a></li>
-<li class="prev disabled"><span>&laquo;</span></li>
-<li class="active"><a href="https://ol.3dmgame.com/lol/gl/" data-page="0">1</a></li>
-<li><a href="https://ol.3dmgame.com/lol/gl_all_2/" data-page="1">2</a></li>
-<li><a href="https://ol.3dmgame.com/lol/gl_all_3/" data-page="2">3</a></li>
-<li><a href="https://ol.3dmgame.com/lol/gl_all_4/" data-page="3">4</a></li>
-<li><a href="https://ol.3dmgame.com/lol/gl_all_5/" data-page="4">5</a></li>
-<li><a href="https://ol.3dmgame.com/lol/gl_all_6/" data-page="5">6</a></li>
-<li><a href="https://ol.3dmgame.com/lol/gl_all_7/" data-page="6">7</a></li>
-<li><a href="https://ol.3dmgame.com/lol/gl_all_8/" data-page="7">8</a></li>
-<li class="next"><a href="https://ol.3dmgame.com/lol/gl_all_2/" data-page="1">&raquo;</a></li>
+<li class="prev disabled"><span th:href="@{'index?pid='+${id}+'&start='+${pspList.pageNum - 1}}">&laquo;</span></li>
+<li class="next"><a th:href="@{'index?pid='+${id}+'&start='+${pspList.pageNum+1}}" data-page="1">&raquo;</a></li>
 <li class="last"><a th:href="@{'index?pid='+${id}+'&start='+${pspList.pages}}" data-page="570">末页</a></li></ul></div>
                     </div>
         <div class="centright">

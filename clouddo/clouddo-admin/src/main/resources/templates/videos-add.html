@@ -61,8 +61,16 @@
                             <span class="x-red">*</span>视屏类型
                         </label>
                         <div class="layui-input-inline">
-                            <input type="number" id="video_type" name="video_type" required="" lay-verify="required"
-                                   autocomplete="off" class="layui-input">
+                           <!-- <input type="number" id="video_type" name="video_type" required="" lay-verify="required"
+                                   autocomplete="off" class="layui-input">-->
+                            <select id="video_type" name="video_type" autocomplete="off" class="layui-input">
+                                <option name="video_type" value="1">推荐视频</option>
+                                <option name="video_type" value="2">原创视频</option>
+                                <option name="video_type" value="3">赛事视频</option>
+                                <option name="video_type" value="4">预告视频</option>
+                                <option name="video_type" value="5">解说视频</option>
+                                <option name="video_type" value="6">视频攻略</option>
+                            </select>
                         </div>
                     </div>
                   <div class="layui-form-item">

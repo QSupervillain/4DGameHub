@@ -29,9 +29,7 @@ public class NewsServiceImpl implements NewsService {
 
     //查询与类型对应的新闻
     @Override
-    public List<GmNews> getNewsByType() {
-        return newsDao.getNewsByType();
-    }
+    public List<GmNews> getNewsByType(int typeId){return newsDao.getNewsByType(typeId);}
 
     //根据ID查询新闻
     @Override

@@ -20,7 +20,7 @@ public class NewsController {
     @Autowired
     private NewsService newsService;
     @RequestMapping("/byid")
-    public String load(Model model, @RequestParam(value = "newsID") int newsID){
+    public String load(Model model, @RequestParam int newsID){
         GmNews news=newsService.getNewsByID(newsID);
         System.out.println("新闻标题："+news.getNews_title());
         model.addAttribute("news",news);

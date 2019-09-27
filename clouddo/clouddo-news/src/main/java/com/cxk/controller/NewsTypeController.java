@@ -25,23 +25,32 @@ public class NewsTypeController {
     private NewsTypeService newsTypeService;
     @Autowired
     private NewsService newsService;
+    List<GmNews> newsAll;
     @RequestMapping("/load")
     public String load(Model model,@RequestParam(value = "typeID",defaultValue = "1") int typeId){
         //
+        System.out.println("****************");
+        System.out.println("typeId:"+typeId);
+        System.out.println("****************");
         List<GmNewsType> typeAll = newsTypeService.getNewsTypeAll();
         for (GmNewsType gmNewsType : typeAll) {
             System.out.println("gmNewsType = " + gmNewsType);
         }
-        List<GmNews> newsAll  =newsService.getNewsAll();
+        if(typeId!=1){
+            newsAll=newsService.getNewsByType(typeId);
+        }else{
+            newsAll=newsService.getNewsAll();
+        }
         for (GmNews gmNews : newsAll) {
             System.out.println("新闻标题："+gmNews.getNews_title());
         }
-        System.out.println("****************");
-        System.out.println("typeId:"+typeId);
-        System.out.println("****************");
         model.addAttribute("typeAll",typeAll);
         model.addAttribute("newsAll",newsAll);
         return "news";
     }
+   /* @RequestMapping("")
+    public String lodIndex(){
+        return "index";
+    }*/
 
 }

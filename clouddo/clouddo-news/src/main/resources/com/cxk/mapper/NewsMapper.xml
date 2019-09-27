@@ -18,14 +18,16 @@
                 `news_id`,`news_title`,`news_preview_img`,`news_typeid`,
                 `news_date`,`news_pageview`,`news_brief`
           FROM  `gm_news`
+          ORDER BY `news_date` DESC
         </select>
 
 
     <!--查询与类型对应的新闻-->
-        <select id="getNewsByType" resultMap="gm_news">
+        <select id="getNewsByType" parameterType="int" resultMap="gm_news">
           SELECT `news_id`,`news_title`,`news_preview_img`,`news_typeid`,`news_date`,`news_pageview`,`news_brief`
           FROM   `gm_news`
-          WHERE  `news_id`=#{news_typeid}
+          WHERE  `news_typeid`=#{typeId}
+          ORDER BY `news_date` DESC
         </select>
 
 
@@ -33,6 +35,6 @@
         <select id="getNewsByID" resultType="com.cxk.pojo.GmNews" parameterType="int">
           SELECT `news_id`,`news_title`,`news_preview_img`,`news_typeid`,`news_date`,`news_pageview`,`news_brief`,`news_cintent`
           FROM   `gm_news`
-          WHERE  `news_id`=#{news_id}
+          WHERE  `news_id`=#{newsID}
         </select>
 </mapper>
