@@ -1,6 +1,7 @@
 package com.cxk;
 
 import com.cxk.pojo.*;
+import com.cxk.service.OrderService;
 import com.cxk.service.PpService;
 import com.cxk.service.ScService;
 import com.cxk.service.UserService;
@@ -21,6 +22,8 @@ import java.util.List;
 @RunWith(SpringRunner.class)
 @SpringBootTest
 public class Test {
+    @Autowired
+    private OrderService orderService;
     @Autowired
     private UserService userService;
     @Autowired
@@ -110,5 +113,10 @@ public class Test {
         mk.setGame_status(0);
         int updatemk = scService.updatemk(mk);
         System.out.println(updatemk);
+    }
+    @org.junit.Test
+    public void mm(){
+        List<Order> orderlist = orderService.orderlist();
+        System.out.println(orderlist);
     }
 }

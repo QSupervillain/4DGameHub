@@ -87,6 +87,7 @@ public class PpController {
             }
         }
         psp.setPsp_image(pp_image.toString());
+        psp.setPsp_authoridid(3);
         ppService.addpp(psp);
         model.addObject("successful", "1");
         model.setViewName("pp-add");

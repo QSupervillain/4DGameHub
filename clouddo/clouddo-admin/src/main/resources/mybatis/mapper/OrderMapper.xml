@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.cxk.dao.OrderDao">
+    <resultMap id="sc_pay_info" type="com.cxk.pojo.Order">
+        <id property="psp_id" column="psp_id"/>
+        <result property="pay_id" column="pay_id"></result>
+        <result property="order_no" column="order_no"></result>
+        <result property="pay_platform" column="pay_platform"></result>
+        <result property="pay_number" column="pay_number"></result>
+        <result property="pay_createtime" column="pay_createtime"></result>
+        <result property="pay_prince" column="pay_prince"></result>
+    </resultMap>
+    <select id="orderlist" resultMap="sc_pay_info">
+        SELECT `pay_id`,`order_no`,`pay_platform`,`pay_number`,`pay_createtime`,`pay_prince` FROM `sc_pay_info`
+    </select>
+</mapper>

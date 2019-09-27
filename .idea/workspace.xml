@@ -2,413 +2,157 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96f07e93-8169-472d-a909-4db721c67e13" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/css/wy_area_index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/images/areabj.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/images/bj_lunbo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/images/header_bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/js/ds.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/js/wy_area_index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/js/wy_area_jian.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1511779595_426949.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1511779753_774104.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1511781889_344246.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1511782149_498069.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1511782201_124072.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1511782383_394860.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1511782450_881825.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1512121765_308345.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1512122141_457006.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1512122323_948891.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1512122419_131737.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1512175553_349385.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1512175740_663777.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1512176009_410127.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1512176065_306517.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1512176161_469987.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1512176256_539030.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1512176364_631825.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1512176783_720974.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1512176889_829412.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1512177010_111345.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1512177103_158534.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1512177323_279166.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1512177596_824231.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1512178261_624399.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1512178320_569070.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1512178385_537787.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1512178450_414020.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1512178503_622145.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1512178678_782749.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1512178738_735277.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1512178840_734209.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1512178909_216345.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1512178981_258629.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1512179066_638329.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1512179161_831983.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1512179374_718073.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1512179827_749579.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1512179879_614770.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1512179975_480805.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1512180300_678701.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1512180375_485049.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1512180491_305032.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1512180549_348621.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1512180604_133769.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1512180887_922995.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1512180935_959603.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1512180990_528611.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1512181252_430772.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1512181313_489048.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1512181415_285025.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1512181474_191602.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1512181625_428329.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1512181760_494786.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1512181807_445050.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1512181914_594206.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1512182204_218968.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1512182359_642525.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1512182419_189838.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1512182493_612044.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1512182789_698111.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1512183076_560283.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1512183213_681338.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1512183305_957758.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1512183377_282533.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1512183506_877126.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1512183654_900285.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1512183764_331698.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1512183820_131291.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1512183900_507997.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1512184340_376730.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1512184391_421936.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1512184493_903844.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1512184629_468526.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1512184725_707039.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1512184786_573253.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1512184863_751776.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1512184945_285493.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1512185014_628143.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1512185493_439293.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1512185561_505992.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1512185660_926689.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1512185706_872812.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1512185846_707269.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1512186033_131875.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1512186130_361140.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1512186274_974877.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1512186329_623481.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1512186461_206697.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1512186699_168704.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1512186817_734514.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1512186910_397252.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1512187431_540235.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1512187482_200548.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1512190945_178379.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1512191439_333667.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1512192042_927642.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1512192089_541850.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1512192426_796518.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1512192529_596976.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1512192671_235125.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1512192864_361468.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1512193004_261270.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1512193190_917973.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1512193387_386016.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1512193472_118804.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1512193790_904077.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1512194068_157632.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1512194157_276982.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1512194760_858875.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1512195794_772709.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1512197263_925884.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1512197982_144831.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1512198320_426024.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1512198504_832892.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1512198884_691301.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1512199259_204243.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1512199448_114945.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1512200771_335181.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1512986810_924550.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1520219912_527892.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1523866006_391925.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1543042960340.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1543310586753.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1543375845_929500.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1543630630_219050.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1543630782_981549.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1543630844_375989.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1544087848920.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1544521900_154817.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1545377123125.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1545973928499.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1546588571749.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1547103306_667063.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1547446970737.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1547870071_207315.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1547879192192.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1551058278_722607.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1551058401_907516.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1551058631_733765.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1551058790_464461.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1551059049_801902.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1555402232_156934.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1555402232_310736.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1555402232_565283.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1555402232_702150.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1555402232_881724.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1555402233_948419.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1555402945_285084.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1555402945_346933.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1555402945_351224.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1555402945_384581.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1555402945_507029.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1555402945_603767.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1555402945_691310.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1561598635850.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1562119719413.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1562144207624.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1562146513652.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1562210466_558932.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1562210548_567598.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1562210586_969993.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1562744187_323744.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1562744260_878211.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1562744424_464772.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1562744461_549765.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1562744598_689170.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1562744622_440178.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1562744870_844933.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1562745074_543378.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1562745182_771617.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1562745457_296309.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1562745662_226145.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1562745883_188997.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1562808209_529216.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1562809813_465617.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1562894015_496753.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1562894141_851043.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1562894284_514351.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1562894428_923292.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1562894622_402135.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1562894788_707170.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1562927126_923697.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1563083132_347477.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1563240186_151577.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1563240298_448308.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1563329857_495790.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1563330020_757565.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1563330388_528471.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1563330525_913369.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1563531953_842796.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1563540185_466836.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1563540280_199627.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1563540387_739248.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1563760468_356894.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1563760543_388258.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1563760633_452942.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1564300299_372565.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1565691121_727211.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1565691154_580417.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/java/com/cxk/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/java/com/cxk/dao/OrderDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/java/com/cxk/service/Impl/OrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/java/com/cxk/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/mybatis/mapper/OrderMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/layui/css/layui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/layui/css/layui.mobile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/layui/css/modules/code.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/layui/css/modules/laydate/default/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/layui/css/modules/layer/default/icon-ext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/layui/css/modules/layer/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/layui/css/modules/layer/default/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/layui/css/modules/layer/default/loading-0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/layui/css/modules/layer/default/loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/layui/css/modules/layer/default/loading-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/layui/font/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/layui/font/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/layui/font/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/layui/font/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/layui/images/face/0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/layui/images/face/1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/layui/images/face/10.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/layui/images/face/11.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/layui/images/face/12.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/layui/images/face/13.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/layui/images/face/14.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/layui/images/face/15.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/layui/images/face/16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/layui/images/face/17.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/layui/images/face/18.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/layui/images/face/19.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/layui/images/face/2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/layui/images/face/20.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/layui/images/face/21.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/layui/images/face/22.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/layui/images/face/23.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/layui/images/face/24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/layui/images/face/25.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/layui/images/face/26.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/layui/images/face/27.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/layui/images/face/28.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/layui/images/face/29.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/layui/images/face/3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/layui/images/face/30.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/layui/images/face/31.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/layui/images/face/32.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/layui/images/face/33.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/layui/images/face/34.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/layui/images/face/35.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/layui/images/face/36.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/layui/images/face/37.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/layui/images/face/38.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/layui/images/face/39.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/layui/images/face/4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/layui/images/face/40.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/layui/images/face/41.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/layui/images/face/42.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/layui/images/face/43.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/layui/images/face/44.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/layui/images/face/45.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/layui/images/face/46.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/layui/images/face/47.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/layui/images/face/48.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/layui/images/face/49.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/layui/images/face/5.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/layui/images/face/50.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/layui/images/face/51.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/layui/images/face/52.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/layui/images/face/53.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/layui/images/face/54.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/layui/images/face/55.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/layui/images/face/56.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/layui/images/face/57.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/layui/images/face/58.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/layui/images/face/59.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/layui/images/face/6.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/layui/images/face/60.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/layui/images/face/61.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/layui/images/face/62.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/layui/images/face/63.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/layui/images/face/64.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/layui/images/face/65.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/layui/images/face/66.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/layui/images/face/67.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/layui/images/face/68.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/layui/images/face/69.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/layui/images/face/7.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/layui/images/face/70.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/layui/images/face/71.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/layui/images/face/8.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/layui/images/face/9.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/layui/lay/modules/carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/layui/lay/modules/code.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/layui/lay/modules/colorpicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/layui/lay/modules/element.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/layui/lay/modules/flow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/layui/lay/modules/form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/layui/lay/modules/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/layui/lay/modules/laydate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/layui/lay/modules/layedit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/layui/lay/modules/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/layui/lay/modules/laypage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/layui/lay/modules/laytpl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/layui/lay/modules/mobile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/layui/lay/modules/rate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/layui/lay/modules/slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/layui/lay/modules/table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/layui/lay/modules/tree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/layui/lay/modules/upload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/layui/lay/modules/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/layui/layui.all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/layui/layui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/news-add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/news-update.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clouddo/clouddo-comm/src/main/java/com/cxk/pojo/Order.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/java/com/cxk/controller/VideoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/java/com/cxk/controller/VideoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/videos-add.html" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/videos-add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/java/com/cxk/controller/NewsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/java/com/cxk/controller/NewsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/java/com/cxk/controller/NewsTypeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/java/com/cxk/controller/NewsTypeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/java/com/cxk/dao/NewsDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/java/com/cxk/dao/NewsDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/java/com/cxk/service/NewsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/java/com/cxk/service/NewsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/java/com/cxk/service/impl/NewsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/java/com/cxk/service/impl/NewsServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/com/cxk/mapper/NewsMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/com/cxk/mapper/NewsMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/static/css/comments.css" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/css/comments.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/static/css/wy-base.css" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/css/wy-base.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/static/css/wy-base_1.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/static/css/wy-common.css" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/css/wy-common.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/static/css/wy-common_1.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/static/css/wy-news-info.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/static/css/wy_area_jian_news.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/static/images/3dm_top_li.png" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/images/3dm_top_li.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/static/images/alistimg.png" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/images/alistimg.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/static/images/bjimg.png" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/images/bjimg.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/static/images/bjt2.png" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/images/bjt2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/static/images/closebt.png" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/images/closebt.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/static/images/comments-img.png" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/images/comments-img.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/static/images/headbg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/images/headbg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/static/images/header_bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/static/images/ico-user.png" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/images/ico-user.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/static/images/ico_close.png" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/images/ico_close.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/static/images/ico_cslis_titile.png" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/images/ico_cslis_titile.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/static/images/ico_follow.png" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/images/ico_follow.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/static/images/ico_friend_.png" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/images/ico_friend_.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/static/images/ico_jf.png" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/images/ico_jf.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/static/images/ico_jingao.png" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/images/ico_jingao.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/static/images/ico_jingao2.png" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/images/ico_jingao2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/static/images/ico_jingao3.png" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/images/ico_jingao3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/static/images/ico_vip_dj.png" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/images/ico_vip_dj.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/static/images/icon_ad.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/static/images/img-a.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/static/images/imgas.png" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/images/imgas.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/static/images/imgq.png" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/images/imgq.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/static/images/imgtiao.png" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/images/imgtiao.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/static/images/ioc-sou.png" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/images/ioc-sou.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/static/images/li_bg1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/static/images/logo_xiaoniao.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/static/images/pfbg.png" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/images/pfbg.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/static/images/post_img.png" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/images/post_img.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/static/images/post_img3.png" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/images/post_img3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/static/images/saobj.png" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/images/saobj.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/static/images/txt-tips.png" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/images/txt-tips.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/static/js/calluserlogin.js" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/js/calluserlogin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/static/js/commentlist.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/static/js/comments.js" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/js/comments.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/static/js/conmmon.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/static/js/ds.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/static/js/jq1.9.js" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/js/jq1.9.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/static/js/statistics.js" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/js/statistics.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/static/js/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/js/user.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/static/js/viewscount.js" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/js/viewscount.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/static/picture/1511762316_160989.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/static/picture/1513565838_688301.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1513565838_688301.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/static/picture/1556268350_684350.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/static/picture/1561516247_710059.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/static/picture/1562927126_923697.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/static/picture/1563950061_692900.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/static/picture/1564023248_911856.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/static/picture/1565855062_852649.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/static/picture/1565934060_968189.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/static/picture/1566185859_265048.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/static/picture/1566892226_224857.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/static/picture/1566892235_293914.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/static/picture/1566962470_155354.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/static/picture/1566980765597.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/static/picture/1567132826252.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/static/picture/1567231400997.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/static/picture/1567387013_232916.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/static/picture/1567387456_551645.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/static/picture/1567422546_455965.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/static/picture/1567473222729.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/static/picture/1567560722_590150.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/static/picture/1567561161625.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/static/picture/1567561280_188693.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/1562809561_282325.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/static/picture/1567577512576.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/static/picture/1567654350232.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/static/picture/1567733659136.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/static/picture/1567742489_838509.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/static/picture/1567756904155.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/static/picture/1567772402991.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/static/picture/1567843205905.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/static/picture/1567933015_522532.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/static/picture/1567933021_749256.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/static/picture/1567933081782.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/static/picture/3dmapp.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/static/picture/ico-tx.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/static/picture/ioc-ren.png" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/picture/ioc-ren.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/static/picture/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/static/picture/pagLOG.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/static/picture/qrnews22267.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/templates/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/templates/news.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/templates/template.html" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/templates/template.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-news/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/target/classes/com/cxk/controller/NewsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-news/target/classes/com/cxk/controller/NewsController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/target/classes/com/cxk/controller/NewsTypeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-news/target/classes/com/cxk/controller/NewsTypeController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/target/classes/com/cxk/dao/NewsDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-news/target/classes/com/cxk/dao/NewsDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/target/classes/com/cxk/mapper/NewsMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-news/target/classes/com/cxk/mapper/NewsMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/target/classes/com/cxk/service/NewsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-news/target/classes/com/cxk/service/NewsService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/target/classes/com/cxk/service/impl/NewsServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-news/target/classes/com/cxk/service/impl/NewsServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/target/classes/static/css/comments.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/target/classes/static/css/wy-base.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/target/classes/static/css/wy-base_1.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/target/classes/static/css/wy-common.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/target/classes/static/css/wy-common_1.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/target/classes/static/css/wy-news-info.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/target/classes/static/css/wy_area_jian_news.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/target/classes/static/images/3dm_top_li.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/target/classes/static/images/alistimg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/target/classes/static/images/bjimg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/target/classes/static/images/bjt2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/target/classes/static/images/closebt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/target/classes/static/images/comments-img.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/target/classes/static/images/headbg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/target/classes/static/images/header_bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/target/classes/static/images/ico-user.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/target/classes/static/images/ico_close.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/target/classes/static/images/ico_cslis_titile.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/target/classes/static/images/ico_follow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/target/classes/static/images/ico_friend_.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/target/classes/static/images/ico_jf.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/target/classes/static/images/ico_jingao.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/target/classes/static/images/ico_jingao2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/target/classes/static/images/ico_jingao3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/target/classes/static/images/ico_vip_dj.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/target/classes/static/images/icon_ad.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/target/classes/static/images/img-a.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/target/classes/static/images/imgas.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/target/classes/static/images/imgq.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/target/classes/static/images/imgtiao.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/target/classes/static/images/ioc-sou.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/target/classes/static/images/li_bg1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/target/classes/static/images/logo_xiaoniao.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/target/classes/static/images/pfbg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/target/classes/static/images/post_img.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/target/classes/static/images/post_img3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/target/classes/static/images/saobj.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/target/classes/static/images/txt-tips.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/target/classes/static/js/calluserlogin.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/target/classes/static/js/commentlist.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/target/classes/static/js/comments.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/target/classes/static/js/conmmon.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/target/classes/static/js/ds.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/target/classes/static/js/jq1.9.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/target/classes/static/js/statistics.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/target/classes/static/js/user.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/target/classes/static/js/viewscount.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/target/classes/static/picture/1511762316_160989.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/target/classes/static/picture/1513565838_688301.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/target/classes/static/picture/1556268350_684350.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/target/classes/static/picture/1561516247_710059.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/target/classes/static/picture/1562927126_923697.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/target/classes/static/picture/1563950061_692900.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/target/classes/static/picture/1564023248_911856.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/target/classes/static/picture/1565855062_852649.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/target/classes/static/picture/1565934060_968189.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/target/classes/static/picture/1566185859_265048.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/target/classes/static/picture/1566892226_224857.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/target/classes/static/picture/1566892235_293914.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/target/classes/static/picture/1566962470_155354.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/target/classes/static/picture/1566980765597.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/target/classes/static/picture/1567132826252.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/target/classes/static/picture/1567231400997.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/target/classes/static/picture/1567387013_232916.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/target/classes/static/picture/1567387456_551645.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/target/classes/static/picture/1567422546_455965.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/target/classes/static/picture/1567473222729.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/target/classes/static/picture/1567560722_590150.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/target/classes/static/picture/1567561161625.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/target/classes/static/picture/1567561280_188693.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/target/classes/static/picture/1567577512576.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/target/classes/static/picture/1567654350232.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/target/classes/static/picture/1567733659136.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/target/classes/static/picture/1567742489_838509.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/target/classes/static/picture/1567756904155.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/target/classes/static/picture/1567772402991.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/target/classes/static/picture/1567843205905.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/target/classes/static/picture/1567933015_522532.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/target/classes/static/picture/1567933021_749256.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/target/classes/static/picture/1567933081782.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/target/classes/static/picture/3dmapp.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/target/classes/static/picture/ico-tx.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/target/classes/static/picture/ioc-ren.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/target/classes/static/picture/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/target/classes/static/picture/pagLOG.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/target/classes/static/picture/qrnews22267.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/target/classes/templates/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-news/target/classes/templates/news.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-news/target/classes/templates/template.html" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-news/target/classes/templates/template.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/java/com/cxk/controller/NewsControllerA.java" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/java/com/cxk/controller/NewsControllerA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/java/com/cxk/controller/PpController.java" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/java/com/cxk/controller/PpController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/java/com/cxk/dao/NewsDaoA.java" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/java/com/cxk/dao/NewsDaoA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/java/com/cxk/dao/NewsTypeDaoA.java" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/java/com/cxk/dao/NewsTypeDaoA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/java/com/cxk/service/Impl/NewsImplA.java" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/java/com/cxk/service/Impl/NewsImplA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/java/com/cxk/service/NewsServiceA.java" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/java/com/cxk/service/NewsServiceA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/mybatis/mapper/NewsMapperA.xml" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/mybatis/mapper/NewsMapperA.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/fonts/iconfont.eot" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/fonts/iconfont.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/fonts/iconfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/fonts/iconfont.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/fonts/iconfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/fonts/iconfont.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/lib/layui/font/iconfont.eot" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/lib/layui/font/iconfont.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/lib/layui/font/iconfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/lib/layui/font/iconfont.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/lib/layui/font/iconfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/lib/layui/font/iconfont.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/news-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/news-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/news-type-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/news-type-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/order-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/order-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/pp-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/pp-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/sc-add.html" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/sc-add.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/sc-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/sc-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-admin/src/test/java/com/cxk/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/src/test/java/com/cxk/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-admin/target/classes/com/cxk/controller/NewsControllerA.class" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/target/classes/com/cxk/controller/NewsControllerA.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-admin/target/classes/com/cxk/dao/NewsDaoA.class" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/target/classes/com/cxk/dao/NewsDaoA.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-admin/target/classes/com/cxk/service/Impl/NewsImplA.class" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/target/classes/com/cxk/service/Impl/NewsImplA.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-admin/target/classes/com/cxk/service/NewsServiceA.class" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/target/classes/com/cxk/service/NewsServiceA.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-admin/target/classes/mybatis/mapper/NewsMapperA.xml" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/target/classes/mybatis/mapper/NewsMapperA.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-admin/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/target/classes/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-admin/target/classes/templates/lib/layui/font/iconfont.eot" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/target/classes/templates/lib/layui/font/iconfont.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-admin/target/classes/templates/lib/layui/font/iconfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/target/classes/templates/lib/layui/font/iconfont.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-admin/target/classes/templates/lib/layui/font/iconfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/target/classes/templates/lib/layui/font/iconfont.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-admin/target/classes/templates/news-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/target/classes/templates/news-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-admin/target/classes/templates/news-type-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/target/classes/templates/news-type-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-admin/target/classes/templates/order-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/target/classes/templates/order-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-admin/target/classes/templates/videos-add.html" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-admin/target/classes/templates/videos-add.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/clouddo/clouddo-psp/src/main/resources/templates/gl.html" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-psp/src/main/resources/templates/gl.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-psp/src/main/resources/templates/gll.html" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-psp/src/main/resources/templates/gll.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-psp/target/classes/templates/ksd.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-psp/target/classes/templates/moban.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-video/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-video/src/main/resources/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clouddo/clouddo-video/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/clouddo/clouddo-video/target/classes/templates/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/clouddo/clouddo-server/target/" />
     <ignored path="$PROJECT_DIR$/clouddo/clouddo-admin/target/" />
@@ -465,65 +209,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/videos-add.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="71" column="57" selection-start-line="71" selection-start-column="57" selection-end-line="71" selection-end-column="57" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/clouddo/clouddo-admin/src/main/java/com/cxk/controller/VideoController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2063">
-              <caret line="87" selection-start-line="87" selection-end-line="87" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/clouddo/clouddo-video/src/main/resources/templates/index.html">
+        <entry file="file://$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="135" column="58" selection-start-line="135" selection-start-column="58" selection-end-line="135" selection-end-column="58" />
+            <state relative-caret-position="33">
+              <caret line="69" column="10" selection-start-line="69" selection-start-column="10" selection-end-line="69" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/clouddo/clouddo-download/src/main/java/com/cxk/controller/DetailsController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/clouddo/clouddo-admin/pom.xml">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/clouddo/clouddo-download/src/main/java/com/cxk/controller/DownLoadController.java">
+        <entry file="file://$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/clouddo/clouddo-download/src/main/java/com/cxk/controller/IndexController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="45" column="26" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/video-list.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-70">
-              <caret line="106" column="60" selection-start-line="106" selection-start-column="60" selection-end-line="106" selection-end-column="60" />
+            <state relative-caret-position="216">
+              <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -534,20 +238,28 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="MyBatis" />
-        <option value="mapper" />
-        <option value="FxmlFile" />
         <option value="Tag Library Descriptor" />
         <option value="XSLT Stylesheet" />
-        <option value="Interface" />
-        <option value="Class" />
         <option value="HTML File" />
         <option value="CSS File" />
+        <option value="FxmlFile" />
+        <option value="mapper" />
+        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>首页</find>
+      <find>title</find>
+      <find>添加</find>
+      <find>添加商城</find>
+      <find>订单</find>
+      <find>checkbox</find>
+      <find>用户名</find>
+      <find>唯一</find>
+      <find>iconfont left-nav-li</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -556,15 +268,27 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/index.html" />
         <option value="$PROJECT_DIR$/clouddo/clouddo-comm/src/main/java/com/cxk/pojo/Market.java" />
-        <option value="$PROJECT_DIR$/clouddo/clouddo-admin/src/test/java/com/cxk/Test.java" />
         <option value="$PROJECT_DIR$/clouddo/clouddo-psp/src/main/resources/templates/gll.html" />
-        <option value="$PROJECT_DIR$/clouddo/clouddo-psp/src/main/resources/templates/gl.html" />
         <option value="$PROJECT_DIR$/clouddo/clouddo-video/src/main/java/com/cxk/controller/VideoController.java" />
         <option value="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/videos-add.html" />
         <option value="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/java/com/cxk/controller/VideoController.java" />
         <option value="$PROJECT_DIR$/clouddo/clouddo-video/src/main/resources/templates/index.html" />
+        <option value="$PROJECT_DIR$/clouddo/clouddo-psp/src/main/resources/templates/gl.html" />
+        <option value="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/java/com/cxk/dao/OrderDao.java" />
+        <option value="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/mybatis/mapper/OrderMapper.xml" />
+        <option value="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/java/com/cxk/service/OrderService.java" />
+        <option value="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/java/com/cxk/service/Impl/OrderServiceImpl.java" />
+        <option value="$PROJECT_DIR$/clouddo/clouddo-admin/src/test/java/com/cxk/Test.java" />
+        <option value="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/java/com/cxk/controller/OrderController.java" />
+        <option value="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/order-list.html" />
+        <option value="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/java/com/cxk/controller/PpController.java" />
+        <option value="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/sc-add.html" />
+        <option value="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/sc-list.html" />
+        <option value="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/pp-list.html" />
+        <option value="$PROJECT_DIR$/clouddo/clouddo-comm/src/main/java/com/cxk/pojo/Order.java" />
+        <option value="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/java/com/cxk/dao/NewsTypeDaoA.java" />
+        <option value="$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/index.html" />
       </list>
     </option>
   </component>
@@ -634,101 +358,12 @@
               <item name="clouddo-admin" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cxk" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="4DGameHub" type="b2602c69:ProjectViewProjectNode" />
-              <item name="clouddo" type="462c0819:PsiDirectoryNode" />
-              <item name="clouddo-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="4DGameHub" type="b2602c69:ProjectViewProjectNode" />
               <item name="clouddo" type="462c0819:PsiDirectoryNode" />
               <item name="clouddo-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="4DGameHub" type="b2602c69:ProjectViewProjectNode" />
-              <item name="clouddo" type="462c0819:PsiDirectoryNode" />
-              <item name="clouddo-download" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="4DGameHub" type="b2602c69:ProjectViewProjectNode" />
-              <item name="clouddo" type="462c0819:PsiDirectoryNode" />
-              <item name="clouddo-download" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="4DGameHub" type="b2602c69:ProjectViewProjectNode" />
-              <item name="clouddo" type="462c0819:PsiDirectoryNode" />
-              <item name="clouddo-download" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="4DGameHub" type="b2602c69:ProjectViewProjectNode" />
-              <item name="clouddo" type="462c0819:PsiDirectoryNode" />
-              <item name="clouddo-download" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="4DGameHub" type="b2602c69:ProjectViewProjectNode" />
-              <item name="clouddo" type="462c0819:PsiDirectoryNode" />
-              <item name="clouddo-download" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cxk" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="4DGameHub" type="b2602c69:ProjectViewProjectNode" />
-              <item name="clouddo" type="462c0819:PsiDirectoryNode" />
-              <item name="clouddo-download" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cxk" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="4DGameHub" type="b2602c69:ProjectViewProjectNode" />
-              <item name="clouddo" type="462c0819:PsiDirectoryNode" />
-              <item name="clouddo-video" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="4DGameHub" type="b2602c69:ProjectViewProjectNode" />
-              <item name="clouddo" type="462c0819:PsiDirectoryNode" />
-              <item name="clouddo-video" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="4DGameHub" type="b2602c69:ProjectViewProjectNode" />
-              <item name="clouddo" type="462c0819:PsiDirectoryNode" />
-              <item name="clouddo-video" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="4DGameHub" type="b2602c69:ProjectViewProjectNode" />
-              <item name="clouddo" type="462c0819:PsiDirectoryNode" />
-              <item name="clouddo-video" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="4DGameHub" type="b2602c69:ProjectViewProjectNode" />
-              <item name="clouddo" type="462c0819:PsiDirectoryNode" />
-              <item name="clouddo-video" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -756,7 +391,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569555453220" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569594833925" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../BaiduNetdiskDownload/solr" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -773,25 +408,25 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.cxk.service.impl" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\4DGameHub\clouddo\clouddo-admin\src\main\resources\templates" />
+      <recent name="D:\4DGameHub\clouddo\clouddo-admin\src\main\java\com\cxk\service\Impl" />
+      <recent name="D:\4DGameHub\clouddo\clouddo-admin\src\main\java\com\cxk\service" />
+      <recent name="D:\4DGameHub\clouddo\clouddo-admin\src\main\resources\mybatis\mapper" />
+      <recent name="D:\4DGameHub\clouddo\clouddo-admin\src\main\java\com\cxk\dao" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.cxk.eureka" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\WorkSpace\IdeaProjects\4DGameHub\clouddo\clouddo-admin\src\main\resources\templates" />
       <recent name="E:\WorkSpace\IdeaProjects\4DGameHub\clouddo\clouddo-news\src\main\resources\com\cxk\mapper" />
       <recent name="E:\WorkSpace\IdeaProjects\4DGameHub\clouddo\clouddo-news\src\main\resources\static" />
       <recent name="C:\Users\kk\Desktop\4DGameHub\clouddo\clouddo-video\src\main\resources\static" />
       <recent name="C:\Users\kk\Desktop\4DGameHub\clouddo\clouddo-video\src\main\resources\js" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\4DGameHub\clouddo\clouddo-news\src\main\resources\com\cxk\mapper" />
-      <recent name="D:\4DGameHub\clouddo\clouddo-news\src\main\resources" />
-      <recent name="D:\4DGameHub\clouddo\clouddo-news\src\main\resources\templates" />
-      <recent name="D:\4DGameHub\clouddo\clouddo-news\src\main\java\com\cxk\service\impl" />
-      <recent name="D:\4DGameHub\clouddo\clouddo-news\src\main\java\com\cxk\service" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.cxk.eureka" />
-    </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.cxk.service.impl" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -813,6 +448,22 @@
     <option name="contentProportion" value="0.31839257" />
   </component>
   <component name="RunManager" selected="Spring Boot.AdminApp_8094">
+    <configuration name="Test.mm" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="clouddo-admin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cxk.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cxk" />
+      <option name="MAIN_CLASS_NAME" value="com.cxk.Test" />
+      <option name="METHOD_NAME" value="mm" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AdminApp_8094" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="clouddo-admin" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.cxk.AdminApp_8094" />
@@ -862,6 +513,7 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.Test.mm" />
       <item itemvalue="Spring Boot.NewsApp_8093" />
       <item itemvalue="Spring Boot.DownLoadApp_8090" />
       <item itemvalue="Spring Boot.EurekaServerApp_8010" />
@@ -869,6 +521,11 @@
       <item itemvalue="Spring Boot.PspApp_8092" />
       <item itemvalue="Spring Boot.AdminApp_8094" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.Test.mm" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="allServicesViewState">
@@ -942,7 +599,11 @@
       <workItem from="1569296663393" duration="4814000" />
       <workItem from="1569334993518" duration="1550000" />
       <workItem from="1569460346118" duration="21670000" />
-      <workItem from="1569544935948" duration="5432000" />
+      <workItem from="1569544935948" duration="5908000" />
+      <workItem from="1569569263539" duration="5883000" />
+      <workItem from="1569575497866" duration="3191000" />
+      <workItem from="1569590343593" duration="4601000" />
+      <workItem from="1569595048055" duration="249000" />
     </task>
     <task id="LOCAL-00001" summary="添加视屏模块">
       <created>1567651800758</created>
@@ -1196,17 +857,28 @@
       <option name="project" value="LOCAL" />
       <updated>1569482313837</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="细节跟新">
+      <created>1569555633251</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1569555633251</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="Test_mm - 2019.09.27 at 16h 23m 20s.xml">
+      <configuration name="Test.mm" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33466000" />
+    <option name="totallyTimeSpent" value="47866000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31543118" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.36535552" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1216,7 +888,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.22651006" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1230,7 +902,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="bottom" id="Database Changes" order="14" />
       <window_info anchor="bottom" id="Version Control" order="15" />
-      <window_info anchor="bottom" id="Run Dashboard" order="16" visible="true" weight="0.20302014" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="16" visible="true" weight="0.19630873" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -1244,7 +916,7 @@
       <window_info anchor="right" id="Bean Validation" order="10" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.54916793" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1254,7 +926,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.22651006" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1268,7 +940,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="bottom" id="Database Changes" order="14" />
       <window_info anchor="bottom" id="Version Control" order="15" />
-      <window_info anchor="bottom" id="Run Dashboard" order="16" visible="true" weight="0.46644294" />
+      <window_info anchor="bottom" id="Run Dashboard" order="16" visible="true" weight="0.13255033" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -1329,307 +1001,347 @@
     <MESSAGE value="templates" />
     <MESSAGE value="整合曾文斌后台管理代码" />
     <MESSAGE value="整合曾文斌后台管理代码完毕" />
-    <option name="LAST_COMMIT_MESSAGE" value="整合曾文斌后台管理代码完毕" />
+    <MESSAGE value="细节跟新" />
+    <option name="LAST_COMMIT_MESSAGE" value="细节跟新" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/mybatis/mapper/ScDaoMapper.xml">
+    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-download/src/main/java/com/cxk/controller/IndexController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-324" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/sc-list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3442">
-          <caret line="92" column="55" selection-start-line="92" selection-start-column="45" selection-end-line="92" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-comm/src/main/java/com/cxk/pojo/Pagination.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-comm/src/main/java/com/cxk/pojo/GmNewsType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-admin/src/main/java/com/cxk/service/Impl/ScServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-556">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#558#559#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-comm/src/main/java/com/cxk/pojo/Market.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-admin/src/test/java/com/cxk/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="90" column="26" selection-start-line="90" selection-start-column="26" selection-end-line="90" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-admin/src/main/java/com/cxk/controller/ScController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-psp/src/main/resources/templates/moban.html" />
-    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-psp/src/main/resources/templates/ksd.html" />
-    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-psp/src/main/java/com/cxk/controller/PspController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-psp/src/main/java/com/cxk/service/impl/PspTypeServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-          <folding>
-            <element signature="e#525#526#0" expanded="true" />
-            <element signature="e#567#568#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-psp/src/main/resources/static/picture/1565934060_968189.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-psp/src/main/resources/static/picture/1567757198955.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-psp/src/main/resources/static/picture/1556268350_684350.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-psp/src/main/resources/static/picture/1564458285_159844.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-psp/src/main/resources/static/picture/1567749923977.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-psp/src/main/resources/static/picture/1567763674758.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-psp/src/main/java/com/cxk/PspApp_8092.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-psp/src/main/resources/templates/gll.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-16706">
-          <caret line="110" column="17" selection-start-line="110" selection-start-column="17" selection-end-line="110" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-psp/src/main/resources/templates/gl.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="131" column="76" selection-start-line="131" selection-start-column="76" selection-end-line="131" selection-end-column="76" />
-          <folding>
-            <element signature="e#8766#8773#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-video/src/main/resources/com/cxk/mapper/VideoMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-243" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-news/src/main/java/com/cxk/dao/NewsTypeDao.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-news/src/main/java/com/cxk/service/NewsTypeService.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-news/src/main/java/com/cxk/service/impl/NewsTypeServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/templates/template.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/js/ds.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/css/wy-base.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-news/src/main/java/com/cxk/controller/NewsController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-video/src/main/java/com/cxk/Video_App_8091.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-video/src/main/java/com/cxk/controller/VideoController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="783">
-          <caret line="40" column="60" selection-start-line="40" selection-start-column="60" selection-end-line="40" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-news/src/main/java/com/cxk/controller/NewsTypeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-news/src/main/java/com/cxk/NewsApp_8093.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-news/src/main/resources/com/cxk/mapper/NewsTypeMapper.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-news/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2835">
-          <caret line="186" column="80" selection-start-line="186" selection-start-column="80" selection-end-line="186" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-download/src/main/java/com/cxk/DownLoadApp_8090.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="7" selection-start-line="7" selection-end-line="24" />
-          <folding>
-            <element signature="e#490#491#0" expanded="true" />
-            <element signature="e#557#558#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/mybatis/mapper/VideoMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="664">
-          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-admin/src/main/java/com/cxk/controller/NewsControllerA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-admin/src/main/java/com/cxk/dao/VideoDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="15" column="10" lean-forward="true" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-admin/src/main/java/com/cxk/service/Impl/VideoServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="11" selection-start-line="11" selection-end-line="11" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-admin/src/main/java/com/cxk/AdminApp_8094.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/videos-edit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-324" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/videos-add.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="71" column="57" selection-start-line="71" selection-start-column="57" selection-end-line="71" selection-end-column="57" />
+        <state relative-caret-position="864">
+          <caret line="45" column="26" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/video-list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-70">
+        <state relative-caret-position="2862">
           <caret line="106" column="60" selection-start-line="106" selection-start-column="60" selection-end-line="106" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-admin/src/main/java/com/cxk/controller/VideoController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2063">
-          <caret line="87" selection-start-line="87" selection-end-line="87" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-download/src/main/java/com/cxk/controller/DetailsController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-download/src/main/java/com/cxk/controller/DownLoadController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-download/src/main/java/com/cxk/controller/IndexController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="45" column="26" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/clouddo/clouddo-video/src/main/resources/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="135" column="58" selection-start-line="135" selection-start-column="58" selection-end-line="135" selection-end-column="58" />
+        <state relative-caret-position="27">
+          <caret line="164" column="26" selection-start-line="164" selection-start-column="26" selection-end-line="164" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-psp/src/main/java/com/cxk/PspApp_8092.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="37">
+          <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-psp/src/main/resources/templates/gll.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="110" column="17" selection-start-line="110" selection-start-column="17" selection-end-line="110" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/admin-list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1944" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/pp-add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1100">
+          <caret line="6" column="15" lean-forward="true" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/log.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/order-list1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4617" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/pp-edit.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-comm/src/main/java/com/cxk/pojo/Pagination.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-comm/src/main/java/com/cxk/pojo/Psp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-108">
+          <caret line="21" column="71" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/mybatis/mapper/PpMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-admin/src/main/java/com/cxk/service/OrderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-admin/src/main/java/com/cxk/service/Impl/UserDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-admin/src/main/java/com/cxk/service/Impl/OrderServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#225#226#0" expanded="true" />
+            <element signature="e#252#253#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-admin/src/test/java/com/cxk/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="597">
+          <caret line="119" column="38" lean-forward="true" selection-start-line="119" selection-start-column="38" selection-end-line="119" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-admin/src/main/java/com/cxk/controller/ScController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-18">
+          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/order-list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2376">
+          <caret line="88" column="75" selection-start-line="88" selection-start-column="75" selection-end-line="88" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/sc-add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="30" column="28" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/sc-list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1107">
+          <caret line="41" column="73" selection-start-line="41" selection-start-column="73" selection-end-line="41" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/pp-list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2484">
+          <caret line="92" column="38" selection-start-line="92" selection-start-column="38" selection-end-line="92" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-psp/src/main/resources/templates/gl.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3510">
+          <caret line="130" column="45" selection-start-line="130" selection-start-column="45" selection-end-line="130" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/mybatis/mapper/VideoMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="64" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-admin/src/main/java/com/cxk/dao/VideoDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-admin/src/main/java/com/cxk/dao/PpDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-admin/src/main/java/com/cxk/dao/ScDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-comm/src/main/java/com/cxk/pojo/Order.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="21" column="42" lean-forward="true" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-admin/src/main/java/com/cxk/controller/OrderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="18" column="37" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-admin/src/main/java/com/cxk/controller/PpController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-167">
+          <caret line="89" column="33" selection-start-line="89" selection-start-column="33" selection-end-line="89" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-admin/src/main/java/com/cxk/dao/OrderDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-admin/src/main/java/com/cxk/AdminApp_8094.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="12" column="14" lean-forward="true" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-admin/src/main/java/com/cxk/service/Impl/PpServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/news-add.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/mybatis/mapper/NewsMapperA.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-admin/src/main/java/com/cxk/controller/NewsControllerA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="18" column="3" lean-forward="true" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-admin/src/main/java/com/cxk/dao/NewsDaoA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-admin/src/main/java/com/cxk/service/NewsServiceA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-admin/src/main/java/com/cxk/service/Impl/NewsImplA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/mybatis/mybatis-cfg.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-admin/src/main/java/com/cxk/controller/NewsTypeControllerA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-admin/src/main/java/com/cxk/dao/NewsTypeDaoA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/mybatis/mapper/NewsTypeMapperA.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/news-update.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-admin/src/main/java/com/cxk/service/NewsTypeServiceA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-admin/src/main/java/com/cxk/service/Impl/NewsTypeImplA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/mybatis/mapper/OrderMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/css/ZH.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-810" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="69" column="10" selection-start-line="69" selection-start-column="10" selection-end-line="69" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-admin/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clouddo/clouddo-admin/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
         </state>
       </provider>
     </entry>

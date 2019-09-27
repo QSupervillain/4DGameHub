@@ -20,44 +20,35 @@
                 `news_id`,`news_title`,`news_preview_img`,`news_typeid`,
                 `news_date`,`news_pageview`,`news_brief`,`news_cintent`
             FROM`gm_news`
-            <if test="newsCondition != null and newsCondition != ''">
+            <if test="newsCondition != null">
                 <where>
                     <if test="1==1">
-                        1==1
+                        1=1
                     </if>
-                    /* 开始日 */
-                        <if test="newsCondition.news_gt_date !=null and newsCondition.news_gt_date != ''">
-                            AND `news_date` &gt; = #{newsCondition.news_gt_date}
-                        </if>
-                        /* 截止日 */
-                            <if test="newsCondition.news_lt_date !=null and newsCondition.news_lt_date != ''">
-                                AND `news_date` &lt; = #{newsCondition.news_lt_date}
-                            </if>
-                            /* 新闻类型 */
-                                <if test="newsCondition.news_typeid !=null and newsCondition.news_typeid !=''">
-                                    AND `news_typeid` = #{newsCondition.news_typeid}
-                                </if>
-                                /* 新闻标题模糊查询 */
-                                    <if test="newsCondition.news_title !=null and newsCondition.news_title !=''">
-                                        AND `news_title` like  '$#{newsCondition.news_title}$'
-                                    </if>
+                    <if test="null != newsCondition.news_id">
+                        AND `news_id` = #{newsCondition.news_id}
+                    </if>
+                    <if test="newsCondition.start !=null">
+                        AND `news_date` <![CDATA[ >= ]]> #{newsCondition.start}
+                    </if>
+                    <if test="newsCondition.end !=null">
+                        AND `news_date` <![CDATA[ <= ]]> #{newsCondition.end}
+                    </if>
+                    <if test="newsCondition.nNtype !=null">
+                        AND `news_typeid` = #{newsCondition.nNtype}
+                    </if>
+                    <if test="null != newsCondition.fuzzyQuery">
+                        AND `news_title` like   CONCAT('%',#{newsCondition.fuzzyQuery},'%')
+                    </if>
                 </where>
-                /* 浏览人数排序 */
-                    <if test="newsCondition.wayRank != null and newsCondition.wayRank != ''">
-                        /* 顺序 */
-                        <if test="wayRank=='min'">
-                            ORDER BY`news_pageview`
-                        </if>
-                        /* 倒序 */
-                        <if test="wayRank=='max'">
-                            ORDER BY`news_pageview` DESC
-                        </if>
+                <if test="null != newsCondition.sequence">
+                    <if test="newsCondition.sequence == 'min'">
+                        ORDER BY `news_pageview`
                     </if>
-                /* 分页 */
-                    <if test="newsCondition.pagIndex !=null and newsCondition.pagIndex !=''
-                        and newsCondition.rowsPerPage !=null and newsCondition.rowsPerPage!=''">
-                        LIMIT #{newsCondition.pagIndex},#{newsCondition.rowsPerPage};
+                    <if test="newsCondition.sequence == 'max'">
+                        ORDER BY `news_pageview` DESC
                     </if>
+                </if>
             </if>
         </select>
 
@@ -67,29 +58,65 @@
             SELECT
                 COUNT(1)
             FROM`gm_news`
-            <where>
-                <if test="1==1">
-                    1==1
-                </if>
-                <if test="newsCondition.news_id !=null and newsCondition.news_id != ''">
-                    AND `news_id` = #{newsCondition.news_id}
-                </if>
-                /* 开始日 */
-                <if test="newsCondition.news_gt_date !=null and newsCondition.news_gt_date != ''">
-                    AND `news_date` &gt; = #{newsCondition.news_gt_date}
-                </if>
-                /* 截止日 */
-                <if test="newsCondition.news_lt_date !=null and newsCondition.news_lt_date != ''">
-                    AND `news_date` &lt; = #{newsCondition.news_lt_date}
-                </if>
-                /* 新闻类型 */
-                <if test="newsCondition.news_typeid !=null and newsCondition.news_typeid !=''">
-                    AND `news_typeid` = #{newsCondition.news_typeid}
-                </if>
-                /* 新闻标题模糊查询 */
-                <if test="newsCondition.news_title !=null and newsCondition.news_title !=''">
-                    AND `news_title` like  '$#{newsCondition.news_title}$'
-                </if>
-            </where>
+            <if test="newsCondition != null">
+                <where>
+                    <if test="1==1">
+                        1=1
+                    </if>
+                    <if test="null != newsCondition.news_id">
+                        AND `news_id` = #{newsCondition.news_id}
+                    </if>
+                    <if test="newsCondition.start !=null">
+                        AND `news_date` <![CDATA[ >= ]]> #{newsCondition.start}
+                    </if>
+                    <if test="newsCondition.end !=null">
+                        AND `news_date` <![CDATA[ <= ]]> #{newsCondition.end}
+                    </if>
+                    <if test="newsCondition.nNtype !=null">
+                        AND `news_typeid` = #{newsCondition.nNtype}
+                    </if>
+                    <if test="null != newsCondition.fuzzyQuery">
+                        AND `news_title` like   CONCAT('%',#{newsCondition.fuzzyQuery},'%')
+                    </if>
+                </where>
+            </if>
     </select>
+
+
+    <!-- 循环删除符合条件的数据 -->
+    <delete id="updateNewsDaoA"  parameterType="java.util.List">
+        DELETE FROM`gamehub`.`gm_news`where news_id in
+        <foreach item="item" index="index" collection="newsIdList" open="("
+                 separator="," close=")">#{item,jdbcType=INTEGER}</foreach>
+    </delete>
+
+    <!-- 新增 -->
+    <insert id="addNews"  parameterType="Map" useGeneratedKeys="true">
+        INSERT INTO `gamehub`.`gm_news` (`news_title`,`news_preview_img`,`news_typeid`,`news_date`,
+        `news_pageview`,`news_brief`,`news_cintent`)
+        VALUES
+        (#{newsCondition.nTitle},#{newsCondition.nPreviewImg},#{newsCondition.nTypeid},#{newsCondition.nDate},
+        #{newsCondition.nPageview},#{newsCondition.nBrief},#{newsCondition.nCintent})
+        <selectKey resultType="long" order="AFTER" keyProperty="id">
+            SELECT LAST_INSERT_ID() AS id
+        </selectKey>
+    </insert>
+
+    <!-- 修改 -->
+    <update id="updateNews" parameterType="Map" useGeneratedKeys="true">
+        UPDATE
+          `gamehub`.`gm_news`
+        SET
+          `news_title` =  #{newsCondition.nTitle},
+          `news_preview_img` =  #{newsCondition.nPreviewImg},
+          `news_typeid` =  #{newsCondition.nTypeid},
+          `news_date` =  #{newsCondition.nDate},
+          `news_pageview` =  #{newsCondition.nPageview},
+          `news_brief` =  #{newsCondition.nBrief},
+          `news_cintent` =  #{newsCondition.nCintent}
+        WHERE `news_id` =  #{newsCondition.nId};
+        <selectKey resultType="long" order="AFTER" keyProperty="id">
+            SELECT LAST_INSERT_ID() AS id
+        </selectKey>
+    </update>
 </mapper>

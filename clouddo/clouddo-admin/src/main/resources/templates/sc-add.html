@@ -29,9 +29,6 @@
                           <input type="text" id="username" name="game_title" required="" lay-verify="required"
                           autocomplete="off" class="layui-input">
                       </div>
-                      <div class="layui-form-mid layui-word-aux">
-                          <span class="x-red">*</span>
-                      </div>
                   </div>
                   <div class="layui-form-item">
                       <label for="phone" class="layui-form-label">
@@ -44,9 +41,6 @@
 <!--                          <input type="text" id="phone" name="user_phone" required="" lay-verify="phone"-->
 <!--                          au    tocomplete="off" class="layui-input">-->
                       </div>
-                      <div class="layui-form-mid layui-word-aux">
-                          <span class="x-red">*</span>
-                      </div>
                   </div>
                     <div class="layui-form-item">
                         <label for="username" class="layui-form-label">
@@ -55,9 +49,6 @@
                         <div class="layui-input-inline">
                             <input type="text" id="username2" name="game_qq" required="" lay-verify="required"
                                    autocomplete="off" class="layui-input">
-                        </div>
-                        <div class="layui-form-mid layui-word-aux">
-                            <span class="x-red">*</span>
                         </div>
                     </div>
                     <div class="layui-form-item">
@@ -69,9 +60,6 @@
                                    autocomplete="off" class="layui-input">
                             <!--                          <input type="text" id="phone" name="user_phone" required="" lay-verify="phone"-->
                             <!--                          autocomplete="off" class="layui-input">-->
-                        </div>
-                        <div class="layui-form-mid layui-word-aux">
-                            <span class="x-red">*</span>将会成为您唯一的登入名
                         </div>
                     </div>
 
@@ -107,8 +95,10 @@
                             <span class="x-red">*</span>大区
                         </label>
                         <div class="layui-input-inline">
-                            <input type="text" id="L_repass2s2" name="game_region" required="" lay-verify="required"
-                                   autocomplete="off" class="layui-input">
+                            <select name="game_region" >
+                                <option value="电信区">电信区</option>
+                                <option value="网通区">网通区</option>
+                            </select>
                         </div>
                     </div>
 

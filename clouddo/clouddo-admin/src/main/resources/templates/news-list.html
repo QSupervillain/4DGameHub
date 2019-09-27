@@ -36,36 +36,42 @@
                         <div class="layui-input-inline layui-show-xs-block">
                             <input class="layui-input" placeholder="截止日" name="end" id="end"></div>
                         <div class="layui-input-inline layui-show-xs-block">
-                            <select name="contrller">
+                            <select name="nNtype" id="nNtype" >
                                 <option value="not">新闻类型</option>
+                                <option  th:each="npt:${gmNewsTypeList}" th:value="${npt.getType_id()}" th:text="${npt.getType_name()}"></option>
+
+                                <!--<option th:value="${npt.getType_id()}" th:text="${npt.getType_name()}">新闻类型</option>-->
                               </select>
                         </div>
                         <div class="layui-input-inline layui-show-xs-block">
-                            <select name="contrller">
-                                <option value="not">浏览人数排序</option>
-                                <option value="min">顺序</option>
-                                <option value="max">倒序</option>
+                            <select name="sequence" id="sequence">
+                                <option value="not" selected = "selected">浏览人数排序</option>
+                                <option value="min">最小点击</option>
+                                <option value="max">最大点击</option>
                                 </select>
                         </div>
                         <div class="layui-input-inline layui-show-xs-block">
-                            <input type="text" name="username" placeholder="标题模糊查询" autocomplete="off" class="layui-input"></div>
+                            <input type="text" id="fuzzyQuery" name="fuzzyQuery" placeholder="标题模糊查询"
+                                   autocomplete="off" class="layui-input"></div>
                         <div class="layui-input-inline layui-show-xs-block">
-                            <button class="layui-btn" lay-submit="" lay-filter="sreach">
+                            <button class="layui-btn" l
+                                    ay-submit="" lay-filter="sreach">
                                 <i class="layui-icon">&#xe615;</i></button>
                         </div>
                     </form>
                 </div>
                 <div class="layui-card-header">
-                    <button class="layui-btn layui-btn-danger" onclick="delAll()">
-                        <i class="layui-icon"></i>批量删除</button>
-                    <button class="layui-btn" onclick="xadmin.open('添加用户','./order-add.html',800,600)">
+                    <button class="layui-btn layui-btn-danger"+
+                            onclick="member_del('no',$(this).attr('name'))">
+                             <i class="layui-icon"></i>批量删除</button>
+                    <button class="layui-btn" onclick="xadmin.open('添加用户','/addNewsLoad',800,600)">
                         <i class="layui-icon"></i>添加</button></div>
                 <div class="layui-card-body ">
-                    <table class="layui-table layui-form" >
+                    <table class="layui-table layui-form" id="tableMax">
                         <thead>
                         <tr>
                             <th>
-                                <input type="checkbox" name="" lay-skin="primary">
+                                <input type="checkbox" name="det" lay-skin="primary">
                             </th>
                            <!-- <th>发布人</th>-->
                             <th>新闻id</th>
@@ -78,10 +84,10 @@
                             <th>新闻内容</th>
                             <th>操作</th></tr>
                         </thead>
-                        <tbody th:each="news:${gmNewsList}">
+                        <tbody id="all" th:each="news:${gmNewsList}" >
                         <tr>
                             <td>
-                                <input type="checkbox" name="" lay-skin="primary"></td>
+                                <input type="checkbox" th:name="dName" th:value="${news.getNews_id()}" lay-skin="primary"></td>
                            <!-- <td>11</td>-->
                             <td th:text="${news.getNews_id()}"></td>
                             <td th:text="${news.getNews_title()}"></td>
@@ -94,9 +100,15 @@
                             <td th:text="${news.getNews_cintent()}"
                                 onclick="xadmin.open('预览-新闻内容','/PagePreview?News_id='+$(this).siblings(':first').next().text())"></td>
                             <td class="td-manage">
-                                <a title="查看" onclick="xadmin.open('编辑','order-view.html')" href="javascript:;">
+                                <a title="查看"
+                                   th:id="${news.getNews_id()}"
+                                   onclick="xadmin.open('编辑','/UpdateNewsLoad?nId='+$(this).attr('id'))"
+                                   href="javascript:;">
                                     <i class="layui-icon">&#xe63c;</i></a>
-                                <a title="删除" onclick="member_del(this,'要删除的id')" href="javascript:;">
+                                <a title="删除"
+                                   th:name="${news.getNews_id()}"
+                                   onclick="member_del($(this),$(this).attr('name'))"
+                                   href="javascript:;">
                                     <i class="layui-icon">&#xe640;</i></a>
                             </td>
                         </tr>
@@ -105,13 +117,19 @@
                 </div>
                 <div class="layui-card-body ">
                     <div class="page">
-                        <div>
-                            <a class="prev" href="">&lt;&lt;</a>
-                            <a class="num" href="">1</a>
-                            <span class="current">2</span>
-                            <a class="num" href="">3</a>
-                            <a class="num" href="">489</a>
-                            <a class="next" href="">&gt;&gt;</a></div>
+                        <div th:with="ap=${instrument}">
+                            <a name="up" class="prev" href="">&lt;&lt;</a>
+
+                            <select name="pageNumber" id="pageNumber"
+                                    style="padding-right: 100px;height: 36px;padding-left: 110px;
+                                           border-width: 1px;border-style: solid;background-color: #fff;
+                                           border-radius: 2px;
+                                            font-size: 20px">
+                                <option >1</option>
+                            </select>
+
+                            &nbsp;
+                            <a name="next" class="next" href="">&gt;&gt;</a></div>
                     </div>
                 </div>
             </div>
@@ -133,63 +151,100 @@
             elem: '#end' //指定元素
         });
     });
-
-/*用户-停用*/
-function member_stop(obj, id) {
-    layer.confirm('确认要停用吗？',
-        function(index) {
-
-            if ($(obj).attr('title') == '启用') {
-
-                //发异步把用户状态进行更改
-                $(obj).attr('title', '停用');
-                $(obj).find('i').html('&#xe62f;');
-
-                $(obj).parents("tr").find(".td-status").find('span').addClass('layui-btn-disabled').html('已停用');
-                layer.msg('已停用!', {
-                    icon: 5,
-                    time: 1000
-                });
-
-            } else {
-                $(obj).attr('title', '启用');
-                $(obj).find('i').html('&#xe601;');
-
-                $(obj).parents("tr").find(".td-status").find('span').removeClass('layui-btn-disabled').html('已启用');
-                layer.msg('已启用!', {
-                    icon: 5,
-                    time: 1000
-                });
-            }
-
-        });
-}
+/*查询*/
+/*function query_News_Click(){
+    var start = $("#start").val();//开始日期
+    var end = $("#end").val();//结束日期
+    var nNtype = $("#nNtype").val();//新闻类型
+    var sequence  = $("#sequence").val();//排序方式（默认顺序，倒序）
+    var fuzzyQuery = $("#fuzzyQuery").val();
+    $("#all tr td").remove();
+    /!*alert(start+'    '+end+'    '+nNtype+'    '+sequence+'    '+fuzzyQuery);*!/
+    $.ajax({
+        type: 'post',//提交方式 post 或者get
+        url: '/NewsCriteriaQuery',
+        async: false,
+        data: {'start': start,'end':end,'nNtype':nNtype,'sequence':sequence,'fuzzyQuery':fuzzyQuery},//提交的参数
+        DataType:"json",
+        success: function (date) {
+            var dataObj = eval("("+data+")");
+            //alert(dataObj);
+            var a=null;
+            $.each(dataObj,function(i,item){
+                a += '<tr>'+
+                    +'<td><input type="checkbox" name="" lay-skin="primary"></td>'
+                    +'<td >'+item.news_id+'</td>'
+                    +'<td >'+item.news_title+'</td>'
+                    +'<td onclick="xadmin.open(\'预览-新闻预览图\',\'/ImgPreview?imgSrc=\'+$(this).text(),225,192)">'
+                        +item.news_preview_img+'</td>'
+                    +'<td >'+item.news_typeid +'</td>'
+                    +'<td >'+item.news_date+'</td>'
+                    +'<td >'+item.news_pageview+'</td>'
+                    +'<td >'+item.news_brief +'</td>'
+                    +'<td onclick="xadmin.open(\'预览-新闻内容\',\'/PagePreview?News_id=\'+$(this).siblings(\':first\').next().text())">'
+                        +item.news_cintent+'</td>'
+                    +'<td class="td-manage">'
+                        +'<a title="查看" onclick="xadmin.open(\'编辑\',\'order-view.html\')" href="javascript:;">'
+                            +'<i class="layui-icon">&#xe63c;</i></a>'
+                        +'<a title="删除" onclick="member_del(this,\'要删除的id\')" href="javascript:;">'
+                            +'<i class="layui-icon">&#xe640;</i></a>'
+                    +'</td>'
+                    +'</tr>';
+            })
+            $("#all").append(a);
+        }
+    })
+}*/
 
 /*用户-删除*/
 function member_del(obj, id) {
-    layer.confirm('确认要删除吗？',
-        function(index) {
-            //发异步删除数据
-            $(obj).parents("tr").remove();
-            layer.msg('已删除!', {
-                icon: 1,
-                time: 1000
+    if('no'==obj){
+        layer.confirm('确认要删除所有选中的列吗？', function (index) {
+            var nId = [];//定义一个空数组
+            $("input[name='dName']:checked").each(function(i){//把所有被选中的复选框的值存入数组
+                nId[i] =$(this).val();
+                $(this).parents("tr").remove();
+            });
+            console.log(nId);
+            $.ajax({
+                type: 'post',//提交方式 post 或者get
+                url:'/deleteNews',
+                async: false,
+                data:{nId: nId},//提交的参数
+                traditional: true,
+                success: function (pd) {
+                    if(pd!=0){
+                        //发异步删除数据
+
+                        layer.msg('已删除!', {icon: 1, time: 1000});
+                    }else{
+                        layer.msg('删除失败!', {icon: 1, time: 1000});
+                    }
+                }
             });
         });
-}
+    }else{
+        layer.confirm('确认要删除id为：'+id+'的列吗？', function (index) {
+            $.ajax({
+                type: 'post',//提交方式 post 或者get
+                url:'/deleteNews',
+                async: false,
+                data:{nId: id},//提交的参数
+                success: function (pd) {
+                    if(pd!=0){
+                        //发异步删除数据
+                        $(obj).parents("tr").remove();
+                        layer.msg('已删除!', {icon: 1, time: 1000});
+                    }else{
+                        layer.msg('删除失败!', {icon: 1, time: 1000});
+                    }
 
-function delAll(argument) {
-
-    var data = tableCheck.getData();
-
-    layer.confirm('确认要删除吗？' + data,
-        function(index) {
-            //捉到所有被选中的，发异步进行删除
-            layer.msg('删除成功', {
-                icon: 1
+                }
             });
-            $(".layui-form-checked").not('.header').parents('tr').remove();
         });
+    }
+
+
 }</script>
 
 </html>

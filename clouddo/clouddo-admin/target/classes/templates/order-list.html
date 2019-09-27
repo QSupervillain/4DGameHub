@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="x-admin-sm">
+<html class="x-admin-sm" xmlns:th="http://www.thymeleaf.org">
     
     <head>
         <meta charset="UTF-8">
@@ -73,31 +73,23 @@
                                             <input type="checkbox" name="" lay-skin="primary">
                                         </th>
                                         <th>订单编号</th>
-                                        <th>收货人</th>
+                                        <th>支付流水号</th>
                                         <th>总金额</th>
-                                        <th>应付金额</th>
-                                        <th>订单状态</th>
-                                        <th>支付状态</th>
-                                        <th>发货状态</th>
                                         <th>支付方式</th>
-                                        <th>配送方式</th>
                                         <th>下单时间</th>
-                                        <th>操作</th></tr>
+                                        <th>操作</th>
+                                    </tr>
                                 </thead>
                                 <tbody>
-                                    <tr>
+                                    <tr th:each="o:${orderlist}">
                                         <td>
                                             <input type="checkbox" name="" lay-skin="primary"></td>
-                                        <td>2017009171822298053</td>
-                                        <td>老王:18925139194</td>
-                                        <td>7829.10</td>
-                                        <td>7854.10</td>
-                                        <td>待确认</td>
-                                        <td>未支付</td>
-                                        <td>未发货</td>
-                                        <td>其他方式</td>
-                                        <td>申通物流</td>
-                                        <td>2017-08-17 18:22</td>
+                                        <td th:text="${o.order_no}"></td>
+                                        <td th:text="${o.pay_number}"></td>
+                                        <td th:text="${o.pay_prince}"></td>
+                                        <td th:if="${o.pay_platform==1}" th:text="支付宝"></td>
+                                        <td th:if="${o.pay_platform==2}" th:text="微信"></td>
+                                        <td th:text="${o.pay_createtime}"></td>
                                         <td class="td-manage">
                                             <a title="查看" onclick="xadmin.open('编辑','order-view.html')" href="javascript:;">
                                                 <i class="layui-icon">&#xe63c;</i></a>
@@ -105,46 +97,7 @@
                                                 <i class="layui-icon">&#xe640;</i></a>
                                         </td>
                                     </tr>
-                                    <tr>
-                                        <td>
-                                            <input type="checkbox" name="" lay-skin="primary"></td>
-                                        <td>2017009171822298053</td>
-                                        <td>老王:18925139194</td>
-                                        <td>7829.10</td>
-                                        <td>7854.10</td>
-                                        <td>待确认</td>
-                                        <td>未支付</td>
-                                        <td>未发货</td>
-                                        <td>其他方式</td>
-                                        <td>申通物流</td>
-                                        <td>2017-08-17 18:22</td>
-                                        <td class="td-manage">
-                                            <a title="查看" onclick="xadmin.open('编辑','order-view.html')" href="javascript:;">
-                                                <i class="layui-icon">&#xe63c;</i></a>
-                                            <a title="删除" onclick="member_del(this,'要删除的id')" href="javascript:;">
-                                                <i class="layui-icon">&#xe640;</i></a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <input type="checkbox" name="" lay-skin="primary"></td>
-                                        <td>2017009171822298053</td>
-                                        <td>老王:18925139194</td>
-                                        <td>7829.10</td>
-                                        <td>7854.10</td>
-                                        <td>待确认</td>
-                                        <td>未支付</td>
-                                        <td>未发货</td>
-                                        <td>其他方式</td>
-                                        <td>申通物流</td>
-                                        <td>2017-08-17 18:22</td>
-                                        <td class="td-manage">
-                                            <a title="查看" onclick="xadmin.open('编辑','order-view.html')" href="javascript:;">
-                                                <i class="layui-icon">&#xe63c;</i></a>
-                                            <a title="删除" onclick="member_del(this,'要删除的id')" href="javascript:;">
-                                                <i class="layui-icon">&#xe640;</i></a>
-                                        </td>
-                                    </tr>
+
                                 </tbody>
                             </table>
                         </div>
